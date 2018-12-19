@@ -1,14 +1,14 @@
-import BayonettaSymbol from '../seriesIcons/BayonettaSymbol.svg';
-import BayonettaHeadSSBU from './BayonettaHeadSSBU.png';
-import BayonettaSSBU from './Bayonetta_SSBU.png';
+import IsabelleSymbol from '../seriesIcons/IsabelleSymbol.svg';
+import IsabelleHeadSSBU from './IsabelleHeadSSBU.png';
+import IsabelleSSBU from './Isabelle_SSBU.png';
 
-const bayonetta = {
-  name: 'Bayonetta',
+const isabelle = {
+  name: 'Isabelle',
   series: {
-    icon: BayonettaSymbol,
-    name: 'Bayonetta',
+    icon: AnimalCrossingSymbol,
+    name: 'Isabelle',
   },
-  icon: BayonettaHeadSSBU,
+  icon: IsabelleHeadSSBU,
   stats: {
     official: {
       weight: 60,
@@ -18,14 +18,23 @@ const bayonetta = {
       dashSpeed: 80,
     },
     unofficial: {
-      fun: 0,
-      power: 0,
-      nostalgia: 0,
-      recovery: 0,
-      finalSmash: 0,
+      danny: {
+        fun: 0,
+        power: 0,
+        nostalgia: 0,
+        recovery: 0,
+        finalSmash: 0,
+      },
+      jack: {
+        fun: 0,
+        power: 0,
+        nostalgia: 0,
+        recovery: 0,
+        finalSmash: 0,
+      }
     },
   },
-  picture: BayonettaSSBU,
+  picture: IsabelleSSBU,
 };
 
-export default bayonetta;
+export default isabelle;

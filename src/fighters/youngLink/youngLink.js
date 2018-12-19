@@ -1,31 +1,40 @@
-import BayonettaSymbol from '../seriesIcons/BayonettaSymbol.svg';
-import BayonettaHeadSSBU from './BayonettaHeadSSBU.png';
-import BayonettaSSBU from './Bayonetta_SSBU.png';
+import YoungLinkSymbol from '../seriesIcons/YoungLinkSymbol.svg';
+import YoungLinkHeadSSBU from './YoungLinkHeadSSBU.png';
+import YoungLinkSSBU from './Young_Link_SSBU.png';
 
-const bayonetta = {
-  name: 'Bayonetta',
+const youngLink = {
+  name: 'YoungLink',
   series: {
-    icon: BayonettaSymbol,
-    name: 'Bayonetta',
+    icon: ZeldaSymbol,
+    name: 'YoungLink',
   },
-  icon: BayonettaHeadSSBU,
+  icon: YoungLinkHeadSSBU,
   stats: {
     official: {
-      weight: 60,
-      airSpeed: 76,
-      fallSpeed: 84,
-      runSpeed: 46,
-      dashSpeed: 80,
+      weight: 65,
+      airSpeed: 72,
+      fallSpeed: 86,
+      runSpeed: 45,
+      dashSpeed: 86,
     },
     unofficial: {
-      fun: 0,
-      power: 0,
-      nostalgia: 0,
-      recovery: 0,
-      finalSmash: 0,
+      danny: {
+        fun: 0,
+        power: 0,
+        nostalgia: 0,
+        recovery: 0,
+        finalSmash: 0,
+      },
+      jack: {
+        fun: 0,
+        power: 0,
+        nostalgia: 0,
+        recovery: 0,
+        finalSmash: 0,
+      }
     },
   },
-  picture: BayonettaSSBU,
+  picture: YoungLinkSSBU,
 };
 
-export default bayonetta;
+export default youngLink;

@@ -1,14 +1,14 @@
-import BayonettaSymbol from '../seriesIcons/BayonettaSymbol.svg';
-import BayonettaHeadSSBU from './BayonettaHeadSSBU.png';
-import BayonettaSSBU from './Bayonetta_SSBU.png';
+import RidleySymbol from '../seriesIcons/RidleySymbol.svg';
+import RidleyHeadSSBU from './RidleyHeadSSBU.png';
+import RidleySSBU from './Ridley_SSBU.png';
 
-const bayonetta = {
-  name: 'Bayonetta',
+const ridley = {
+  name: 'Ridley',
   series: {
-    icon: BayonettaSymbol,
-    name: 'Bayonetta',
+    icon: MetroidSymbol,
+    name: 'Ridley',
   },
-  icon: BayonettaHeadSSBU,
+  icon: RidleyHeadSSBU,
   stats: {
     official: {
       weight: 60,
@@ -18,14 +18,23 @@ const bayonetta = {
       dashSpeed: 80,
     },
     unofficial: {
-      fun: 0,
-      power: 0,
-      nostalgia: 0,
-      recovery: 0,
-      finalSmash: 0,
+      danny: {
+        fun: 0,
+        power: 0,
+        nostalgia: 0,
+        recovery: 0,
+        finalSmash: 0,
+      },
+      jack: {
+        fun: 0,
+        power: 0,
+        nostalgia: 0,
+        recovery: 0,
+        finalSmash: 0,
+      }
     },
   },
-  picture: BayonettaSSBU,
+  picture: RidleySSBU,
 };
 
-export default bayonetta;
+export default ridley;

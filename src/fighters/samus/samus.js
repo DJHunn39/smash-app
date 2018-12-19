@@ -1,14 +1,14 @@
-import BayonettaSymbol from '../seriesIcons/BayonettaSymbol.svg';
-import BayonettaHeadSSBU from './BayonettaHeadSSBU.png';
-import BayonettaSSBU from './Bayonetta_SSBU.png';
+import SamusSymbol from '../seriesIcons/SamusSymbol.svg';
+import SamusHeadSSBU from './SamusHeadSSBU.png';
+import SamusSSBU from './Samus_SSBU.png';
 
-const bayonetta = {
-  name: 'Bayonetta',
+const samus = {
+  name: 'Samus',
   series: {
-    icon: BayonettaSymbol,
-    name: 'Bayonetta',
+    icon: MetroidSymbol,
+    name: 'Samus',
   },
-  icon: BayonettaHeadSSBU,
+  icon: SamusHeadSSBU,
   stats: {
     official: {
       weight: 60,
@@ -18,14 +18,23 @@ const bayonetta = {
       dashSpeed: 80,
     },
     unofficial: {
-      fun: 0,
-      power: 0,
-      nostalgia: 0,
-      recovery: 0,
-      finalSmash: 0,
+      danny: {
+        fun: 0,
+        power: 0,
+        nostalgia: 0,
+        recovery: 0,
+        finalSmash: 0,
+      },
+      jack: {
+        fun: 0,
+        power: 0,
+        nostalgia: 0,
+        recovery: 0,
+        finalSmash: 0,
+      }
     },
   },
-  picture: BayonettaSSBU,
+  picture: SamusSSBU,
 };
 
-export default bayonetta;
+export default samus;

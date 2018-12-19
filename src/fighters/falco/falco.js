@@ -1,14 +1,14 @@
-import BayonettaSymbol from '../seriesIcons/BayonettaSymbol.svg';
-import BayonettaHeadSSBU from './BayonettaHeadSSBU.png';
-import BayonettaSSBU from './Bayonetta_SSBU.png';
+import FalcoSymbol from '../seriesIcons/FalcoSymbol.svg';
+import FalcoHeadSSBU from './FalcoHeadSSBU.png';
+import FalcoSSBU from './Falco_SSBU.png';
 
-const bayonetta = {
-  name: 'Bayonetta',
+const falco = {
+  name: 'Falco',
   series: {
-    icon: BayonettaSymbol,
-    name: 'Bayonetta',
+    icon: StarFoxSymbol,
+    name: 'Falco',
   },
-  icon: BayonettaHeadSSBU,
+  icon: FalcoHeadSSBU,
   stats: {
     official: {
       weight: 60,
@@ -18,14 +18,23 @@ const bayonetta = {
       dashSpeed: 80,
     },
     unofficial: {
-      fun: 0,
-      power: 0,
-      nostalgia: 0,
-      recovery: 0,
-      finalSmash: 0,
+      danny: {
+        fun: 0,
+        power: 0,
+        nostalgia: 0,
+        recovery: 0,
+        finalSmash: 0,
+      },
+      jack: {
+        fun: 0,
+        power: 0,
+        nostalgia: 0,
+        recovery: 0,
+        finalSmash: 0,
+      }
     },
   },
-  picture: BayonettaSSBU,
+  picture: FalcoSSBU,
 };
 
-export default bayonetta;
+export default falco;

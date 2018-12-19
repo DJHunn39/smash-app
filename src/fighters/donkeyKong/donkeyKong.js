@@ -1,14 +1,14 @@
-import BayonettaSymbol from '../seriesIcons/BayonettaSymbol.svg';
-import BayonettaHeadSSBU from './BayonettaHeadSSBU.png';
-import BayonettaSSBU from './Bayonetta_SSBU.png';
+import DonkeyKongSymbol from '../seriesIcons/DonkeyKongSymbol.svg';
+import DonkeyKongHeadSSBU from './DonkeyKongHeadSSBU.png';
+import DonkeyKongSSBU from './Donkey_Kong_SSBU.png';
 
-const bayonetta = {
-  name: 'Bayonetta',
+const donkeyKong = {
+  name: 'DonkeyKong',
   series: {
-    icon: BayonettaSymbol,
-    name: 'Bayonetta',
+    icon: DKSymbol,
+    name: 'DonkeyKong',
   },
-  icon: BayonettaHeadSSBU,
+  icon: DonkeyKongHeadSSBU,
   stats: {
     official: {
       weight: 60,
@@ -18,14 +18,23 @@ const bayonetta = {
       dashSpeed: 80,
     },
     unofficial: {
-      fun: 0,
-      power: 0,
-      nostalgia: 0,
-      recovery: 0,
-      finalSmash: 0,
+      danny: {
+        fun: 0,
+        power: 0,
+        nostalgia: 0,
+        recovery: 0,
+        finalSmash: 0,
+      },
+      jack: {
+        fun: 0,
+        power: 0,
+        nostalgia: 0,
+        recovery: 0,
+        finalSmash: 0,
+      }
     },
   },
-  picture: BayonettaSSBU,
+  picture: DonkeyKongSSBU,
 };
 
-export default bayonetta;
+export default donkeyKong;

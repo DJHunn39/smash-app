@@ -1,14 +1,14 @@
-import BayonettaSymbol from '../seriesIcons/BayonettaSymbol.svg';
-import BayonettaHeadSSBU from './BayonettaHeadSSBU.png';
-import BayonettaSSBU from './Bayonetta_SSBU.png';
+import DaisySymbol from '../seriesIcons/DaisySymbol.svg';
+import DaisyHeadSSBU from './DaisyHeadSSBU.png';
+import DaisySSBU from './Daisy_SSBU.png';
 
-const bayonetta = {
-  name: 'Bayonetta',
+const daisy = {
+  name: 'Daisy',
   series: {
-    icon: BayonettaSymbol,
-    name: 'Bayonetta',
+    icon: MarioSymbol,
+    name: 'Daisy',
   },
-  icon: BayonettaHeadSSBU,
+  icon: DaisyHeadSSBU,
   stats: {
     official: {
       weight: 60,
@@ -18,14 +18,23 @@ const bayonetta = {
       dashSpeed: 80,
     },
     unofficial: {
-      fun: 0,
-      power: 0,
-      nostalgia: 0,
-      recovery: 0,
-      finalSmash: 0,
+      danny: {
+        fun: 0,
+        power: 0,
+        nostalgia: 0,
+        recovery: 0,
+        finalSmash: 0,
+      },
+      jack: {
+        fun: 0,
+        power: 0,
+        nostalgia: 0,
+        recovery: 0,
+        finalSmash: 0,
+      }
     },
   },
-  picture: BayonettaSSBU,
+  picture: DaisySSBU,
 };
 
-export default bayonetta;
+export default daisy;

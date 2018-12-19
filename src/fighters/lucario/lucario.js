@@ -1,14 +1,14 @@
-import BayonettaSymbol from '../seriesIcons/BayonettaSymbol.svg';
-import BayonettaHeadSSBU from './BayonettaHeadSSBU.png';
-import BayonettaSSBU from './Bayonetta_SSBU.png';
+import LucarioSymbol from '../seriesIcons/LucarioSymbol.svg';
+import LucarioHeadSSBU from './LucarioHeadSSBU.png';
+import LucarioSSBU from './Lucario_SSBU.png';
 
-const bayonetta = {
-  name: 'Bayonetta',
+const lucario = {
+  name: 'Lucario',
   series: {
-    icon: BayonettaSymbol,
-    name: 'Bayonetta',
+    icon: PokemonSymbol,
+    name: 'Lucario',
   },
-  icon: BayonettaHeadSSBU,
+  icon: LucarioHeadSSBU,
   stats: {
     official: {
       weight: 60,
@@ -18,14 +18,23 @@ const bayonetta = {
       dashSpeed: 80,
     },
     unofficial: {
-      fun: 0,
-      power: 0,
-      nostalgia: 0,
-      recovery: 0,
-      finalSmash: 0,
+      danny: {
+        fun: 0,
+        power: 0,
+        nostalgia: 0,
+        recovery: 0,
+        finalSmash: 0,
+      },
+      jack: {
+        fun: 0,
+        power: 0,
+        nostalgia: 0,
+        recovery: 0,
+        finalSmash: 0,
+      }
     },
   },
-  picture: BayonettaSSBU,
+  picture: LucarioSSBU,
 };
 
-export default bayonetta;
+export default lucario;

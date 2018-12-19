@@ -1,14 +1,14 @@
-import BayonettaSymbol from '../seriesIcons/BayonettaSymbol.svg';
-import BayonettaHeadSSBU from './BayonettaHeadSSBU.png';
-import BayonettaSSBU from './Bayonetta_SSBU.png';
+import KingDededeSymbol from '../seriesIcons/KingDededeSymbol.svg';
+import KingDededeHeadSSBU from './KingDededeHeadSSBU.png';
+import KingDededeSSBU from './King_Dedede_SSBU.png';
 
-const bayonetta = {
-  name: 'Bayonetta',
+const kingDedede = {
+  name: 'KingDedede',
   series: {
-    icon: BayonettaSymbol,
-    name: 'Bayonetta',
+    icon: KirbySymbol,
+    name: 'KingDedede',
   },
-  icon: BayonettaHeadSSBU,
+  icon: KingDededeHeadSSBU,
   stats: {
     official: {
       weight: 60,
@@ -18,14 +18,23 @@ const bayonetta = {
       dashSpeed: 80,
     },
     unofficial: {
-      fun: 0,
-      power: 0,
-      nostalgia: 0,
-      recovery: 0,
-      finalSmash: 0,
+      danny: {
+        fun: 0,
+        power: 0,
+        nostalgia: 0,
+        recovery: 0,
+        finalSmash: 0,
+      },
+      jack: {
+        fun: 0,
+        power: 0,
+        nostalgia: 0,
+        recovery: 0,
+        finalSmash: 0,
+      }
     },
   },
-  picture: BayonettaSSBU,
+  picture: KingDededeSSBU,
 };
 
-export default bayonetta;
+export default kingDedede;

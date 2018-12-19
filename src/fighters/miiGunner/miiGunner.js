@@ -1,14 +1,14 @@
-import BayonettaSymbol from '../seriesIcons/BayonettaSymbol.svg';
-import BayonettaHeadSSBU from './BayonettaHeadSSBU.png';
-import BayonettaSSBU from './Bayonetta_SSBU.png';
+import MiiGunnerSymbol from '../seriesIcons/MiiGunnerSymbol.svg';
+import MiiGunnerHeadSSBU from './MiiGunnerHeadSSBU.png';
+import MiiGunnerSSBU from './Mii_Gunner_SSBU.png';
 
-const bayonetta = {
-  name: 'Bayonetta',
+const miiGunner = {
+  name: 'MiiGunner',
   series: {
-    icon: BayonettaSymbol,
-    name: 'Bayonetta',
+    icon: SmashBrosSymbol,
+    name: 'MiiGunner',
   },
-  icon: BayonettaHeadSSBU,
+  icon: MiiGunnerHeadSSBU,
   stats: {
     official: {
       weight: 60,
@@ -18,14 +18,23 @@ const bayonetta = {
       dashSpeed: 80,
     },
     unofficial: {
-      fun: 0,
-      power: 0,
-      nostalgia: 0,
-      recovery: 0,
-      finalSmash: 0,
+      danny: {
+        fun: 0,
+        power: 0,
+        nostalgia: 0,
+        recovery: 0,
+        finalSmash: 0,
+      },
+      jack: {
+        fun: 0,
+        power: 0,
+        nostalgia: 0,
+        recovery: 0,
+        finalSmash: 0,
+      }
     },
   },
-  picture: BayonettaSSBU,
+  picture: MiiGunnerSSBU,
 };
 
-export default bayonetta;
+export default miiGunner;

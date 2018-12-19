@@ -1,14 +1,14 @@
-import BayonettaSymbol from '../seriesIcons/BayonettaSymbol.svg';
-import BayonettaHeadSSBU from './BayonettaHeadSSBU.png';
-import BayonettaSSBU from './Bayonetta_SSBU.png';
+import MewtwoSymbol from '../seriesIcons/MewtwoSymbol.svg';
+import MewtwoHeadSSBU from './MewtwoHeadSSBU.png';
+import MewtwoSSBU from './Mewtwo_SSBU.png';
 
-const bayonetta = {
-  name: 'Bayonetta',
+const mewtwo = {
+  name: 'Mewtwo',
   series: {
-    icon: BayonettaSymbol,
-    name: 'Bayonetta',
+    icon: PokemonSymbol,
+    name: 'Mewtwo',
   },
-  icon: BayonettaHeadSSBU,
+  icon: MewtwoHeadSSBU,
   stats: {
     official: {
       weight: 60,
@@ -18,14 +18,23 @@ const bayonetta = {
       dashSpeed: 80,
     },
     unofficial: {
-      fun: 0,
-      power: 0,
-      nostalgia: 0,
-      recovery: 0,
-      finalSmash: 0,
+      danny: {
+        fun: 0,
+        power: 0,
+        nostalgia: 0,
+        recovery: 0,
+        finalSmash: 0,
+      },
+      jack: {
+        fun: 0,
+        power: 0,
+        nostalgia: 0,
+        recovery: 0,
+        finalSmash: 0,
+      }
     },
   },
-  picture: BayonettaSSBU,
+  picture: MewtwoSSBU,
 };
 
-export default bayonetta;
+export default mewtwo;

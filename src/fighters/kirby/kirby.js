@@ -1,14 +1,14 @@
-import BayonettaSymbol from '../seriesIcons/BayonettaSymbol.svg';
-import BayonettaHeadSSBU from './BayonettaHeadSSBU.png';
-import BayonettaSSBU from './Bayonetta_SSBU.png';
+import KirbySymbol from '../seriesIcons/KirbySymbol.svg';
+import KirbyHeadSSBU from './KirbyHeadSSBU.png';
+import KirbySSBU from './Kirby_SSBU.png';
 
-const bayonetta = {
-  name: 'Bayonetta',
+const kirby = {
+  name: 'Kirby',
   series: {
-    icon: BayonettaSymbol,
-    name: 'Bayonetta',
+    icon: KirbySymbol,
+    name: 'Kirby',
   },
-  icon: BayonettaHeadSSBU,
+  icon: KirbyHeadSSBU,
   stats: {
     official: {
       weight: 60,
@@ -18,14 +18,23 @@ const bayonetta = {
       dashSpeed: 80,
     },
     unofficial: {
-      fun: 0,
-      power: 0,
-      nostalgia: 0,
-      recovery: 0,
-      finalSmash: 0,
+      danny: {
+        fun: 0,
+        power: 0,
+        nostalgia: 0,
+        recovery: 0,
+        finalSmash: 0,
+      },
+      jack: {
+        fun: 0,
+        power: 0,
+        nostalgia: 0,
+        recovery: 0,
+        finalSmash: 0,
+      }
     },
   },
-  picture: BayonettaSSBU,
+  picture: KirbySSBU,
 };
 
-export default bayonetta;
+export default kirby;
