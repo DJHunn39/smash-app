@@ -1,4 +1,4 @@
-import GreninjaSymbol from '../../seriesIcons/GreninjaSymbol.svg';
+import PokemonSymbol from '../../seriesIcons/PokemonSymbol.svg';
 import GreninjaHeadSSBU from './GreninjaHeadSSBU.png';
 import GreninjaSSBU from './Greninja_SSBU.png';
 

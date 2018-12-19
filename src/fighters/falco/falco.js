@@ -1,4 +1,4 @@
-import FalcoSymbol from '../../seriesIcons/FalcoSymbol.svg';
+import StarFoxSymbol from '../../seriesIcons/StarFoxSymbol.svg';
 import FalcoHeadSSBU from './FalcoHeadSSBU.png';
 import FalcoSSBU from './Falco_SSBU.png';
 

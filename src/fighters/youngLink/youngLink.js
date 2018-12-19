@@ -1,4 +1,4 @@
-import YoungLinkSymbol from '../../seriesIcons/YoungLinkSymbol.svg';
+import ZeldaSymbol from '../../seriesIcons/ZeldaSymbol.svg';
 import YoungLinkHeadSSBU from './YoungLinkHeadSSBU.png';
 import YoungLinkSSBU from './Young_Link_SSBU.png';
 
@@ -6,7 +6,7 @@ const youngLink = {
   name: 'YoungLink',
   series: {
     icon: ZeldaSymbol,
-    name: 'YoungLink',
+    name: 'The Legend of Zelda',
   },
   icon: YoungLinkHeadSSBU,
   stats: {

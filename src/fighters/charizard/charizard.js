@@ -1,4 +1,4 @@
-import CharizardSymbol from '../../seriesIcons/CharizardSymbol.svg';
+import PokemonSymbol from '../../seriesIcons/PokemonSymbol.svg';
 import CharizardHeadSSBU from './CharizardHeadSSBU.png';
 import CharizardSSBU from './Charizard_SSBU.png';
 

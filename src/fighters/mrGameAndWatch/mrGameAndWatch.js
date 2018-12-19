@@ -1,14 +1,14 @@
-import MrGame&WatchSymbol from '../../seriesIcons/MrGame&WatchSymbol.svg';
-import MrGame&WatchHeadSSBU from './MrGame&WatchHeadSSBU.png';
-import MrGame&WatchSSBU from './Mr_Game_&_Watch_SSBU.png';
+import GameWatchSymbol from '../../seriesIcons/GameWatchSymbol.svg';
+import MrGameWatchHeadSSBU from './MrGameWatchHeadSSBU.png';
+import MrGameWatchSSBU from './Mr_Game_Watch_SSBU.png';
 
-const mrGame&Watch = {
-  name: 'MrGame&Watch',
+const mrGameAndWatch = {
+  name: 'MrGameWatch',
   series: {
-    icon: Game&WatchSymbol,
-    name: 'MrGame&Watch',
+    icon: GameWatchSymbol,
+    name: 'Mr Game & Watch',
   },
-  icon: MrGame&WatchHeadSSBU,
+  icon: MrGameWatchHeadSSBU,
   stats: {
     official: {
       weight: 60,
@@ -34,7 +34,7 @@ const mrGame&Watch = {
       }
     },
   },
-  picture: MrGame&WatchSSBU,
+  picture: MrGameWatchSSBU,
 };
 
-export default mrGame&Watch;
+export default mrGameAndWatch;

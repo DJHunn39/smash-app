@@ -1,6 +1,6 @@
 import MarioSymbol from '../../seriesIcons/MarioSymbol.svg';
 import BowserJrHeadSSBU from './BowserJrHeadSSBU.png';
-import BowserJrSSBU from './Bowser_Jr_SSBU.png';
+import BowserJrSSBU from './BowserJr_SSBU.png';
 
 const bowserJr = {
   name: 'BowserJr',

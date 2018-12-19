@@ -1,6 +1,6 @@
-import ZeroSuitSamusSymbol from '../../seriesIcons/ZeroSuitSamusSymbol.svg';
+import MetroidSymbol from '../../seriesIcons/MetroidSymbol.svg';
 import ZeroSuitSamusHeadSSBU from './ZeroSuitSamusHeadSSBU.png';
-import ZeroSuitSamusSSBU from './ZeroSuitSamus_SSBU.png';
+import ZeroSuitSamusSSBU from './Zero_Suit_Samus_SSBU.png';
 
 const ZeroSuitSamus = {
   name: 'ZeroSuitSamus',

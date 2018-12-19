@@ -1,4 +1,4 @@
-import PikachuSymbol from '../../seriesIcons/PikachuSymbol.svg';
+import PokemonSymbol from '../../seriesIcons/PokemonSymbol.svg';
 import PikachuHeadSSBU from './PikachuHeadSSBU.png';
 import PikachuSSBU from './Pikachu_SSBU.png';
 

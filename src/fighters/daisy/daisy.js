@@ -1,4 +1,4 @@
-import DaisySymbol from '../../seriesIcons/DaisySymbol.svg';
+import MarioSymbol from '../../seriesIcons/MarioSymbol.svg';
 import DaisyHeadSSBU from './DaisyHeadSSBU.png';
 import DaisySSBU from './Daisy_SSBU.png';
 

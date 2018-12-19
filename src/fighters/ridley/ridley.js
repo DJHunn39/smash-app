@@ -1,4 +1,4 @@
-import RidleySymbol from '../../seriesIcons/RidleySymbol.svg';
+import MetroidSymbol from '../../seriesIcons/MetroidSymbol.svg';
 import RidleyHeadSSBU from './RidleyHeadSSBU.png';
 import RidleySSBU from './Ridley_SSBU.png';
 

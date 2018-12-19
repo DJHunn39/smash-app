@@ -1,4 +1,4 @@
-import MetaKnightSymbol from '../../seriesIcons/MetaKnightSymbol.svg';
+import KirbySymbol from '../../seriesIcons/KirbySymbol.svg';
 import MetaKnightHeadSSBU from './MetaKnightHeadSSBU.png';
 import MetaKnightSSBU from './Meta_Knight_SSBU.png';
 

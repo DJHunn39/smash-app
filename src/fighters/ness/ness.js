@@ -1,4 +1,4 @@
-import NessSymbol from '../../seriesIcons/NessSymbol.svg';
+import EarthboundSymbol from '../../seriesIcons/EarthboundSymbol.svg';
 import NessHeadSSBU from './NessHeadSSBU.png';
 import NessSSBU from './Ness_SSBU.png';
 

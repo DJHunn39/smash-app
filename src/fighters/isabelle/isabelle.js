@@ -1,4 +1,4 @@
-import IsabelleSymbol from '../../seriesIcons/IsabelleSymbol.svg';
+import AnimalCrossingSymbol from '../../seriesIcons/AnimalCrossingSymbol.svg';
 import IsabelleHeadSSBU from './IsabelleHeadSSBU.png';
 import IsabelleSSBU from './Isabelle_SSBU.png';
 

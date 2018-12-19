@@ -1,4 +1,4 @@
-import DarkSamusSymbol from '../../seriesIcons/DarkSamusSymbol.svg';
+import MetroidSymbol from '../../seriesIcons/MetroidSymbol.svg';
 import DarkSamusHeadSSBU from './DarkSamusHeadSSBU.png';
 import DarkSamusSSBU from './Dark_Samus_SSBU.png';
 

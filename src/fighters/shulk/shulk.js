@@ -1,4 +1,4 @@
-import ShulkSymbol from '../../seriesIcons/ShulkSymbol.svg';
+import XenobladeSymbol from '../../seriesIcons/XenobladeSymbol.svg';
 import ShulkHeadSSBU from './ShulkHeadSSBU.png';
 import ShulkSSBU from './Shulk_SSBU.png';
 

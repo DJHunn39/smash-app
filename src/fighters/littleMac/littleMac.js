@@ -1,4 +1,4 @@
-import LittleMacSymbol from '../../seriesIcons/LittleMacSymbol.svg';
+import PunchOutSymbol from '../../seriesIcons/PunchOutSymbol.svg';
 import LittleMacHeadSSBU from './LittleMacHeadSSBU.png';
 import LittleMacSSBU from './Little_Mac_SSBU.png';
 

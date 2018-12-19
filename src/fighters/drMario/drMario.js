@@ -1,4 +1,4 @@
-import DrMarioSymbol from '../../seriesIcons/DrMarioSymbol.svg';
+import MarioSymbol from '../../seriesIcons/MarioSymbol.svg';
 import DrMarioHeadSSBU from './DrMarioHeadSSBU.png';
 import DrMarioSSBU from './Dr_Mario_SSBU.png';
 

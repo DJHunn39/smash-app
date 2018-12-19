@@ -1,4 +1,4 @@
-import OlimarSymbol from '../../seriesIcons/OlimarSymbol.svg';
+import PikminSymbol from '../../seriesIcons/PikminSymbol.svg';
 import OlimarHeadSSBU from './OlimarHeadSSBU.png';
 import OlimarSSBU from './Olimar_SSBU.png';
 

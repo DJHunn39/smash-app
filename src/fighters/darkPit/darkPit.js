@@ -1,4 +1,4 @@
-import DarkPitSymbol from '../../seriesIcons/DarkPitSymbol.svg';
+import KidIcarusSymbol from '../../seriesIcons/KidIcarusSymbol.svg';
 import DarkPitHeadSSBU from './DarkPitHeadSSBU.png';
 import DarkPitSSBU from './Dark_Pit_SSBU.png';
 

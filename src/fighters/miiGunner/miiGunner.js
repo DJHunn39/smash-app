@@ -1,4 +1,4 @@
-import MiiGunnerSymbol from '../../seriesIcons/MiiGunnerSymbol.svg';
+import SmashBrosSymbol from '../../seriesIcons/SmashBrosSymbol.svg';
 import MiiGunnerHeadSSBU from './MiiGunnerHeadSSBU.png';
 import MiiGunnerSSBU from './Mii_Gunner_SSBU.png';
 

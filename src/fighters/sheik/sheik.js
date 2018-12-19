@@ -1,4 +1,4 @@
-import SheikSymbol from '../../seriesIcons/SheikSymbol.svg';
+import ZeldaSymbol from '../../seriesIcons/ZeldaSymbol.svg';
 import SheikHeadSSBU from './SheikHeadSSBU.png';
 import SheikSSBU from './Sheik_SSBU.png';
 

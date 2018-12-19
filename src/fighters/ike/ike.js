@@ -1,4 +1,4 @@
-import IkeSymbol from '../../seriesIcons/IkeSymbol.svg';
+import FireEmblemSymbol from '../../seriesIcons/FireEmblemSymbol.svg';
 import IkeHeadSSBU from './IkeHeadSSBU.png';
 import IkeSSBU from './Ike_SSBU.png';
 

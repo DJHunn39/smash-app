@@ -1,4 +1,4 @@
-import VillagerSymbol from '../../seriesIcons/VillagerSymbol.svg';
+import AnimalCrossingSymbol from '../../seriesIcons/AnimalCrossingSymbol.svg';
 import VillagerHeadSSBU from './VillagerHeadSSBU.png';
 import VillagerSSBU from './Villager_SSBU.png';
 

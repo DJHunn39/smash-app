@@ -1,4 +1,4 @@
-import JigglypuffSymbol from '../../seriesIcons/JigglypuffSymbol.svg';
+import PokemonSymbol from '../../seriesIcons/PokemonSymbol.svg';
 import JigglypuffHeadSSBU from './JigglypuffHeadSSBU.png';
 import JigglypuffSSBU from './Jigglypuff_SSBU.png';
 

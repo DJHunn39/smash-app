@@ -1,4 +1,4 @@
-import DonkeyKongSymbol from '../../seriesIcons/DonkeyKongSymbol.svg';
+import DKSymbol from '../../seriesIcons/DKSymbol.svg';
 import DonkeyKongHeadSSBU from './DonkeyKongHeadSSBU.png';
 import DonkeyKongSSBU from './Donkey_Kong_SSBU.png';
 

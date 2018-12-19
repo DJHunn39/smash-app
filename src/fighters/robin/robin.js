@@ -1,4 +1,4 @@
-import RobinSymbol from '../../seriesIcons/RobinSymbol.svg';
+import FireEmblemSymbol from '../../seriesIcons/FireEmblemSymbol.svg';
 import RobinHeadSSBU from './RobinHeadSSBU.png';
 import RobinSSBU from './Robin_SSBU.png';
 

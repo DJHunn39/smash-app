@@ -1,4 +1,4 @@
-daimport GanondorfSymbol from '../../seriesIcons/GanondorfSymbol.svg';
+import ZeldaSymbol from '../../seriesIcons/ZeldaSymbol.svg';
 import GanondorfHeadSSBU from './GanondorfHeadSSBU.png';
 import GanondorfSSBU from './Ganondorf_SSBU.png';
 

@@ -1,4 +1,4 @@
-import MarthSymbol from '../../seriesIcons/MarthSymbol.svg';
+import FireEmblemSymbol from '../../seriesIcons/FireEmblemSymbol.svg';
 import MarthHeadSSBU from './MarthHeadSSBU.png';
 import MarthSSBU from './Marth_SSBU.png';
 

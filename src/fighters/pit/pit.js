@@ -1,4 +1,4 @@
-import PitSymbol from '../../seriesIcons/PitSymbol.svg';
+import KidIcarusSymbol from '../../seriesIcons/KidIcarusSymbol.svg';
 import PitHeadSSBU from './PitHeadSSBU.png';
 import PitSSBU from './Pit_SSBU.png';
 

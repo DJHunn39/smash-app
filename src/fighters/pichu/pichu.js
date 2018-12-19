@@ -1,4 +1,4 @@
-import PichuSymbol from '../../seriesIcons/PichuSymbol.svg';
+import PokemonSymbol from '../../seriesIcons/PokemonSymbol.svg';
 import PichuHeadSSBU from './PichuHeadSSBU.png';
 import PichuSSBU from './Pichu_SSBU.png';
 

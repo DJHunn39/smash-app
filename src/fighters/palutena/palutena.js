@@ -1,4 +1,4 @@
-import PalutenaSymbol from '../../seriesIcons/PalutenaSymbol.svg';
+import KidIcarusSymbol from '../../seriesIcons/KidIcarusSymbol.svg';
 import PalutenaHeadSSBU from './PalutenaHeadSSBU.png';
 import PalutenaSSBU from './Palutena_SSBU.png';
 

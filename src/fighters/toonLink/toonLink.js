@@ -1,4 +1,4 @@
-import ToonLinkSymbol from '../../seriesIcons/ToonLinkSymbol.svg';
+import ZeldaSymbol from '../../seriesIcons/ZeldaSymbol.svg';
 import ToonLinkHeadSSBU from './ToonLinkHeadSSBU.png';
 import ToonLinkSSBU from './Toon_Link_SSBU.png';
 

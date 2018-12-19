@@ -1,4 +1,4 @@
-import IncineroarSymbol from '../../seriesIcons/IncineroarSymbol.svg';
+import PokemonSymbol from '../../seriesIcons/PokemonSymbol.svg';
 import IncineroarHeadSSBU from './IncineroarHeadSSBU.png';
 import IncineroarSSBU from './Incineroar_SSBU.png';
 

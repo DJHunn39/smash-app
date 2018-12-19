@@ -1,14 +1,14 @@
-import Rosalina&LumaSymbol from '../../seriesIcons/Rosalina&LumaSymbol.svg';
-import Rosalina&LumaHeadSSBU from './Rosalina&LumaHeadSSBU.png';
-import Rosalina&LumaSSBU from './Rosalina_&_Luma_SSBU.png';
+import MarioSymbol from '../../seriesIcons/MarioSymbol.svg';
+import RosalinaLumaHeadSSBU from './RosalinaLumaHeadSSBU.png';
+import RosalinaLumaSSBU from './RosalinaLuma_SSBU.png';
 
-const rosalinaandLuma = {
+const rosalinaAndLuma = {
   name: 'Rosalina&Luma',
   series: {
     icon: MarioSymbol,
     name: 'Rosalina&Luma',
   },
-  icon: Rosalina&LumaHeadSSBU,
+  icon: RosalinaLumaHeadSSBU,
   stats: {
     official: {
       weight: 60,
@@ -34,7 +34,7 @@ const rosalinaandLuma = {
       }
     },
   },
-  picture: Rosalina&LumaSSBU,
+  picture: RosalinaLumaSSBU,
 };
 
-export default rosalinaandLuma;
+export default rosalinaAndLuma;

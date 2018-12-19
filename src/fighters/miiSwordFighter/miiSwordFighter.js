@@ -1,6 +1,6 @@
-import MiiSwordFighterSymbol from '../../seriesIcons/MiiSwordFighterSymbol.svg';
-import MiiSwordFighterHeadSSBU from './MiiSwordFighterHeadSSBU.png';
-import MiiSwordFighterSSBU from './Mii_SwordFighter_SSBU.png';
+import SmashBrosSymbol from '../../seriesIcons/SmashBrosSymbol.svg';
+import MiiSwordFighterHeadSSBU from './MiiSwordfighterHeadSSBU.png';
+import MiiSwordFighterSSBU from './Mii_Swordfighter_SSBU.png';
 
 const miiSwordFighter = {
   name: 'MiiSwordFighter',

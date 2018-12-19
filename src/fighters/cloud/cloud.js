@@ -1,4 +1,4 @@
-import CloudSymbol from '../../seriesIcons/CloudSymbol.svg';
+import FinalFantasySymbol from '../../seriesIcons/FinalFantasySymbol.svg';
 import CloudHeadSSBU from './CloudHeadSSBU.png';
 import CloudSSBU from './Cloud_SSBU.png';
 

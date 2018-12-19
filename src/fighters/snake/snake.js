@@ -1,4 +1,4 @@
-import SnakeSymbol from '../../seriesIcons/SnakeSymbol.svg';
+import MetalGearSymbol from '../../seriesIcons/MetalGearSymbol.svg';
 import SnakeHeadSSBU from './SnakeHeadSSBU.png';
 import SnakeSSBU from './Snake_SSBU.png';
 

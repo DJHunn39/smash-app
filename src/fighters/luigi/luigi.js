@@ -1,4 +1,4 @@
-import LuigiSymbol from '../../seriesIcons/LuigiSymbol.svg';
+import MarioSymbol from '../../seriesIcons/MarioSymbol.svg';
 import LuigiHeadSSBU from './LuigiHeadSSBU.png';
 import LuigiSSBU from './Luigi_SSBU.png';
 

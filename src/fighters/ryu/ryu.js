@@ -1,4 +1,4 @@
-import RyuSymbol from '../../seriesIcons/RyuSymbol.svg';
+import StreetFighterSymbol from '../../seriesIcons/StreetFighterSymbol.svg';
 import RyuHeadSSBU from './RyuHeadSSBU.png';
 import RyuSSBU from './Ryu_SSBU.png';
 

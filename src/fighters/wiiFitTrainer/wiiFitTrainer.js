@@ -1,12 +1,12 @@
-import WiiFitTrainerSymbol from '../../seriesIcons/WiiFitTrainerSymbol.svg';
+import WiiFitSymbol from '../../seriesIcons/WiiFitSymbol.svg';
 import WiiFitTrainerHeadSSBU from './WiiFitTrainerHeadSSBU.png';
 import WiiFitTrainerSSBU from './Wii_Fit_Trainer_SSBU.png';
 
 const wiiFitTrainer = {
-  name: 'WiiFitTrainer',
+  name: 'Wii Fit Trainer',
   series: {
     icon: WiiFitSymbol,
-    name: 'WiiFitTrainer',
+    name: 'Wii Fit',
   },
   icon: WiiFitTrainerHeadSSBU,
   stats: {

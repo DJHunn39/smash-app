@@ -1,4 +1,4 @@
-import KingKRoolSymbol from '../../seriesIcons/KingKRoolSymbol.svg';
+import DKSymbol from '../../seriesIcons/DKSymbol.svg';
 import KingKRoolHeadSSBU from './KingKRoolHeadSSBU.png';
 import KingKRoolSSBU from './King_K_Rool_SSBU.png';
 

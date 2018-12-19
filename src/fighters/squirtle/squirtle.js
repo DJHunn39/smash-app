@@ -1,4 +1,4 @@
-import SquirtleSymbol from '../../seriesIcons/SquirtleSymbol.svg';
+import PokemonSymbol from '../../seriesIcons/PokemonSymbol.svg';
 import SquirtleHeadSSBU from './SquirtleHeadSSBU.png';
 import SquirtleSSBU from './Squirtle_SSBU.png';
 

@@ -1,4 +1,4 @@
-import InklingSymbol from '../../seriesIcons/InklingSymbol.svg';
+import SplatoonSymbol from '../../seriesIcons/SplatoonSymbol.svg';
 import InklingHeadSSBU from './InklingHeadSSBU.png';
 import InklingSSBU from './Inkling_SSBU.png';
 

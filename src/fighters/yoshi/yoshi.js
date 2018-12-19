@@ -5,7 +5,7 @@ import YoshiSSBU from './Yoshi_SSBU.png';
 const yoshi = {
   name: 'Yoshi',
   series: {
-    icon: MarioSymbol,
+    icon: YoshiSymbol,
     name: 'Yoshi',
   },
   icon: YoshiHeadSSBU,

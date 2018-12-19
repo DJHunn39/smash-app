@@ -1,4 +1,4 @@
-import CorrinSymbol from '../../seriesIcons/CorrinSymbol.svg';
+import FireEmblemSymbol from '../../seriesIcons/FireEmblemSymbol.svg';
 import CorrinHeadSSBU from './CorrinHeadSSBU.png';
 import CorrinSSBU from './Corrin_SSBU.png';
 

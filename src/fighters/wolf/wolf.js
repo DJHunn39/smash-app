@@ -1,4 +1,4 @@
-import WolfSymbol from '../../seriesIcons/WolfSymbol.svg';
+import StarFoxSymbol from '../../seriesIcons/StarFoxSymbol.svg';
 import WolfHeadSSBU from './WolfHeadSSBU.png';
 import WolfSSBU from './Wolf_SSBU.png';
 
@@ -6,7 +6,7 @@ const wolf = {
   name: 'Wolf',
   series: {
     icon: StarFoxSymbol,
-    name: 'Wolf',
+    name: 'StarFox',
   },
   icon: WolfHeadSSBU,
   stats: {

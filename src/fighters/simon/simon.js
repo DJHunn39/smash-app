@@ -1,4 +1,4 @@
-import SimonSymbol from '../../seriesIcons/SimonSymbol.svg';
+import CastlevaniaSymbol from '../../seriesIcons/CastlevaniaSymbol.svg';
 import SimonHeadSSBU from './SimonHeadSSBU.png';
 import SimonSSBU from './Simon_SSBU.png';
 

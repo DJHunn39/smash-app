@@ -1,4 +1,4 @@
-import FoxSymbol from '../../seriesIcons/FoxSymbol.svg';
+import StarFoxSymbol from '../../seriesIcons/StarFoxSymbol.svg';
 import FoxHeadSSBU from './FoxHeadSSBU.png';
 import FoxSSBU from './Fox_SSBU.png';
 
