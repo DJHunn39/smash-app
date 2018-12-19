@@ -1,6 +1,8 @@
 import PacManSymbol from './PacManSymbol.svg';
 
-export const pacmanSeries = {
+const pacmanSeries = {
   icon: PacManSymbol,
   name: 'Pac-Man',
 };
+
+export default pacmanSeries;

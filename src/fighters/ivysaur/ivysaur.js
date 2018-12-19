@@ -1,13 +1,10 @@
-import PokemonSymbol from '../../seriesIcons/PokemonSymbol.svg';
+import pokemonSeries from '../../series/pokemonSeries/pokemonSeries';
 import IvysaurHeadSSBU from './IvysaurHeadSSBU.png';
 import IvysaurSSBU from './Ivysaur_SSBU.png';
 
 const ivysaur = {
   name: 'Ivysaur',
-  series: {
-    icon: PokemonSymbol,
-    name: 'Ivysaur',
-  },
+  series: pokemonSeries,
   icon: IvysaurHeadSSBU,
   stats: {
     official: {

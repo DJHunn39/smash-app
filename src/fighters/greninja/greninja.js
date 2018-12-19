@@ -1,13 +1,10 @@
-import PokemonSymbol from '../../seriesIcons/PokemonSymbol.svg';
+import pokemonSeries from '../../series/pokemonSeries/pokemonSeries';
 import GreninjaHeadSSBU from './GreninjaHeadSSBU.png';
 import GreninjaSSBU from './Greninja_SSBU.png';
 
 const greninja = {
   name: 'Greninja',
-  series: {
-    icon: PokemonSymbol,
-    name: 'Greninja',
-  },
+  series: pokemonSeries,
   icon: GreninjaHeadSSBU,
   stats: {
     official: {

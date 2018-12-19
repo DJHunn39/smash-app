@@ -1,13 +1,10 @@
-import FireEmblemSymbol from '../../seriesIcons/FireEmblemSymbol.svg';
+import fireEmblemSeries from '../../series/fireEmblemSeries/fireEmblemSeries';
 import MarthHeadSSBU from './MarthHeadSSBU.png';
 import MarthSSBU from './Marth_SSBU.png';
 
 const marth = {
   name: 'Marth',
-  series: {
-    icon: FireEmblemSymbol,
-    name: 'Marth',
-  },
+  series: fireEmblemSeries,
   icon: MarthHeadSSBU,
   stats: {
     official: {

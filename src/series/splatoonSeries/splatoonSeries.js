@@ -1,6 +1,8 @@
 import SplatoonSymbol from './SplatoonSymbol.svg';
 
-export const splatoonSeries = {
+const splatoonSeries = {
   icon: SplatoonSymbol,
   name: 'Splatoon',
 };
+
+export default splatoonSeries;

@@ -1,6 +1,8 @@
 import StreetFighterSymbol from './StreetFighterSymbol.svg';
 
-export const streetFighterSeries = {
+const streetFighterSeries = {
   icon: StreetFighterSymbol,
   name: 'Street Fighter',
 };
+
+export default streetFighterSeries;

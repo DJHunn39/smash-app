@@ -1,6 +1,8 @@
 import FinalFantasySymbol from './FinalFantasySymbol.svg';
 
-export const finalFantasySeries = {
+const finalFantasySeries = {
   icon: FinalFantasySymbol,
   name: 'Final Fantasy',
 };
+
+export default finalFantasySeries;

@@ -1,13 +1,10 @@
-import StarFoxSymbol from '../../seriesIcons/StarFoxSymbol.svg';
+import starFoxSeries from '../../series/starFoxSeries/starFoxSeries';
 import FoxHeadSSBU from './FoxHeadSSBU.png';
 import FoxSSBU from './Fox_SSBU.png';
 
 const fox = {
   name: 'Fox',
-  series: {
-    icon: StarFoxSymbol,
-    name: 'Fox',
-  },
+  series: starFoxSeries,
   icon: FoxHeadSSBU,
   stats: {
     official: {

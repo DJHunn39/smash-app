@@ -1,13 +1,10 @@
-import PokemonSymbol from '../../seriesIcons/PokemonSymbol.svg';
+import pokemonSeries from '../../series/pokemonSeries/pokemonSeries';
 import MewtwoHeadSSBU from './MewtwoHeadSSBU.png';
 import MewtwoSSBU from './Mewtwo_SSBU.png';
 
 const mewtwo = {
   name: 'Mewtwo',
-  series: {
-    icon: PokemonSymbol,
-    name: 'Mewtwo',
-  },
+  series: pokemonSeries,
   icon: MewtwoHeadSSBU,
   stats: {
     official: {

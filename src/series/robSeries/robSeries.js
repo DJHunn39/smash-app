@@ -1,6 +1,8 @@
 import ROBSymbol from './ROBSymbol.svg';
 
-export const robSeries = {
+const robSeries = {
   icon: ROBSymbol,
   name: 'Animal Crossing',
 };
+
+export default robSeries;

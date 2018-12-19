@@ -1,13 +1,10 @@
-import KidIcarusSymbol from '../../seriesIcons/KidIcarusSymbol.svg';
+import kidIcarusSeries from '../../series/kidIcarusSeries/kidIcarusSeries';
 import DarkPitHeadSSBU from './DarkPitHeadSSBU.png';
 import DarkPitSSBU from './Dark_Pit_SSBU.png';
 
 const darkPit = {
-  name: 'DarkPit',
-  series: {
-    icon: KidIcarusSymbol,
-    name: 'DarkPit',
-  },
+  name: 'Dark Pit',
+  series: kidIcarusSeries,
   icon: DarkPitHeadSSBU,
   stats: {
     official: {

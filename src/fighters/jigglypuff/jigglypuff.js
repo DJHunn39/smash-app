@@ -1,13 +1,10 @@
-import PokemonSymbol from '../../seriesIcons/PokemonSymbol.svg';
+import pokemonSeries from '../../series/pokemonSeries/pokemonSeries';
 import JigglypuffHeadSSBU from './JigglypuffHeadSSBU.png';
 import JigglypuffSSBU from './Jigglypuff_SSBU.png';
 
 const jigglypuff = {
   name: 'Jigglypuff',
-  series: {
-    icon: PokemonSymbol,
-    name: 'Jigglypuff',
-  },
+  series: pokemonSeries,
   icon: JigglypuffHeadSSBU,
   stats: {
     official: {

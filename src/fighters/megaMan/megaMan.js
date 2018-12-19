@@ -1,13 +1,10 @@
-import MegaManSymbol from '../../seriesIcons/MegaManSymbol.svg';
+import megaManSeries from '../../series/megaManSeries/megaManSeries';
 import MegaManHeadSSBU from './MegaManHeadSSBU.png';
 import MegaManSSBU from './Mega_Man_SSBU.png';
 
 const megaMan = {
-  name: 'MegaMan',
-  series: {
-    icon: MegaManSymbol,
-    name: 'MegaMan',
-  },
+  name: 'Mega Man',
+  series: megaManSeries,
   icon: MegaManHeadSSBU,
   stats: {
     official: {

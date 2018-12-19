@@ -1,13 +1,10 @@
-import GameWatchSymbol from '../../seriesIcons/GameWatchSymbol.svg';
+import gameWatchSeries from '../../series/gameWatchSeries/gameWatchSeries';
 import MrGameWatchHeadSSBU from './MrGameWatchHeadSSBU.png';
 import MrGameWatchSSBU from './Mr_Game_Watch_SSBU.png';
 
 const mrGameAndWatch = {
-  name: 'MrGameWatch',
-  series: {
-    icon: GameWatchSymbol,
-    name: 'Mr Game & Watch',
-  },
+  name: 'Mr Game & Watch',
+  series: gameWatchSeries,
   icon: MrGameWatchHeadSSBU,
   stats: {
     official: {

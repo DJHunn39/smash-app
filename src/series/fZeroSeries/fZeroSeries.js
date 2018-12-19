@@ -1,6 +1,8 @@
 import FZeroSymbol from './FZeroSymbol.svg';
 
-export const fZeroSeries = {
+const fZeroSeries = {
   icon: FZeroSymbol,
   name: 'F-Zero',
 };
+
+export default fZeroSeries;

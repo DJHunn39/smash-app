@@ -1,13 +1,10 @@
-import KidIcarusSymbol from '../../seriesIcons/KidIcarusSymbol.svg';
+import kidIcarusSeries from '../../series/kidIcarusSeries/kidIcarusSeries';
 import PalutenaHeadSSBU from './PalutenaHeadSSBU.png';
 import PalutenaSSBU from './Palutena_SSBU.png';
 
 const palutena = {
   name: 'Palutena',
-  series: {
-    icon: KidIcarusSymbol,
-    name: 'Palutena',
-  },
+  series: kidIcarusSeries,
   icon: PalutenaHeadSSBU,
   stats: {
     official: {

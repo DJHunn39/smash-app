@@ -1,13 +1,10 @@
-import PikminSymbol from '../../seriesIcons/PikminSymbol.svg';
+import pikminSeries from '../../series/pikminSeries/pikminSeries';
 import OlimarHeadSSBU from './OlimarHeadSSBU.png';
 import OlimarSSBU from './Olimar_SSBU.png';
 
 const olimar = {
   name: 'Olimar',
-  series: {
-    icon: PikminSymbol,
-    name: 'Olimar',
-  },
+  series: pikminSeries,
   icon: OlimarHeadSSBU,
   stats: {
     official: {

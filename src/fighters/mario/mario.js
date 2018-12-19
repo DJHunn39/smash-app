@@ -1,13 +1,10 @@
-import MarioSymbol from '../../seriesIcons/MarioSymbol.svg';
+import marioSeries from '../../series/marioSeries/marioSeries';
 import MarioHeadSSBU from './MarioHeadSSBU.png';
 import MarioSSBU from './Mario_SSBU.png';
 
 const mario = {
   name: 'Mario',
-  series: {
-    icon: MarioSymbol,
-    name: 'Mario',
-  },
+  series: marioSeries,
   icon: MarioHeadSSBU,
   stats: {
     official: {

@@ -1,13 +1,10 @@
-import CastlevaniaSymbol from '../../seriesIcons/CastlevaniaSymbol.svg';
+import castlevaniaSeries from '../../series/castlevaniaSeries/castlevaniaSeries';
 import RichterHeadSSBU from './RichterHeadSSBU.png';
 import RichterSSBU from './Richter_SSBU.png';
 
 const richter = {
   name: 'Richter',
-  series: {
-    icon: CastlevaniaSymbol,
-    name: 'Richter',
-  },
+  series: castlevaniaSeries,
   icon: RichterHeadSSBU,
   stats: {
     official: {

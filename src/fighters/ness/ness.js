@@ -1,13 +1,10 @@
-import EarthboundSymbol from '../../seriesIcons/EarthboundSymbol.svg';
+import earthboundSeries from '../../series/earthboundSeries/earthboundSeries';
 import NessHeadSSBU from './NessHeadSSBU.png';
 import NessSSBU from './Ness_SSBU.png';
 
 const ness = {
   name: 'Ness',
-  series: {
-    icon: EarthboundSymbol,
-    name: 'Ness',
-  },
+  series: earthboundSeries,
   icon: NessHeadSSBU,
   stats: {
     official: {

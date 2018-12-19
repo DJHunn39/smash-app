@@ -1,13 +1,10 @@
-import WarioSymbol from '../../seriesIcons/WarioSymbol.svg';
+import warioSeries from '../../series/warioSeries/warioSeries';
 import WarioHeadSSBU from './WarioHeadSSBU.png';
 import WarioSSBU from './Wario_SSBU.png';
 
 const wario = {
   name: 'Wario',
-  series: {
-    icon: WarioSymbol,
-    name: 'Wario',
-  },
+  series: warioSeries,
   icon: WarioHeadSSBU,
   stats: {
     official: {

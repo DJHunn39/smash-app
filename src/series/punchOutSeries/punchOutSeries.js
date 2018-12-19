@@ -1,6 +1,8 @@
 import PunchOutSymbol from './PunchOutSymbol.svg';
 
-export const punchOutSeries = {
+const punchOutSeries = {
   icon: PunchOutSymbol,
   name: 'Punch-Out!!',
 };
+
+export default punchOutSeries;

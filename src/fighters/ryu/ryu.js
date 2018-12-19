@@ -1,13 +1,10 @@
-import StreetFighterSymbol from '../../seriesIcons/StreetFighterSymbol.svg';
+import streetFighterSeries from '../../series/streetFighterSeries/streetFighterSeries';
 import RyuHeadSSBU from './RyuHeadSSBU.png';
 import RyuSSBU from './Ryu_SSBU.png';
 
 const ryu = {
   name: 'Ryu',
-  series: {
-    icon: StreetFighterSymbol,
-    name: 'Ryu',
-  },
+  series: streetFighterSeries,
   icon: RyuHeadSSBU,
   stats: {
     official: {

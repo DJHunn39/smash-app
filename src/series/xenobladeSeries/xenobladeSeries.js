@@ -1,6 +1,8 @@
 import XenobladeSymbol from './XenobladeSymbol.svg';
 
-export const xenobladeSeries = {
+const xenobladeSeries = {
   icon: XenobladeSymbol,
   name: 'Xenoblade Chronicles',
 };
+
+export default xenobladeSeries;

@@ -1,13 +1,10 @@
-import MetalGearSymbol from '../../seriesIcons/MetalGearSymbol.svg';
+import metalGearSeries from '../../series/metalGearSeries/metalGearSeries';
 import SnakeHeadSSBU from './SnakeHeadSSBU.png';
 import SnakeSSBU from './Snake_SSBU.png';
 
 const snake = {
   name: 'Snake',
-  series: {
-    icon: MetalGearSymbol,
-    name: 'Snake',
-  },
+  series: metalGearSeries,
   icon: SnakeHeadSSBU,
   stats: {
     official: {

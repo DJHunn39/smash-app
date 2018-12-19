@@ -1,13 +1,10 @@
-import MarioSymbol from '../../seriesIcons/MarioSymbol.svg';
+import marioSeries from '../../series/marioSeries/marioSeries';
 import BowserJrHeadSSBU from './BowserJrHeadSSBU.png';
 import BowserJrSSBU from './BowserJr_SSBU.png';
 
 const bowserJr = {
   name: 'BowserJr',
-  series: {
-    icon: MarioSymbol,
-    name: 'BowserJr',
-  },
+  series: marioSeries,
   icon: BowserJrHeadSSBU,
   stats: {
     official: {

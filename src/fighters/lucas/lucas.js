@@ -1,13 +1,10 @@
-import EarthboundSymbol from '../../seriesIcons/EarthboundSymbol.svg';
+import earthboundSeries from '../../series/earthboundSeries/earthboundSeries';
 import LucasHeadSSBU from './LucasHeadSSBU.png';
 import LucasSSBU from './Lucas_SSBU.png';
 
 const lucas = {
   name: 'Lucas',
-  series: {
-    icon: EarthboundSymbol,
-    name: 'Lucas',
-  },
+  series: earthboundSeries,
   icon: LucasHeadSSBU,
   stats: {
     official: {

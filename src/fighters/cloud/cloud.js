@@ -1,13 +1,10 @@
-import FinalFantasySymbol from '../../seriesIcons/FinalFantasySymbol.svg';
+import finalFantasySeries from '../../series/finalFantasySeries/finalFantasySeries';
 import CloudHeadSSBU from './CloudHeadSSBU.png';
 import CloudSSBU from './Cloud_SSBU.png';
 
 const cloud = {
   name: 'Cloud',
-  series: {
-    icon: FinalFantasySymbol,
-    name: 'Cloud',
-  },
+  series: finalFantasySeries,
   icon: CloudHeadSSBU,
   stats: {
     official: {

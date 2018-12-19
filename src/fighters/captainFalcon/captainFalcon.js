@@ -1,13 +1,10 @@
-import FZeroSymbol from '../../seriesIcons/FZeroSymbol.svg';
+import fZeroSeries from '../../series/fZeroSeries/fZeroSeries';
 import CaptainFalconHeadSSBU from './CaptainFalconHeadSSBU.png';
 import CaptainFalconSSBU from './Captain_Falcon_SSBU.png';
 
 const captainFalcon = {
-  name: 'CaptainFalcon',
-  series: {
-    icon: FZeroSymbol,
-    name: 'CaptainFalcon',
-  },
+  name: 'Captain Falcon',
+  series: fZeroSeries,
   icon: CaptainFalconHeadSSBU,
   stats: {
     official: {

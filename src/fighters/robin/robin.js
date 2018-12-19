@@ -1,13 +1,10 @@
-import FireEmblemSymbol from '../../seriesIcons/FireEmblemSymbol.svg';
+import fireEmblemSeries from '../../series/fireEmblemSeries/fireEmblemSeries';
 import RobinHeadSSBU from './RobinHeadSSBU.png';
 import RobinSSBU from './Robin_SSBU.png';
 
 const robin = {
   name: 'Robin',
-  series: {
-    icon: FireEmblemSymbol,
-    name: 'Robin',
-  },
+  series: fireEmblemSeries,
   icon: RobinHeadSSBU,
   stats: {
     official: {

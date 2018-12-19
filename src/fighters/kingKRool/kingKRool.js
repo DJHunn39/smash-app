@@ -1,13 +1,10 @@
-import DKSymbol from '../../seriesIcons/DKSymbol.svg';
+import donkeyKongSeries from '../../series/donkeyKongSeries/donkeyKongSeries';
 import KingKRoolHeadSSBU from './KingKRoolHeadSSBU.png';
 import KingKRoolSSBU from './King_K_Rool_SSBU.png';
 
 const kingKRool = {
-  name: 'KingKRool',
-  series: {
-    icon: DKSymbol,
-    name: 'KingKRool',
-  },
+  name: 'King K.Rool',
+  series: donkeyKongSeries,
   icon: KingKRoolHeadSSBU,
   stats: {
     official: {

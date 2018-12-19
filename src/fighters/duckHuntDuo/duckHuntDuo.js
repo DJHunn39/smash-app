@@ -1,13 +1,10 @@
-import DuckHuntSymbol from '../../seriesIcons/DuckHuntSymbol.svg';
+import duckHuntSeries from '../../series/duckHuntSeries/duckHuntSeries';
 import DuckHuntDuoHeadSSBU from './DuckHuntHeadSSBU.png';
 import DuckHuntDuoSSBU from './Duck_Hunt_SSBU.png';
 
 const duckHuntDuo = {
-  name: 'DuckHuntDuo',
-  series: {
-    icon: DuckHuntSymbol,
-    name: 'DuckHuntDuo',
-  },
+  name: 'Duck Hunt Duo',
+  series: duckHuntSeries,
   icon: DuckHuntDuoHeadSSBU,
   stats: {
     official: {

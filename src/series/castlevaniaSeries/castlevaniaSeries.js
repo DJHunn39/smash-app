@@ -1,6 +1,8 @@
 import CastlevaniaSymbol from './CastlevaniaSymbol.svg';
 
-export const CastlevaniaSeries = {
+const castlevaniaSeries = {
   icon: CastlevaniaSymbol,
   name: 'Castlevania',
 };
+
+export default castlevaniaSeries;

@@ -1,6 +1,8 @@
 import WiiFitSymbol from './WiiFitSymbol.svg';
 
-export const wiiFitSeries = {
+const wiiFitSeries = {
   icon: WiiFitSymbol,
   name: 'Wii Fit',
 };
+
+export default wiiFitSeries;

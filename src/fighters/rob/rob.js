@@ -1,13 +1,10 @@
-import ROBSymbol from '../../seriesIcons/ROBSymbol.svg';
+import robSeries from '../../series/robSeries/robSeries';
 import RobHeadSSBU from './ROBHeadSSBU.png';
 import RobSSBU from './R_O_B_SSBU.png';
 
 const rob = {
   name: 'Rob',
-  series: {
-    icon: ROBSymbol,
-    name: 'Rob',
-  },
+  series: robSeries,
   icon: RobHeadSSBU,
   stats: {
     official: {

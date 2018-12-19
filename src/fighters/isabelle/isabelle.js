@@ -1,13 +1,10 @@
-import AnimalCrossingSymbol from '../../seriesIcons/AnimalCrossingSymbol.svg';
+import animalCrossingSeries from '../../series/animalCrossingSeries/animalCrossingSeries';
 import IsabelleHeadSSBU from './IsabelleHeadSSBU.png';
 import IsabelleSSBU from './Isabelle_SSBU.png';
 
 const isabelle = {
   name: 'Isabelle',
-  series: {
-    icon: AnimalCrossingSymbol,
-    name: 'Isabelle',
-  },
+  series: animalCrossingSeries,
   icon: IsabelleHeadSSBU,
   stats: {
     official: {

@@ -1,13 +1,10 @@
-import CastlevaniaSymbol from '../../seriesIcons/CastlevaniaSymbol.svg';
+import castlevaniaSeries from '../../series/castlevaniaSeries/castlevaniaSeries';
 import SimonHeadSSBU from './SimonHeadSSBU.png';
 import SimonSSBU from './Simon_SSBU.png';
 
 const simon = {
   name: 'Simon',
-  series: {
-    icon: CastlevaniaSymbol,
-    name: 'Simon',
-  },
+  series: castlevaniaSeries,
   icon: SimonHeadSSBU,
   stats: {
     official: {

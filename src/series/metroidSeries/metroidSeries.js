@@ -1,6 +1,8 @@
 import MetroidSymbol from './MetroidSymbol.svg';
 
-export const metroidSeries = {
+const metroidSeries = {
   icon: MetroidSymbol,
   name: 'Metroid',
 };
+
+export default metroidSeries;

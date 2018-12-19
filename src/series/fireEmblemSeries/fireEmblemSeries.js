@@ -1,6 +1,8 @@
-import FireEmblemSymbol from './AnimalCrossingSymbol.svg';
+import FireEmblemSymbol from './FireEmblemSymbol.svg';
 
-export const fireEmblemSeries = {
+const fireEmblemSeries = {
   icon: FireEmblemSymbol,
   name: 'Fire Emblem',
 };
+
+export default fireEmblemSeries;

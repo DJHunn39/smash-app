@@ -1,13 +1,10 @@
-import ZeldaSymbol from '../../seriesIcons/ZeldaSymbol.svg';
+import zeldaSeries from '../../series/zeldaSeries/zeldaSeries';
 import GanondorfHeadSSBU from './GanondorfHeadSSBU.png';
 import GanondorfSSBU from './Ganondorf_SSBU.png';
 
 const ganondorf = {
   name: 'Ganondorf',
-  series: {
-    icon: ZeldaSymbol,
-    name: 'Ganondorf',
-  },
+  series: zeldaSeries,
   icon: GanondorfHeadSSBU,
   stats: {
     official: {

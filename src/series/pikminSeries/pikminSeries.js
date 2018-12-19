@@ -1,6 +1,8 @@
 import PikminSymbol from './PikminSymbol.svg';
 
-export const PikminSeries = {
+const pikminSeries = {
   icon: PikminSymbol,
   name: 'Pikmin',
 };
+
+export default pikminSeries;

@@ -1,13 +1,10 @@
-import ZeldaSymbol from '../../seriesIcons/ZeldaSymbol.svg';
+import zeldaSeries from '../../series/zeldaSeries/zeldaSeries';
 import ZeldaHeadSSBU from './ZeldaHeadSSBU.png';
 import ZeldaSSBU from './Zelda_SSBU.png';
 
 const zelda = {
   name: 'Zelda',
-  series: {
-    icon: ZeldaSymbol,
-    name: 'Zelda',
-  },
+  series: zeldaSeries,
   icon: ZeldaHeadSSBU,
   stats: {
     official: {

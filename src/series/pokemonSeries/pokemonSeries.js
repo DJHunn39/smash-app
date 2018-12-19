@@ -1,6 +1,8 @@
 import PokemonSymbol from './PokemonSymbol.svg';
 
-export const pokemonSeries = {
+const pokemonSeries = {
   icon: PokemonSymbol,
   name: 'Pokémon',
 };
+
+export default pokemonSeries;

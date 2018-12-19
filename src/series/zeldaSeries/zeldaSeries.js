@@ -1,6 +1,8 @@
 import ZeldaSymbol from './ZeldaSymbol.svg';
 
-export const zeldaSeries = {
+const zeldaSeries = {
   icon: ZeldaSymbol,
   name: 'The Legend of Zelda',
 };
+
+export default zeldaSeries;

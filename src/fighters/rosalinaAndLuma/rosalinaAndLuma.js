@@ -1,13 +1,10 @@
-import MarioSymbol from '../../seriesIcons/MarioSymbol.svg';
+import marioSeries from '../../series/marioSeries/marioSeries';
 import RosalinaLumaHeadSSBU from './RosalinaLumaHeadSSBU.png';
 import RosalinaLumaSSBU from './RosalinaLuma_SSBU.png';
 
 const rosalinaAndLuma = {
-  name: 'Rosalina&Luma',
-  series: {
-    icon: MarioSymbol,
-    name: 'Rosalina&Luma',
-  },
+  name: 'Rosalina & Luma',
+  series: marioSeries,
   icon: RosalinaLumaHeadSSBU,
   stats: {
     official: {

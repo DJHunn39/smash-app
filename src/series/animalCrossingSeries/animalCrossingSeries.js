@@ -1,6 +1,8 @@
 import AnimalCrossingSymbol from './AnimalCrossingSymbol.svg';
 
-export const animalCrossingSeries = {
+const animalCrossingSeries = {
   icon: AnimalCrossingSymbol,
   name: 'Animal Crossing',
 };
+
+export default animalCrossingSeries;

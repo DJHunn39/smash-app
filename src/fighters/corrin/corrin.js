@@ -1,13 +1,10 @@
-import FireEmblemSymbol from '../../seriesIcons/FireEmblemSymbol.svg';
+import fireEmblemSeries from '../../series/fireEmblemSeries/fireEmblemSeries';
 import CorrinHeadSSBU from './CorrinHeadSSBU.png';
 import CorrinSSBU from './Corrin_SSBU.png';
 
 const corrin = {
   name: 'Corrin',
-  series: {
-    icon: FireEmblemSymbol,
-    name: 'Corrin',
-  },
+  series: fireEmblemSeries,
   icon: CorrinHeadSSBU,
   stats: {
     official: {

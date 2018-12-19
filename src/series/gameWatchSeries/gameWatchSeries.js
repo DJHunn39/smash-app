@@ -1,6 +1,8 @@
 import GameWatchSymbol from './GameWatchSymbol.svg';
 
-export const gameWatchSeries = {
+const gameWatchSeries = {
   icon: GameWatchSymbol,
   name: 'Mr Game & Watch',
 };
+
+export default gameWatchSeries;

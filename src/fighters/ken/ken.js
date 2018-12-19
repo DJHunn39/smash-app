@@ -1,13 +1,10 @@
-import StreetFighterSymbol from '../../seriesIcons/StreetFighterSymbol.svg';
+import streetFighterSeries from '../../series/streetFighterSeries/streetFighterSeries';
 import KenHeadSSBU from './KenHeadSSBU.png';
 import KenSSBU from './Ken_SSBU.png';
 
 const ken = {
   name: 'Ken',
-  series: {
-    icon: StreetFighterSymbol,
-    name: 'Ken',
-  },
+  series: streetFighterSeries,
   icon: KenHeadSSBU,
   stats: {
     official: {

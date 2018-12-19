@@ -1,13 +1,10 @@
-import FireEmblemSymbol from '../../seriesIcons/FireEmblemSymbol.svg';
+import fireEmblemSeries from '../../series/fireEmblemSeries/fireEmblemSeries';
 import LucinaHeadSSBU from './LucinaHeadSSBU.png';
 import LucinaSSBU from './Lucina_SSBU.png';
 
 const lucina = {
   name: 'Lucina',
-  series: {
-    icon: FireEmblemSymbol,
-    name: 'Lucina',
-  },
+  series: fireEmblemSeries,
   icon: LucinaHeadSSBU,
   stats: {
     official: {

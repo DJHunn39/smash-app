@@ -1,13 +1,10 @@
-import MarioSymbol from '../../seriesIcons/MarioSymbol.svg';
+import marioSeries from '../../series/marioSeries/marioSeries';
 import DrMarioHeadSSBU from './DrMarioHeadSSBU.png';
 import DrMarioSSBU from './Dr_Mario_SSBU.png';
 
 const drMario = {
-  name: 'DrMario',
-  series: {
-    icon: MarioSymbol,
-    name: 'DrMario',
-  },
+  name: 'Dr Mario',
+  series: marioSeries,
   icon: DrMarioHeadSSBU,
   stats: {
     official: {

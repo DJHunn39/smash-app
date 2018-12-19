@@ -1,13 +1,10 @@
-import PokemonSymbol from '../../seriesIcons/PokemonSymbol.svg';
+import pokemonSeries from '../../series/pokemonSeries/pokemonSeries';
 import PikachuHeadSSBU from './PikachuHeadSSBU.png';
 import PikachuSSBU from './Pikachu_SSBU.png';
 
 const pikachu = {
   name: 'Pikachu',
-  series: {
-    icon: PokemonSymbol,
-    name: 'Pikachu',
-  },
+  series: pokemonSeries,
   icon: PikachuHeadSSBU,
   stats: {
     official: {

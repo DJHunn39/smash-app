@@ -1,13 +1,10 @@
-import DKSymbol from '../../seriesIcons/DKSymbol.svg';
+import donkeyKongSeries from '../../series/donkeyKongSeries/donkeyKongSeries';
 import DonkeyKongHeadSSBU from './DonkeyKongHeadSSBU.png';
 import DonkeyKongSSBU from './Donkey_Kong_SSBU.png';
 
 const donkeyKong = {
-  name: 'DonkeyKong',
-  series: {
-    icon: DKSymbol,
-    name: 'DonkeyKong',
-  },
+  name: 'Donkey Kong',
+  series: donkeyKongSeries,
   icon: DonkeyKongHeadSSBU,
   stats: {
     official: {

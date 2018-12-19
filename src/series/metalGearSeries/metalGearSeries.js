@@ -1,6 +1,8 @@
 import MetalGearSymbol from './MetalGearSymbol.svg';
 
-export const metalGearSeries = {
+const metalGearSeries = {
   icon: MetalGearSymbol,
   name: 'Metal Gear',
 };
+
+export default metalGearSeries;

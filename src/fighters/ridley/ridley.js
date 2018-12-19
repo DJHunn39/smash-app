@@ -1,13 +1,10 @@
-import MetroidSymbol from '../../seriesIcons/MetroidSymbol.svg';
+import metroidSeries from '../../series/metroidSeries/metroidSeries';
 import RidleyHeadSSBU from './RidleyHeadSSBU.png';
 import RidleySSBU from './Ridley_SSBU.png';
 
 const ridley = {
   name: 'Ridley',
-  series: {
-    icon: MetroidSymbol,
-    name: 'Ridley',
-  },
+  series: metroidSeries,
   icon: RidleyHeadSSBU,
   stats: {
     official: {

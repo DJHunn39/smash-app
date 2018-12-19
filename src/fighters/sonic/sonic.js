@@ -1,13 +1,10 @@
-import SonicSymbol from '../../seriesIcons/SonicSymbol.svg';
+import sonicSeries from '../../series/sonicSeries/sonicSeries';
 import SonicHeadSSBU from './SonicHeadSSBU.png';
 import SonicSSBU from './Sonic_SSBU.png';
 
 const sonic = {
   name: 'Sonic',
-  series: {
-    icon: SonicSymbol,
-    name: 'Sonic',
-  },
+  series: sonicSeries,
   icon: SonicHeadSSBU,
   stats: {
     official: {

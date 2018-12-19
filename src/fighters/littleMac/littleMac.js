@@ -1,13 +1,10 @@
-import PunchOutSymbol from '../../seriesIcons/PunchOutSymbol.svg';
+import punchOutSeries from '../../series/punchOutSeries/punchOutSeries';
 import LittleMacHeadSSBU from './LittleMacHeadSSBU.png';
 import LittleMacSSBU from './Little_Mac_SSBU.png';
 
 const littleMac = {
-  name: 'LittleMac',
-  series: {
-    icon: PunchOutSymbol,
-    name: 'LittleMac',
-  },
+  name: 'Little Mac',
+  series: punchOutSeries,
   icon: LittleMacHeadSSBU,
   stats: {
     official: {

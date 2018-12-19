@@ -1,13 +1,10 @@
-import IceClimbersSymbol from '../../seriesIcons/IceClimbersSymbol.svg';
+import iceClimbersSeries from '../../series/iceClimbersSeries/iceClimbersSeries';
 import IceClimbersHeadSSBU from './IceClimbersHeadSSBU.png';
 import IceClimbersSSBU from './Ice_Climbers_SSBU.png';
 
 const iceClimbers = {
-  name: 'IceClimbers',
-  series: {
-    icon: IceClimbersSymbol,
-    name: 'IceClimbers',
-  },
+  name: 'Ice Climbers',
+  series: iceClimbersSeries,
   icon: IceClimbersHeadSSBU,
   stats: {
     official: {

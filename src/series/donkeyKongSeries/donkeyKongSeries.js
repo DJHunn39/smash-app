@@ -1,6 +1,8 @@
 import DKSymbol from './DKSymbol.svg';
 
-export const donkeyKongSeries = {
+const donkeyKongSeries = {
   icon: DKSymbol,
   name: 'Donkey Kong',
 };
+
+export default donkeyKongSeries;

@@ -1,6 +1,8 @@
 import MarioSymbol from './MarioSymbol.svg';
 
-export const marioSeries = {
+const marioSeries = {
   icon: MarioSymbol,
   name: 'Mario',
 };
+
+export default marioSeries;

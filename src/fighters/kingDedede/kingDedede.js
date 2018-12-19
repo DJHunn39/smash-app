@@ -1,13 +1,10 @@
-import KirbySymbol from '../../seriesIcons/KirbySymbol.svg';
+import kirbySeries from '../../series/kirbySeries/kirbySeries';
 import KingDededeHeadSSBU from './KingDededeHeadSSBU.png';
 import KingDededeSSBU from './King_Dedede_SSBU.png';
 
 const kingDedede = {
-  name: 'KingDedede',
-  series: {
-    icon: KirbySymbol,
-    name: 'KingDedede',
-  },
+  name: 'King Dedede',
+  series: kirbySeries,
   icon: KingDededeHeadSSBU,
   stats: {
     official: {

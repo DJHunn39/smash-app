@@ -1,13 +1,10 @@
-import FireEmblemSymbol from '../../seriesIcons/FireEmblemSymbol.svg';
+import fireEmblemSeries from '../../series/fireEmblemSeries/fireEmblemSeries';
 import IkeHeadSSBU from './IkeHeadSSBU.png';
 import IkeSSBU from './Ike_SSBU.png';
 
 const ike = {
   name: 'Ike',
-  series: {
-    icon: FireEmblemSymbol,
-    name: 'Ike',
-  },
+  series: fireEmblemSeries,
   icon: IkeHeadSSBU,
   stats: {
     official: {

@@ -1,6 +1,8 @@
 import WarioSymbol from './WarioSymbol.svg';
 
-export const warioSeries = {
+const warioSeries = {
   icon: WarioSymbol,
   name: 'Wario',
 };
+
+export default warioSeries;

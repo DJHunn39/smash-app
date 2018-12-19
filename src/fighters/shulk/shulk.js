@@ -1,13 +1,10 @@
-import XenobladeSymbol from '../../seriesIcons/XenobladeSymbol.svg';
+import xenobladeSeries from '../../series/xenobladeSeries/xenobladeSeries';
 import ShulkHeadSSBU from './ShulkHeadSSBU.png';
 import ShulkSSBU from './Shulk_SSBU.png';
 
 const shulk = {
   name: 'Shulk',
-  series: {
-    icon: XenobladeSymbol,
-    name: 'Shulk',
-  },
+  series: xenobladeSeries,
   icon: ShulkHeadSSBU,
   stats: {
     official: {

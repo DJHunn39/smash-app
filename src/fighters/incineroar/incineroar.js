@@ -1,13 +1,10 @@
-import PokemonSymbol from '../../seriesIcons/PokemonSymbol.svg';
+import pokemonSeries from '../../series/pokemonSeries/pokemonSeries';
 import IncineroarHeadSSBU from './IncineroarHeadSSBU.png';
 import IncineroarSSBU from './Incineroar_SSBU.png';
 
 const incineroar = {
   name: 'Incineroar',
-  series: {
-    icon: PokemonSymbol,
-    name: 'Incineroar',
-  },
+  series: pokemonSeries,
   icon: IncineroarHeadSSBU,
   stats: {
     official: {

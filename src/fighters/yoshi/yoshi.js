@@ -1,13 +1,10 @@
-import YoshiSymbol from '../../seriesIcons/YoshiSymbol.svg';
+import yoshiSeries from '../../series/yoshiSeries/yoshiSeries';
 import YoshiHeadSSBU from './YoshiHeadSSBU.png';
 import YoshiSSBU from './Yoshi_SSBU.png';
 
 const yoshi = {
   name: 'Yoshi',
-  series: {
-    icon: YoshiSymbol,
-    name: 'Yoshi',
-  },
+  series: yoshiSeries,
   icon: YoshiHeadSSBU,
   stats: {
     official: {

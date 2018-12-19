@@ -1,13 +1,10 @@
-import FireEmblemSymbol from '../../seriesIcons/FireEmblemSymbol.svg';
+import fireEmblemSeries from '../../series/fireEmblemSeries/fireEmblemSeries';
 import ChromHeadSSBU from './ChromHeadSSBU.png';
 import ChromSSBU from './Chrom_SSBU.png';
 
 const chrom = {
   name: 'Chrom',
-  series: {
-    icon: FireEmblemSymbol,
-    name: 'Chrom',
-  },
+  series: fireEmblemSeries,
   icon: ChromHeadSSBU,
   stats: {
     official: {

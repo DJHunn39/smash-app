@@ -1,13 +1,10 @@
-import SmashBrosSymbol from '../../seriesIcons/SmashBrosSymbol.svg';
+import smashBrosSeries from '../../series/smashBrosSeries/smashBrosSeries';
 import MiiSwordFighterHeadSSBU from './MiiSwordfighterHeadSSBU.png';
 import MiiSwordFighterSSBU from './Mii_Swordfighter_SSBU.png';
 
 const miiSwordFighter = {
-  name: 'MiiSwordFighter',
-  series: {
-    icon: SmashBrosSymbol,
-    name: 'MiiSwordFighter',
-  },
+  name: 'Mii Swordfighter',
+  series: smashBrosSeries,
   icon: MiiSwordFighterHeadSSBU,
   stats: {
     official: {

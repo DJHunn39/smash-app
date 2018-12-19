@@ -1,13 +1,10 @@
-import KidIcarusSymbol from '../../seriesIcons/KidIcarusSymbol.svg';
+import kidIcarusSeries from '../../series/kidIcarusSeries/kidIcarusSeries';
 import PitHeadSSBU from './PitHeadSSBU.png';
 import PitSSBU from './Pit_SSBU.png';
 
 const pit = {
   name: 'Pit',
-  series: {
-    icon: KidIcarusSymbol,
-    name: 'Pit',
-  },
+  series: kidIcarusSeries,
   icon: PitHeadSSBU,
   stats: {
     official: {

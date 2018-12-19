@@ -1,13 +1,10 @@
-import PokemonSymbol from '../../seriesIcons/PokemonSymbol.svg';
+import pokemonSeries from '../../series/pokemonSeries/pokemonSeries';
 import SquirtleHeadSSBU from './SquirtleHeadSSBU.png';
 import SquirtleSSBU from './Squirtle_SSBU.png';
 
 const squirtle = {
   name: 'Squirtle',
-  series: {
-    icon: PokemonSymbol,
-    name: 'Squirtle',
-  },
+  series: pokemonSeries,
   icon: SquirtleHeadSSBU,
   stats: {
     official: {

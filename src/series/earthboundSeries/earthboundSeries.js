@@ -1,6 +1,8 @@
 import EarthboundSymbol from './EarthboundSymbol.svg';
 
-export const earthboundSeries = {
+const earthboundSeries = {
   icon: EarthboundSymbol,
   name: 'Mother',
 };
+
+export default earthboundSeries;

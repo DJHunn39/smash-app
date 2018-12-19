@@ -1,13 +1,10 @@
-import ZeldaSymbol from '../../seriesIcons/ZeldaSymbol.svg';
+import zeldaSeries from '../../series/zeldaSeries/zeldaSeries';
 import ToonLinkHeadSSBU from './ToonLinkHeadSSBU.png';
 import ToonLinkSSBU from './Toon_Link_SSBU.png';
 
 const toonLink = {
-  name: 'ToonLink',
-  series: {
-    icon: ZeldaSymbol,
-    name: 'ToonLink',
-  },
+  name: 'Toon Link',
+  series: zeldaSeries,
   icon: ToonLinkHeadSSBU,
   stats: {
     official: {

@@ -1,13 +1,10 @@
-import AnimalCrossingSymbol from '../../seriesIcons/AnimalCrossingSymbol.svg';
+import animalCrossingSeries from '../../series/animalCrossingSeries/animalCrossingSeries';
 import VillagerHeadSSBU from './VillagerHeadSSBU.png';
 import VillagerSSBU from './Villager_SSBU.png';
 
 const villager = {
   name: 'Villager',
-  series: {
-    icon: AnimalCrossingSymbol,
-    name: 'Villager',
-  },
+  series: animalCrossingSeries,
   icon: VillagerHeadSSBU,
   stats: {
     official: {

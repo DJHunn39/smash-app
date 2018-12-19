@@ -1,13 +1,10 @@
-import PokemonSymbol from '../../seriesIcons/PokemonSymbol.svg';
+import pokemonSeries from '../../series/pokemonSeries/pokemonSeries';
 import CharizardHeadSSBU from './CharizardHeadSSBU.png';
 import CharizardSSBU from './Charizard_SSBU.png';
 
 const charizard = {
   name: 'Charizard',
-  series: {
-    icon: PokemonSymbol,
-    name: 'Charizard',
-  },
+  series: pokemonSeries,
   icon: CharizardHeadSSBU,
   stats: {
     official: {

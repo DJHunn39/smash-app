@@ -1,13 +1,10 @@
-import MetroidSymbol from '../../seriesIcons/MetroidSymbol.svg';
+import metroidSeries from '../../series/metroidSeries/metroidSeries';
 import DarkSamusHeadSSBU from './DarkSamusHeadSSBU.png';
 import DarkSamusSSBU from './Dark_Samus_SSBU.png';
 
 const darkSamus = {
-  name: 'DarkSamus',
-  series: {
-    icon: MetroidSymbol,
-    name: 'DarkSamus',
-  },
+  name: 'Dark Samus',
+  series: metroidSeries,
   icon: DarkSamusHeadSSBU,
   stats: {
     official: {

@@ -1,13 +1,10 @@
-import MarioSymbol from '../../seriesIcons/MarioSymbol.svg';
+import marioSeries from '../../series/marioSeries/marioSeries';
 import DaisyHeadSSBU from './DaisyHeadSSBU.png';
 import DaisySSBU from './Daisy_SSBU.png';
 
 const daisy = {
   name: 'Daisy',
-  series: {
-    icon: MarioSymbol,
-    name: 'Daisy',
-  },
+  series: marioSeries,
   icon: DaisyHeadSSBU,
   stats: {
     official: {

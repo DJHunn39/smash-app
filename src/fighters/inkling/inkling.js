@@ -1,13 +1,10 @@
-import SplatoonSymbol from '../../seriesIcons/SplatoonSymbol.svg';
+import splatoonSeries from '../../series/splatoonSeries/splatoonSeries';
 import InklingHeadSSBU from './InklingHeadSSBU.png';
 import InklingSSBU from './Inkling_SSBU.png';
 
 const inkling = {
   name: 'Inkling',
-  series: {
-    icon: SplatoonSymbol,
-    name: 'Inkling',
-  },
+  series: splatoonSeries,
   icon: InklingHeadSSBU,
   stats: {
     official: {

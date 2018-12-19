@@ -1,13 +1,10 @@
-import PacManSymbol from '../../seriesIcons/PacManSymbol.svg';
+import pacmanSeries from '../../series/pacmanSeries/pacmanSeries';
 import PacManHeadSSBU from './Pac-ManHeadSSBU.png';
 import PacManSSBU from './Pac_Man_SSBU.png';
 
 const pacMan = {
-  name: 'PacMan',
-  series: {
-    icon: PacManSymbol,
-    name: 'PacMan',
-  },
+  name: 'Pac-Man',
+  series: pacmanSeries,
   icon: PacManHeadSSBU,
   stats: {
     official: {

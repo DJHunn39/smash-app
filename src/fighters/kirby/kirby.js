@@ -1,13 +1,10 @@
-import KirbySymbol from '../../seriesIcons/KirbySymbol.svg';
+import kirbySeries from '../../series/kirbySeries/kirbySeries';
 import KirbyHeadSSBU from './KirbyHeadSSBU.png';
 import KirbySSBU from './Kirby_SSBU.png';
 
 const kirby = {
   name: 'Kirby',
-  series: {
-    icon: KirbySymbol,
-    name: 'Kirby',
-  },
+  series: kirbySeries,
   icon: KirbyHeadSSBU,
   stats: {
     official: {

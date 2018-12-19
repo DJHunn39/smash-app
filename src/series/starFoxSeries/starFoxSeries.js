@@ -1,6 +1,8 @@
 import StarFoxSymbol from './StarFoxSymbol.svg';
 
-export const starFoxSeries = {
+const starFoxSeries = {
   icon: StarFoxSymbol,
   name: 'Star Fox',
 };
+
+export default starFoxSeries;

@@ -1,13 +1,10 @@
-import MarioSymbol from '../../seriesIcons/MarioSymbol.svg';
+import marioSeries from '../../series/marioSeries/marioSeries';
 import PeachHeadSSBU from './PeachHeadSSBU.png';
 import PeachSSBU from './Peach_SSBU.png';
 
 const peach = {
   name: 'Peach',
-  series: {
-    icon: MarioSymbol,
-    name: 'Peach',
-  },
+  series: marioSeries,
   icon: PeachHeadSSBU,
   stats: {
     official: {

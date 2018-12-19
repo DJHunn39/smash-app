@@ -1,6 +1,8 @@
 import IceClimbersSymbol from './IceClimbersSymbol.svg';
 
-export const iceClimbersSeries = {
+const iceClimbersSeries = {
   icon: IceClimbersSymbol,
   name: 'Ice Climbers',
 };
+
+export default iceClimbersSeries;
