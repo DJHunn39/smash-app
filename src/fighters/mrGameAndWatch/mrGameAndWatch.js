@@ -1,14 +1,14 @@
-import BayonettaSymbol from '../seriesIcons/BayonettaSymbol.svg';
-import BayonettaHeadSSBU from './BayonettaHeadSSBU.png';
-import BayonettaSSBU from './Bayonetta_SSBU.png';
+import MrGame&WatchSymbol from '../seriesIcons/MrGame&WatchSymbol.svg';
+import MrGame&WatchHeadSSBU from './MrGame&WatchHeadSSBU.png';
+import MrGame&WatchSSBU from './Mr_Game_&_Watch_SSBU.png';
 
-const bayonetta = {
-  name: 'Bayonetta',
+const mrGame&Watch = {
+  name: 'MrGame&Watch',
   series: {
-    icon: BayonettaSymbol,
-    name: 'Bayonetta',
+    icon: Game&WatchSymbol,
+    name: 'MrGame&Watch',
   },
-  icon: BayonettaHeadSSBU,
+  icon: MrGame&WatchHeadSSBU,
   stats: {
     official: {
       weight: 60,
@@ -18,14 +18,23 @@ const bayonetta = {
       dashSpeed: 80,
     },
     unofficial: {
-      fun: 0,
-      power: 0,
-      nostalgia: 0,
-      recovery: 0,
-      finalSmash: 0,
+      danny: {
+        fun: 0,
+        power: 0,
+        nostalgia: 0,
+        recovery: 0,
+        finalSmash: 0,
+      },
+      jack: {
+        fun: 0,
+        power: 0,
+        nostalgia: 0,
+        recovery: 0,
+        finalSmash: 0,
+      }
     },
   },
-  picture: BayonettaSSBU,
+  picture: MrGame&WatchSSBU,
 };
 
-export default bayonetta;
+export default mrGame&Watch;

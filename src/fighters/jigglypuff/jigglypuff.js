@@ -1,14 +1,14 @@
-import BayonettaSymbol from '../seriesIcons/BayonettaSymbol.svg';
-import BayonettaHeadSSBU from './BayonettaHeadSSBU.png';
-import BayonettaSSBU from './Bayonetta_SSBU.png';
+import JigglypuffSymbol from '../seriesIcons/JigglypuffSymbol.svg';
+import JigglypuffHeadSSBU from './JigglypuffHeadSSBU.png';
+import JigglypuffSSBU from './Jigglypuff_SSBU.png';
 
-const bayonetta = {
-  name: 'Bayonetta',
+const jigglypuff = {
+  name: 'Jigglypuff',
   series: {
-    icon: BayonettaSymbol,
-    name: 'Bayonetta',
+    icon: PokemonSymbol,
+    name: 'Jigglypuff',
   },
-  icon: BayonettaHeadSSBU,
+  icon: JigglypuffHeadSSBU,
   stats: {
     official: {
       weight: 60,
@@ -18,14 +18,23 @@ const bayonetta = {
       dashSpeed: 80,
     },
     unofficial: {
-      fun: 0,
-      power: 0,
-      nostalgia: 0,
-      recovery: 0,
-      finalSmash: 0,
+      danny: {
+        fun: 0,
+        power: 0,
+        nostalgia: 0,
+        recovery: 0,
+        finalSmash: 0,
+      },
+      jack: {
+        fun: 0,
+        power: 0,
+        nostalgia: 0,
+        recovery: 0,
+        finalSmash: 0,
+      }
     },
   },
-  picture: BayonettaSSBU,
+  picture: JigglypuffSSBU,
 };
 
-export default bayonetta;
+export default jigglypuff;

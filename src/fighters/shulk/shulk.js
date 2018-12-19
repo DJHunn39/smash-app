@@ -1,14 +1,14 @@
-import BayonettaSymbol from '../seriesIcons/BayonettaSymbol.svg';
-import BayonettaHeadSSBU from './BayonettaHeadSSBU.png';
-import BayonettaSSBU from './Bayonetta_SSBU.png';
+import ShulkSymbol from '../seriesIcons/ShulkSymbol.svg';
+import ShulkHeadSSBU from './ShulkHeadSSBU.png';
+import ShulkSSBU from './Shulk_SSBU.png';
 
-const bayonetta = {
-  name: 'Bayonetta',
+const shulk = {
+  name: 'Shulk',
   series: {
-    icon: BayonettaSymbol,
-    name: 'Bayonetta',
+    icon: XenobladeSymbol,
+    name: 'Shulk',
   },
-  icon: BayonettaHeadSSBU,
+  icon: ShulkHeadSSBU,
   stats: {
     official: {
       weight: 60,
@@ -18,14 +18,23 @@ const bayonetta = {
       dashSpeed: 80,
     },
     unofficial: {
-      fun: 0,
-      power: 0,
-      nostalgia: 0,
-      recovery: 0,
-      finalSmash: 0,
+      danny: {
+        fun: 0,
+        power: 0,
+        nostalgia: 0,
+        recovery: 0,
+        finalSmash: 0,
+      },
+      jack: {
+        fun: 0,
+        power: 0,
+        nostalgia: 0,
+        recovery: 0,
+        finalSmash: 0,
+      }
     },
   },
-  picture: BayonettaSSBU,
+  picture: ShulkSSBU,
 };
 
-export default bayonetta;
+export default shulk;

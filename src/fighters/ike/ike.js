@@ -1,14 +1,14 @@
-import BayonettaSymbol from '../seriesIcons/BayonettaSymbol.svg';
-import BayonettaHeadSSBU from './BayonettaHeadSSBU.png';
-import BayonettaSSBU from './Bayonetta_SSBU.png';
+import IkeSymbol from '../seriesIcons/IkeSymbol.svg';
+import IkeHeadSSBU from './IkeHeadSSBU.png';
+import IkeSSBU from './Ike_SSBU.png';
 
-const bayonetta = {
-  name: 'Bayonetta',
+const ike = {
+  name: 'Ike',
   series: {
-    icon: BayonettaSymbol,
-    name: 'Bayonetta',
+    icon: FireEmblemSymbol,
+    name: 'Ike',
   },
-  icon: BayonettaHeadSSBU,
+  icon: IkeHeadSSBU,
   stats: {
     official: {
       weight: 60,
@@ -18,14 +18,23 @@ const bayonetta = {
       dashSpeed: 80,
     },
     unofficial: {
-      fun: 0,
-      power: 0,
-      nostalgia: 0,
-      recovery: 0,
-      finalSmash: 0,
+      danny: {
+        fun: 0,
+        power: 0,
+        nostalgia: 0,
+        recovery: 0,
+        finalSmash: 0,
+      },
+      jack: {
+        fun: 0,
+        power: 0,
+        nostalgia: 0,
+        recovery: 0,
+        finalSmash: 0,
+      }
     },
   },
-  picture: BayonettaSSBU,
+  picture: IkeSSBU,
 };
 
-export default bayonetta;
+export default ike;

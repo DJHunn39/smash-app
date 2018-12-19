@@ -1,14 +1,14 @@
-import BayonettaSymbol from '../seriesIcons/BayonettaSymbol.svg';
-import BayonettaHeadSSBU from './BayonettaHeadSSBU.png';
-import BayonettaSSBU from './Bayonetta_SSBU.png';
+import PichuSymbol from '../seriesIcons/PichuSymbol.svg';
+import PichuHeadSSBU from './PichuHeadSSBU.png';
+import PichuSSBU from './Pichu_SSBU.png';
 
-const bayonetta = {
-  name: 'Bayonetta',
+const pichu = {
+  name: 'Pichu',
   series: {
-    icon: BayonettaSymbol,
-    name: 'Bayonetta',
+    icon: PokemonSymbol,
+    name: 'Pichu',
   },
-  icon: BayonettaHeadSSBU,
+  icon: PichuHeadSSBU,
   stats: {
     official: {
       weight: 60,
@@ -18,14 +18,23 @@ const bayonetta = {
       dashSpeed: 80,
     },
     unofficial: {
-      fun: 0,
-      power: 0,
-      nostalgia: 0,
-      recovery: 0,
-      finalSmash: 0,
+      danny: {
+        fun: 0,
+        power: 0,
+        nostalgia: 0,
+        recovery: 0,
+        finalSmash: 0,
+      },
+      jack: {
+        fun: 0,
+        power: 0,
+        nostalgia: 0,
+        recovery: 0,
+        finalSmash: 0,
+      }
     },
   },
-  picture: BayonettaSSBU,
+  picture: PichuSSBU,
 };
 
-export default bayonetta;
+export default pichu;

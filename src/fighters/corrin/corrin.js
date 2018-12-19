@@ -1,14 +1,14 @@
-import BayonettaSymbol from '../seriesIcons/BayonettaSymbol.svg';
-import BayonettaHeadSSBU from './BayonettaHeadSSBU.png';
-import BayonettaSSBU from './Bayonetta_SSBU.png';
+import CorrinSymbol from '../seriesIcons/CorrinSymbol.svg';
+import CorrinHeadSSBU from './CorrinHeadSSBU.png';
+import CorrinSSBU from './Corrin_SSBU.png';
 
-const bayonetta = {
-  name: 'Bayonetta',
+const corrin = {
+  name: 'Corrin',
   series: {
-    icon: BayonettaSymbol,
-    name: 'Bayonetta',
+    icon: FireEmblemSymbol,
+    name: 'Corrin',
   },
-  icon: BayonettaHeadSSBU,
+  icon: CorrinHeadSSBU,
   stats: {
     official: {
       weight: 60,
@@ -18,14 +18,23 @@ const bayonetta = {
       dashSpeed: 80,
     },
     unofficial: {
-      fun: 0,
-      power: 0,
-      nostalgia: 0,
-      recovery: 0,
-      finalSmash: 0,
+      danny: {
+        fun: 0,
+        power: 0,
+        nostalgia: 0,
+        recovery: 0,
+        finalSmash: 0,
+      },
+      jack: {
+        fun: 0,
+        power: 0,
+        nostalgia: 0,
+        recovery: 0,
+        finalSmash: 0,
+      }
     },
   },
-  picture: BayonettaSSBU,
+  picture: CorrinSSBU,
 };
 
-export default bayonetta;
+export default corrin;

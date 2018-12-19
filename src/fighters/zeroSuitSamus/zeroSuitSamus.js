@@ -1,31 +1,40 @@
-import BayonettaSymbol from '../seriesIcons/BayonettaSymbol.svg';
-import BayonettaHeadSSBU from './BayonettaHeadSSBU.png';
-import BayonettaSSBU from './Bayonetta_SSBU.png';
+import ZeroSuitSamusSymbol from '../seriesIcons/ZeroSuitSamusSymbol.svg';
+import ZeroSuitSamusHeadSSBU from './ZeroSuitSamusHeadSSBU.png';
+import ZeroSuitSamusSSBU from './ZeroSuitSamus_SSBU.png';
 
-const bayonetta = {
-  name: 'Bayonetta',
+const ZeroSuitSamus = {
+  name: 'ZeroSuitSamus',
   series: {
-    icon: BayonettaSymbol,
-    name: 'Bayonetta',
+    icon: MetroidSymbol,
+    name: 'ZeroSuitSamus',
   },
-  icon: BayonettaHeadSSBU,
+  icon: ZeroSuitSamusHeadSSBU,
   stats: {
     official: {
-      weight: 60,
-      airSpeed: 76,
-      fallSpeed: 84,
-      runSpeed: 46,
-      dashSpeed: 80,
+      weight: 59,
+      airSpeed: 94,
+      fallSpeed: 81,
+      runSpeed: 60,
+      dashSpeed: 100,
     },
     unofficial: {
-      fun: 0,
-      power: 0,
-      nostalgia: 0,
-      recovery: 0,
-      finalSmash: 0,
+      danny: {
+        fun: 0,
+        power: 0,
+        nostalgia: 0,
+        recovery: 0,
+        finalSmash: 0,
+      },
+      jack: {
+        fun: 0,
+        power: 0,
+        nostalgia: 0,
+        recovery: 0,
+        finalSmash: 0,
+      }
     },
   },
-  picture: BayonettaSSBU,
+  picture: ZeroSuitSamusSSBU,
 };
 
-export default bayonetta;
+export default ZeroSuitSamus;

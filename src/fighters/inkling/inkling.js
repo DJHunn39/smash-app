@@ -1,14 +1,14 @@
-import BayonettaSymbol from '../seriesIcons/BayonettaSymbol.svg';
-import BayonettaHeadSSBU from './BayonettaHeadSSBU.png';
-import BayonettaSSBU from './Bayonetta_SSBU.png';
+import InklingSymbol from '../seriesIcons/InklingSymbol.svg';
+import InklingHeadSSBU from './InklingHeadSSBU.png';
+import InklingSSBU from './Inkling_SSBU.png';
 
-const bayonetta = {
-  name: 'Bayonetta',
+const inkling = {
+  name: 'Inkling',
   series: {
-    icon: BayonettaSymbol,
-    name: 'Bayonetta',
+    icon: SplatoonSymbol,
+    name: 'Inkling',
   },
-  icon: BayonettaHeadSSBU,
+  icon: InklingHeadSSBU,
   stats: {
     official: {
       weight: 60,
@@ -18,14 +18,23 @@ const bayonetta = {
       dashSpeed: 80,
     },
     unofficial: {
-      fun: 0,
-      power: 0,
-      nostalgia: 0,
-      recovery: 0,
-      finalSmash: 0,
+      danny: {
+        fun: 0,
+        power: 0,
+        nostalgia: 0,
+        recovery: 0,
+        finalSmash: 0,
+      },
+      jack: {
+        fun: 0,
+        power: 0,
+        nostalgia: 0,
+        recovery: 0,
+        finalSmash: 0,
+      }
     },
   },
-  picture: BayonettaSSBU,
+  picture: InklingSSBU,
 };
 
-export default bayonetta;
+export default inkling;

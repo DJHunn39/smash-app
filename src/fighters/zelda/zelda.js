@@ -1,31 +1,40 @@
-import BayonettaSymbol from '../seriesIcons/BayonettaSymbol.svg';
-import BayonettaHeadSSBU from './BayonettaHeadSSBU.png';
-import BayonettaSSBU from './Bayonetta_SSBU.png';
+import ZeldaSymbol from '../seriesIcons/ZeldaSymbol.svg';
+import ZeldaHeadSSBU from './ZeldaHeadSSBU.png';
+import ZeldaSSBU from './Zelda_SSBU.png';
 
-const bayonetta = {
-  name: 'Bayonetta',
+const zelda = {
+  name: 'Zelda',
   series: {
-    icon: BayonettaSymbol,
-    name: 'Bayonetta',
+    icon: ZeldaSymbol,
+    name: 'Zelda',
   },
-  icon: BayonettaHeadSSBU,
+  icon: ZeldaHeadSSBU,
   stats: {
     official: {
-      weight: 60,
-      airSpeed: 76,
-      fallSpeed: 84,
-      runSpeed: 46,
-      dashSpeed: 80,
+      weight: 63,
+      airSpeed: 81,
+      fallSpeed: 64,
+      runSpeed: 37,
+      dashSpeed: 81,
     },
     unofficial: {
-      fun: 0,
-      power: 0,
-      nostalgia: 0,
-      recovery: 0,
-      finalSmash: 0,
+      danny: {
+        fun: 0,
+        power: 0,
+        nostalgia: 0,
+        recovery: 0,
+        finalSmash: 0,
+      },
+      jack: {
+        fun: 0,
+        power: 0,
+        nostalgia: 0,
+        recovery: 0,
+        finalSmash: 0,
+      }
     },
   },
-  picture: BayonettaSSBU,
+  picture: ZeldaSSBU,
 };
 
-export default bayonetta;
+export default zelda;

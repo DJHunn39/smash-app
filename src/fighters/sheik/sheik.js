@@ -1,14 +1,14 @@
-import BayonettaSymbol from '../seriesIcons/BayonettaSymbol.svg';
-import BayonettaHeadSSBU from './BayonettaHeadSSBU.png';
-import BayonettaSSBU from './Bayonetta_SSBU.png';
+import SheikSymbol from '../seriesIcons/SheikSymbol.svg';
+import SheikHeadSSBU from './SheikHeadSSBU.png';
+import SheikSSBU from './Sheik_SSBU.png';
 
-const bayonetta = {
-  name: 'Bayonetta',
+const sheik = {
+  name: 'Sheik',
   series: {
-    icon: BayonettaSymbol,
-    name: 'Bayonetta',
+    icon: ZeldaSymbol,
+    name: 'Sheik',
   },
-  icon: BayonettaHeadSSBU,
+  icon: SheikHeadSSBU,
   stats: {
     official: {
       weight: 60,
@@ -18,14 +18,23 @@ const bayonetta = {
       dashSpeed: 80,
     },
     unofficial: {
-      fun: 0,
-      power: 0,
-      nostalgia: 0,
-      recovery: 0,
-      finalSmash: 0,
+      danny: {
+        fun: 0,
+        power: 0,
+        nostalgia: 0,
+        recovery: 0,
+        finalSmash: 0,
+      },
+      jack: {
+        fun: 0,
+        power: 0,
+        nostalgia: 0,
+        recovery: 0,
+        finalSmash: 0,
+      }
     },
   },
-  picture: BayonettaSSBU,
+  picture: SheikSSBU,
 };
 
-export default bayonetta;
+export default sheik;

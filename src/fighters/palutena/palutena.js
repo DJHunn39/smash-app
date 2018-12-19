@@ -1,14 +1,14 @@
-import BayonettaSymbol from '../seriesIcons/BayonettaSymbol.svg';
-import BayonettaHeadSSBU from './BayonettaHeadSSBU.png';
-import BayonettaSSBU from './Bayonetta_SSBU.png';
+import PalutenaSymbol from '../seriesIcons/PalutenaSymbol.svg';
+import PalutenaHeadSSBU from './PalutenaHeadSSBU.png';
+import PalutenaSSBU from './Palutena_SSBU.png';
 
-const bayonetta = {
-  name: 'Bayonetta',
+const palutena = {
+  name: 'Palutena',
   series: {
-    icon: BayonettaSymbol,
-    name: 'Bayonetta',
+    icon: KidIcarusSymbol,
+    name: 'Palutena',
   },
-  icon: BayonettaHeadSSBU,
+  icon: PalutenaHeadSSBU,
   stats: {
     official: {
       weight: 60,
@@ -18,14 +18,23 @@ const bayonetta = {
       dashSpeed: 80,
     },
     unofficial: {
-      fun: 0,
-      power: 0,
-      nostalgia: 0,
-      recovery: 0,
-      finalSmash: 0,
+      danny: {
+        fun: 0,
+        power: 0,
+        nostalgia: 0,
+        recovery: 0,
+        finalSmash: 0,
+      },
+      jack: {
+        fun: 0,
+        power: 0,
+        nostalgia: 0,
+        recovery: 0,
+        finalSmash: 0,
+      }
     },
   },
-  picture: BayonettaSSBU,
+  picture: PalutenaSSBU,
 };
 
-export default bayonetta;
+export default palutena;

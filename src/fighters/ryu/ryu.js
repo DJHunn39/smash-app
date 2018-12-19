@@ -1,14 +1,14 @@
-import BayonettaSymbol from '../seriesIcons/BayonettaSymbol.svg';
-import BayonettaHeadSSBU from './BayonettaHeadSSBU.png';
-import BayonettaSSBU from './Bayonetta_SSBU.png';
+import RyuSymbol from '../seriesIcons/RyuSymbol.svg';
+import RyuHeadSSBU from './RyuHeadSSBU.png';
+import RyuSSBU from './Ryu_SSBU.png';
 
-const bayonetta = {
-  name: 'Bayonetta',
+const ryu = {
+  name: 'Ryu',
   series: {
-    icon: BayonettaSymbol,
-    name: 'Bayonetta',
+    icon: StreetFighterSymbol,
+    name: 'Ryu',
   },
-  icon: BayonettaHeadSSBU,
+  icon: RyuHeadSSBU,
   stats: {
     official: {
       weight: 60,
@@ -18,14 +18,23 @@ const bayonetta = {
       dashSpeed: 80,
     },
     unofficial: {
-      fun: 0,
-      power: 0,
-      nostalgia: 0,
-      recovery: 0,
-      finalSmash: 0,
+      danny: {
+        fun: 0,
+        power: 0,
+        nostalgia: 0,
+        recovery: 0,
+        finalSmash: 0,
+      },
+      jack: {
+        fun: 0,
+        power: 0,
+        nostalgia: 0,
+        recovery: 0,
+        finalSmash: 0,
+      }
     },
   },
-  picture: BayonettaSSBU,
+  picture: RyuSSBU,
 };
 
-export default bayonetta;
+export default ryu;

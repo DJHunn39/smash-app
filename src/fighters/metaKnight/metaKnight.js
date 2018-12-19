@@ -1,14 +1,14 @@
-import BayonettaSymbol from '../seriesIcons/BayonettaSymbol.svg';
-import BayonettaHeadSSBU from './BayonettaHeadSSBU.png';
-import BayonettaSSBU from './Bayonetta_SSBU.png';
+import MetaKnightSymbol from '../seriesIcons/MetaKnightSymbol.svg';
+import MetaKnightHeadSSBU from './MetaKnightHeadSSBU.png';
+import MetaKnightSSBU from './Meta_Knight_SSBU.png';
 
-const bayonetta = {
-  name: 'Bayonetta',
+const metaKnight = {
+  name: 'MetaKnight',
   series: {
-    icon: BayonettaSymbol,
-    name: 'Bayonetta',
+    icon: KirbySymbol,
+    name: 'MetaKnight',
   },
-  icon: BayonettaHeadSSBU,
+  icon: MetaKnightHeadSSBU,
   stats: {
     official: {
       weight: 60,
@@ -18,14 +18,23 @@ const bayonetta = {
       dashSpeed: 80,
     },
     unofficial: {
-      fun: 0,
-      power: 0,
-      nostalgia: 0,
-      recovery: 0,
-      finalSmash: 0,
+      danny: {
+        fun: 0,
+        power: 0,
+        nostalgia: 0,
+        recovery: 0,
+        finalSmash: 0,
+      },
+      jack: {
+        fun: 0,
+        power: 0,
+        nostalgia: 0,
+        recovery: 0,
+        finalSmash: 0,
+      }
     },
   },
-  picture: BayonettaSSBU,
+  picture: MetaKnightSSBU,
 };
 
-export default bayonetta;
+export default metaKnight;

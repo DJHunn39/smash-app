@@ -1,14 +1,14 @@
-import BayonettaSymbol from '../seriesIcons/BayonettaSymbol.svg';
-import BayonettaHeadSSBU from './BayonettaHeadSSBU.png';
-import BayonettaSSBU from './Bayonetta_SSBU.png';
+import PacManSymbol from '../seriesIcons/PacManSymbol.svg';
+import PacManHeadSSBU from './Pac-ManHeadSSBU.png';
+import PacManSSBU from './Pac_Man_SSBU.png';
 
-const bayonetta = {
-  name: 'Bayonetta',
+const pacMan = {
+  name: 'PacMan',
   series: {
-    icon: BayonettaSymbol,
-    name: 'Bayonetta',
+    icon: PacManSymbol,
+    name: 'PacMan',
   },
-  icon: BayonettaHeadSSBU,
+  icon: PacManHeadSSBU,
   stats: {
     official: {
       weight: 60,
@@ -18,14 +18,23 @@ const bayonetta = {
       dashSpeed: 80,
     },
     unofficial: {
-      fun: 0,
-      power: 0,
-      nostalgia: 0,
-      recovery: 0,
-      finalSmash: 0,
+      danny: {
+        fun: 0,
+        power: 0,
+        nostalgia: 0,
+        recovery: 0,
+        finalSmash: 0,
+      },
+      jack: {
+        fun: 0,
+        power: 0,
+        nostalgia: 0,
+        recovery: 0,
+        finalSmash: 0,
+      }
     },
   },
-  picture: BayonettaSSBU,
+  picture: PacManSSBU,
 };
 
-export default bayonetta;
+export default pacMan;

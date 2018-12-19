@@ -1,14 +1,14 @@
-import BayonettaSymbol from '../seriesIcons/BayonettaSymbol.svg';
-import BayonettaHeadSSBU from './BayonettaHeadSSBU.png';
-import BayonettaSSBU from './Bayonetta_SSBU.png';
+import RobinSymbol from '../seriesIcons/RobinSymbol.svg';
+import RobinHeadSSBU from './RobinHeadSSBU.png';
+import RobinSSBU from './Robin_SSBU.png';
 
-const bayonetta = {
-  name: 'Bayonetta',
+const robin = {
+  name: 'Robin',
   series: {
-    icon: BayonettaSymbol,
-    name: 'Bayonetta',
+    icon: FireEmblemSymbol,
+    name: 'Robin',
   },
-  icon: BayonettaHeadSSBU,
+  icon: RobinHeadSSBU,
   stats: {
     official: {
       weight: 60,
@@ -18,14 +18,23 @@ const bayonetta = {
       dashSpeed: 80,
     },
     unofficial: {
-      fun: 0,
-      power: 0,
-      nostalgia: 0,
-      recovery: 0,
-      finalSmash: 0,
+      danny: {
+        fun: 0,
+        power: 0,
+        nostalgia: 0,
+        recovery: 0,
+        finalSmash: 0,
+      },
+      jack: {
+        fun: 0,
+        power: 0,
+        nostalgia: 0,
+        recovery: 0,
+        finalSmash: 0,
+      }
     },
   },
-  picture: BayonettaSSBU,
+  picture: RobinSSBU,
 };
 
-export default bayonetta;
+export default robin;

@@ -1,14 +1,14 @@
-import BayonettaSymbol from '../seriesIcons/BayonettaSymbol.svg';
-import BayonettaHeadSSBU from './BayonettaHeadSSBU.png';
-import BayonettaSSBU from './Bayonetta_SSBU.png';
+import RoySymbol from '../seriesIcons/RoySymbol.svg';
+import RoyHeadSSBU from './RoyHeadSSBU.png';
+import RoySSBU from './Roy_SSBU.png';
 
-const bayonetta = {
-  name: 'Bayonetta',
+const roy = {
+  name: 'Roy',
   series: {
-    icon: BayonettaSymbol,
-    name: 'Bayonetta',
+    icon: FireEmblemSymbol,
+    name: 'Roy',
   },
-  icon: BayonettaHeadSSBU,
+  icon: RoyHeadSSBU,
   stats: {
     official: {
       weight: 60,
@@ -18,14 +18,23 @@ const bayonetta = {
       dashSpeed: 80,
     },
     unofficial: {
-      fun: 0,
-      power: 0,
-      nostalgia: 0,
-      recovery: 0,
-      finalSmash: 0,
+      danny: {
+        fun: 0,
+        power: 0,
+        nostalgia: 0,
+        recovery: 0,
+        finalSmash: 0,
+      },
+      jack: {
+        fun: 0,
+        power: 0,
+        nostalgia: 0,
+        recovery: 0,
+        finalSmash: 0,
+      }
     },
   },
-  picture: BayonettaSSBU,
+  picture: RoySSBU,
 };
 
-export default bayonetta;
+export default roy;
