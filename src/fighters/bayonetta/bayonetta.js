@@ -1,13 +1,10 @@
-import BayonettaSymbol from '../../seriesIcons/BayonettaSymbol.svg';
+import bayonettaSeries from '../../series/bayonettaSeries/bayonettaSeries';
 import BayonettaHeadSSBU from './BayonettaHeadSSBU.png';
 import BayonettaSSBU from './Bayonetta_SSBU.png';
 
 const bayonetta = {
   name: 'Bayonetta',
-  series: {
-    icon: BayonettaSymbol,
-    name: 'Bayonetta',
-  },
+  series: bayonettaSeries,
   icon: BayonettaHeadSSBU,
   stats: {
     official: {

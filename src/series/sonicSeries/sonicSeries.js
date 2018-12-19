@@ -1,6 +1,6 @@
-import AnimalCrossingSymbol from './AnimalCrossingSymbol.svg';
+import SonicSymbol from './SonicSymbol.svg';
 
-export const animalCrossingSeries = {
-  icon: AnimalCrossingSymbol,
-  name: 'Animal Crossing',
+export const sonicSeries = {
+  icon: SonicSymbol,
+  name: 'Sonic The Hedgehog',
 };

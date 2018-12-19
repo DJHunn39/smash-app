@@ -1,6 +1,6 @@
-import AnimalCrossingSymbol from './AnimalCrossingSymbol.svg';
+import MarioSymbol from './MarioSymbol.svg';
 
-export const animalCrossingSeries = {
-  icon: AnimalCrossingSymbol,
-  name: 'Animal Crossing',
+export const marioSeries = {
+  icon: MarioSymbol,
+  name: 'Mario',
 };

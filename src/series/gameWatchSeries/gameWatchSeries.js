@@ -1,6 +1,6 @@
-import AnimalCrossingSymbol from './AnimalCrossingSymbol.svg';
+import GameWatchSymbol from './GameWatchSymbol.svg';
 
-export const animalCrossingSeries = {
-  icon: AnimalCrossingSymbol,
-  name: 'Animal Crossing',
+export const gameWatchSeries = {
+  icon: GameWatchSymbol,
+  name: 'Mr Game & Watch',
 };

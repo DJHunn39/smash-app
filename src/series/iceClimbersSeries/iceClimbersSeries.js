@@ -1,6 +1,6 @@
-import AnimalCrossingSymbol from './AnimalCrossingSymbol.svg';
+import IceClimbersSymbol from './IceClimbersSymbol.svg';
 
-export const animalCrossingSeries = {
-  icon: AnimalCrossingSymbol,
-  name: 'Animal Crossing',
+export const iceClimbersSeries = {
+  icon: IceClimbersSymbol,
+  name: 'Ice Climbers',
 };

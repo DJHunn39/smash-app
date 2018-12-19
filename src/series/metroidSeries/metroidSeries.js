@@ -1,6 +1,6 @@
-import AnimalCrossingSymbol from './AnimalCrossingSymbol.svg';
+import MetroidSymbol from './MetroidSymbol.svg';
 
-export const animalCrossingSeries = {
-  icon: AnimalCrossingSymbol,
-  name: 'Animal Crossing',
+export const metroidSeries = {
+  icon: MetroidSymbol,
+  name: 'Metroid',
 };

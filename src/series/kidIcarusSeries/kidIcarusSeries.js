@@ -1,6 +1,6 @@
-import AnimalCrossingSymbol from './AnimalCrossingSymbol.svg';
+import KidIcarusSymbol from './KidIcarusSymbol.svg';
 
-export const animalCrossingSeries = {
-  icon: AnimalCrossingSymbol,
-  name: 'Animal Crossing',
+export const kidIcarusSeries = {
+  icon: KidIcarusSymbol,
+  name: 'Kid Icarus',
 };

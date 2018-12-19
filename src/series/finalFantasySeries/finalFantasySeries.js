@@ -1,6 +1,6 @@
-import AnimalCrossingSymbol from './AnimalCrossingSymbol.svg';
+import FinalFantasySymbol from './FinalFantasySymbol.svg';
 
-export const animalCrossingSeries = {
-  icon: AnimalCrossingSymbol,
-  name: 'Animal Crossing',
+export const finalFantasySeries = {
+  icon: FinalFantasySymbol,
+  name: 'Final Fantasy',
 };

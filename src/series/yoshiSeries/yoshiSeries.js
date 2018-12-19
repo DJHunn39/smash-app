@@ -1,6 +1,6 @@
-import AnimalCrossingSymbol from './AnimalCrossingSymbol.svg';
+import YoshiSymbol from './YoshiSymbol.svg';
 
-export const animalCrossingSeries = {
-  icon: AnimalCrossingSymbol,
-  name: 'Animal Crossing',
+export const yoshiSeries = {
+  icon: YoshiSymbol,
+  name: 'Yoshi',
 };

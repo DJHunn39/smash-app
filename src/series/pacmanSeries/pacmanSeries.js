@@ -1,6 +1,6 @@
-import AnimalCrossingSymbol from './AnimalCrossingSymbol.svg';
+import PacManSymbol from './PacManSymbol.svg';
 
-export const animalCrossingSeries = {
-  icon: AnimalCrossingSymbol,
-  name: 'Animal Crossing',
+export const pacmanSeries = {
+  icon: PacManSymbol,
+  name: 'Pac-Man',
 };

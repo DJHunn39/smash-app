@@ -1,6 +1,6 @@
-import AnimalCrossingSymbol from './AnimalCrossingSymbol.svg';
+import KirbySymbol from './KirbySymbol.svg';
 
-export const animalCrossingSeries = {
-  icon: AnimalCrossingSymbol,
-  name: 'Animal Crossing',
+export const kirbySeries = {
+  icon: KirbySymbol,
+  name: 'Kirby',
 };

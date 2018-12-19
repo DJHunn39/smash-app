@@ -1,6 +1,6 @@
-import AnimalCrossingSymbol from './AnimalCrossingSymbol.svg';
+import CastlevaniaSymbol from './CastlevaniaSymbol.svg';
 
-export const animalCrossingSeries = {
-  icon: AnimalCrossingSymbol,
-  name: 'Animal Crossing',
+export const CastlevaniaSeries = {
+  icon: CastlevaniaSymbol,
+  name: 'Castlevania',
 };

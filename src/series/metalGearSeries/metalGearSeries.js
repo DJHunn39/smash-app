@@ -1,6 +1,6 @@
-import AnimalCrossingSymbol from './AnimalCrossingSymbol.svg';
+import MetalGearSymbol from './MetalGearSymbol.svg';
 
-export const animalCrossingSeries = {
-  icon: AnimalCrossingSymbol,
-  name: 'Animal Crossing',
+export const metalGearSeries = {
+  icon: MetalGearSymbol,
+  name: 'Metal Gear',
 };

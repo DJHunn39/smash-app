@@ -1,6 +1,6 @@
-import AnimalCrossingSymbol from './AnimalCrossingSymbol.svg';
+import DuckHuntSymbol from './DuckHuntSymbol.svg';
 
-export const animalCrossingSeries = {
-  icon: AnimalCrossingSymbol,
-  name: 'Animal Crossing',
+export const duckHuntSeries = {
+  icon: DuckHuntSymbol,
+  name: 'Duck Hunt',
 };

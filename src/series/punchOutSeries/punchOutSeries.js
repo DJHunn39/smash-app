@@ -1,6 +1,6 @@
-import AnimalCrossingSymbol from './AnimalCrossingSymbol.svg';
+import PunchOutSymbol from './PunchOutSymbol.svg';
 
-export const animalCrossingSeries = {
-  icon: AnimalCrossingSymbol,
-  name: 'Animal Crossing',
+export const punchOutSeries = {
+  icon: PunchOutSymbol,
+  name: 'Punch-Out!!',
 };

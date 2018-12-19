@@ -1,6 +1,6 @@
-import AnimalCrossingSymbol from './AnimalCrossingSymbol.svg';
+import XenobladeSymbol from './XenobladeSymbol.svg';
 
-export const animalCrossingSeries = {
-  icon: AnimalCrossingSymbol,
-  name: 'Animal Crossing',
+export const xenobladeSeries = {
+  icon: XenobladeSymbol,
+  name: 'Xenoblade Chronicles',
 };

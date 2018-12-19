@@ -1,6 +1,6 @@
-import AnimalCrossingSymbol from './AnimalCrossingSymbol.svg';
+import WiiFitSymbol from './WiiFitSymbol.svg';
 
-export const animalCrossingSeries = {
-  icon: AnimalCrossingSymbol,
-  name: 'Animal Crossing',
+export const wiiFitSeries = {
+  icon: WiiFitSymbol,
+  name: 'Wii Fit',
 };

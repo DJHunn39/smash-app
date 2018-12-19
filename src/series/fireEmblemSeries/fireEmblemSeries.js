@@ -1,6 +1,6 @@
-import AnimalCrossingSymbol from './AnimalCrossingSymbol.svg';
+import FireEmblemSymbol from './AnimalCrossingSymbol.svg';
 
-export const animalCrossingSeries = {
-  icon: AnimalCrossingSymbol,
-  name: 'Animal Crossing',
+export const fireEmblemSeries = {
+  icon: FireEmblemSymbol,
+  name: 'Fire Emblem',
 };

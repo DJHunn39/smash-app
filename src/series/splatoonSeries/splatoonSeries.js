@@ -1,6 +1,6 @@
-import AnimalCrossingSymbol from './AnimalCrossingSymbol.svg';
+import SplatoonSymbol from './SplatoonSymbol.svg';
 
-export const animalCrossingSeries = {
-  icon: AnimalCrossingSymbol,
-  name: 'Animal Crossing',
+export const splatoonSeries = {
+  icon: SplatoonSymbol,
+  name: 'Splatoon',
 };

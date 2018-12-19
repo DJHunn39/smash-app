@@ -1,6 +1,6 @@
-import AnimalCrossingSymbol from './AnimalCrossingSymbol.svg';
+import EarthboundSymbol from './EarthboundSymbol.svg';
 
-export const animalCrossingSeries = {
-  icon: AnimalCrossingSymbol,
-  name: 'Animal Crossing',
+export const earthboundSeries = {
+  icon: EarthboundSymbol,
+  name: 'Mother',
 };

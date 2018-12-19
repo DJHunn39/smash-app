@@ -1,6 +1,6 @@
-import AnimalCrossingSymbol from './AnimalCrossingSymbol.svg';
+import FZeroSymbol from './FZeroSymbol.svg';
 
-export const animalCrossingSeries = {
-  icon: AnimalCrossingSymbol,
-  name: 'Animal Crossing',
+export const fZeroSeries = {
+  icon: FZeroSymbol,
+  name: 'F-Zero',
 };

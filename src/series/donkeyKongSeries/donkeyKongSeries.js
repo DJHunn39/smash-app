@@ -1,6 +1,6 @@
-import AnimalCrossingSymbol from './AnimalCrossingSymbol.svg';
+import DKSymbol from './DKSymbol.svg';
 
-export const animalCrossingSeries = {
-  icon: AnimalCrossingSymbol,
-  name: 'Animal Crossing',
+export const donkeyKongSeries = {
+  icon: DKSymbol,
+  name: 'Donkey Kong',
 };
