@@ -1,4 +1,4 @@
-import MiiBrawlerSymbol from '../seriesIcons/MiiBrawlerSymbol.svg';
+import MiiBrawlerSymbol from '../../seriesIcons/MiiBrawlerSymbol.svg';
 import MiiBrawlerHeadSSBU from './MiiBrawlerHeadSSBU.png';
 import MiiBrawlerSSBU from './Mii_Brawler_SSBU.png';
 

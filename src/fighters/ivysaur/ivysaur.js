@@ -1,4 +1,4 @@
-import IvysaurSymbol from '../seriesIcons/IvysaurSymbol.svg';
+import IvysaurSymbol from '../../seriesIcons/IvysaurSymbol.svg';
 import IvysaurHeadSSBU from './IvysaurHeadSSBU.png';
 import IvysaurSSBU from './Ivysaur_SSBU.png';
 

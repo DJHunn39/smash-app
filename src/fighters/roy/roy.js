@@ -1,4 +1,4 @@
-import RoySymbol from '../seriesIcons/RoySymbol.svg';
+import RoySymbol from '../../seriesIcons/RoySymbol.svg';
 import RoyHeadSSBU from './RoyHeadSSBU.png';
 import RoySSBU from './Roy_SSBU.png';
 

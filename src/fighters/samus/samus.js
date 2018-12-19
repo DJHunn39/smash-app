@@ -1,4 +1,4 @@
-import SamusSymbol from '../seriesIcons/SamusSymbol.svg';
+import SamusSymbol from '../../seriesIcons/SamusSymbol.svg';
 import SamusHeadSSBU from './SamusHeadSSBU.png';
 import SamusSSBU from './Samus_SSBU.png';
 

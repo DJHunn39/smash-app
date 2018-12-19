@@ -1,4 +1,4 @@
-import BowserJrSymbol from '../seriesIcons/BowserJrSymbol.svg';
+import MarioSymbol from '../../seriesIcons/MarioSymbol.svg';
 import BowserJrHeadSSBU from './BowserJrHeadSSBU.png';
 import BowserJrSSBU from './Bowser_Jr_SSBU.png';
 

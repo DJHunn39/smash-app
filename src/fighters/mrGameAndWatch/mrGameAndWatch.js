@@ -1,4 +1,4 @@
-import MrGame&WatchSymbol from '../seriesIcons/MrGame&WatchSymbol.svg';
+import MrGame&WatchSymbol from '../../seriesIcons/MrGame&WatchSymbol.svg';
 import MrGame&WatchHeadSSBU from './MrGame&WatchHeadSSBU.png';
 import MrGame&WatchSSBU from './Mr_Game_&_Watch_SSBU.png';
 

@@ -1,4 +1,4 @@
-import MiiSwordFighterSymbol from '../seriesIcons/MiiSwordFighterSymbol.svg';
+import MiiSwordFighterSymbol from '../../seriesIcons/MiiSwordFighterSymbol.svg';
 import MiiSwordFighterHeadSSBU from './MiiSwordFighterHeadSSBU.png';
 import MiiSwordFighterSSBU from './Mii_SwordFighter_SSBU.png';
 

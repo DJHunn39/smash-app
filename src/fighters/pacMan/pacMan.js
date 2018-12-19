@@ -1,4 +1,4 @@
-import PacManSymbol from '../seriesIcons/PacManSymbol.svg';
+import PacManSymbol from '../../seriesIcons/PacManSymbol.svg';
 import PacManHeadSSBU from './Pac-ManHeadSSBU.png';
 import PacManSSBU from './Pac_Man_SSBU.png';
 

@@ -1,4 +1,4 @@
-import SonicSymbol from '../seriesIcons/SonicSymbol.svg';
+import SonicSymbol from '../../seriesIcons/SonicSymbol.svg';
 import SonicHeadSSBU from './SonicHeadSSBU.png';
 import SonicSSBU from './Sonic_SSBU.png';
 

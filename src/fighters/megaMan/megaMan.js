@@ -1,4 +1,4 @@
-import MegaManSymbol from '../seriesIcons/MegaManSymbol.svg';
+import MegaManSymbol from '../../seriesIcons/MegaManSymbol.svg';
 import MegaManHeadSSBU from './MegaManHeadSSBU.png';
 import MegaManSSBU from './Mega_Man_SSBU.png';
 

@@ -1,4 +1,4 @@
-import InklingSymbol from '../seriesIcons/InklingSymbol.svg';
+import InklingSymbol from '../../seriesIcons/InklingSymbol.svg';
 import InklingHeadSSBU from './InklingHeadSSBU.png';
 import InklingSSBU from './Inkling_SSBU.png';
 

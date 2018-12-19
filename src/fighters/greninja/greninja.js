@@ -1,4 +1,4 @@
-import GreninjaSymbol from '../seriesIcons/GreninjaSymbol.svg';
+import GreninjaSymbol from '../../seriesIcons/GreninjaSymbol.svg';
 import GreninjaHeadSSBU from './GreninjaHeadSSBU.png';
 import GreninjaSSBU from './Greninja_SSBU.png';
 

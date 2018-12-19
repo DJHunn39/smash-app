@@ -1,4 +1,4 @@
-import ChromSymbol from '../seriesIcons/ChromSymbol.svg';
+import ChromSymbol from '../../seriesIcons/ChromSymbol.svg';
 import ChromHeadSSBU from './ChromHeadSSBU.png';
 import ChromSSBU from './Chrom_SSBU.png';
 

@@ -1,4 +1,4 @@
-import KenSymbol from '../seriesIcons/KenSymbol.svg';
+import KenSymbol from '../../seriesIcons/KenSymbol.svg';
 import KenHeadSSBU from './KenHeadSSBU.png';
 import KenSSBU from './Ken_SSBU.png';
 

@@ -1,4 +1,4 @@
-import Rosalina&LumaSymbol from '../seriesIcons/Rosalina&LumaSymbol.svg';
+import Rosalina&LumaSymbol from '../../seriesIcons/Rosalina&LumaSymbol.svg';
 import Rosalina&LumaHeadSSBU from './Rosalina&LumaHeadSSBU.png';
 import Rosalina&LumaSSBU from './Rosalina_&_Luma_SSBU.png';
 

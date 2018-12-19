@@ -1,4 +1,4 @@
-import LucasSymbol from '../seriesIcons/LucasSymbol.svg';
+import LucasSymbol from '../../seriesIcons/LucasSymbol.svg';
 import LucasHeadSSBU from './LucasHeadSSBU.png';
 import LucasSSBU from './Lucas_SSBU.png';
 

@@ -1,4 +1,4 @@
-import WiiFitTrainerSymbol from '../seriesIcons/WiiFitTrainerSymbol.svg';
+import WiiFitTrainerSymbol from '../../seriesIcons/WiiFitTrainerSymbol.svg';
 import WiiFitTrainerHeadSSBU from './WiiFitTrainerHeadSSBU.png';
 import WiiFitTrainerSSBU from './Wii_Fit_Trainer_SSBU.png';
 

@@ -1,4 +1,4 @@
-import CaptainFalconSymbol from '../seriesIcons/CaptainFalconSymbol.svg';
+import FZeroSymbol from '../../seriesIcons/FZeroSymbol.svg';
 import CaptainFalconHeadSSBU from './CaptainFalconHeadSSBU.png';
 import CaptainFalconSSBU from './Captain_Falcon_SSBU.png';
 

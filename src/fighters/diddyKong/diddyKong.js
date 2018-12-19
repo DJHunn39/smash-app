@@ -1,4 +1,4 @@
-import DiddyKongSymbol from '../seriesIcons/DiddyKongSymbol.svg';
+import DiddyKongSymbol from '../../seriesIcons/DiddyKongSymbol.svg';
 import DiddyKongHeadSSBU from './DiddyKongHeadSSBU.png';
 import DiddyKongSSBU from './Diddy_Kong_SSBU.png';
 

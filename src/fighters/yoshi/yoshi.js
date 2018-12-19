@@ -1,4 +1,4 @@
-import YoshiSymbol from '../seriesIcons/YoshiSymbol.svg';
+import YoshiSymbol from '../../seriesIcons/YoshiSymbol.svg';
 import YoshiHeadSSBU from './YoshiHeadSSBU.png';
 import YoshiSSBU from './Yoshi_SSBU.png';
 

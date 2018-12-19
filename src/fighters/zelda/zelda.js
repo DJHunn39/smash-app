@@ -1,4 +1,4 @@
-import ZeldaSymbol from '../seriesIcons/ZeldaSymbol.svg';
+import ZeldaSymbol from '../../seriesIcons/ZeldaSymbol.svg';
 import ZeldaHeadSSBU from './ZeldaHeadSSBU.png';
 import ZeldaSSBU from './Zelda_SSBU.png';
 

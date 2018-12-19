@@ -1,4 +1,4 @@
-import BayonettaSymbol from '../seriesIcons/BayonettaSymbol.svg';
+import BayonettaSymbol from '../../seriesIcons/BayonettaSymbol.svg';
 import BayonettaHeadSSBU from './BayonettaHeadSSBU.png';
 import BayonettaSSBU from './Bayonetta_SSBU.png';
 

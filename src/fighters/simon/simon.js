@@ -1,4 +1,4 @@
-import SimonSymbol from '../seriesIcons/SimonSymbol.svg';
+import SimonSymbol from '../../seriesIcons/SimonSymbol.svg';
 import SimonHeadSSBU from './SimonHeadSSBU.png';
 import SimonSSBU from './Simon_SSBU.png';
 

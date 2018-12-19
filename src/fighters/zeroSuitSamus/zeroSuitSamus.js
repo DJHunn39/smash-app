@@ -1,4 +1,4 @@
-import ZeroSuitSamusSymbol from '../seriesIcons/ZeroSuitSamusSymbol.svg';
+import ZeroSuitSamusSymbol from '../../seriesIcons/ZeroSuitSamusSymbol.svg';
 import ZeroSuitSamusHeadSSBU from './ZeroSuitSamusHeadSSBU.png';
 import ZeroSuitSamusSSBU from './ZeroSuitSamus_SSBU.png';
 

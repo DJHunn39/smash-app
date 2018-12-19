@@ -1,4 +1,4 @@
-import MewtwoSymbol from '../seriesIcons/MewtwoSymbol.svg';
+import MewtwoSymbol from '../../seriesIcons/MewtwoSymbol.svg';
 import MewtwoHeadSSBU from './MewtwoHeadSSBU.png';
 import MewtwoSSBU from './Mewtwo_SSBU.png';
 

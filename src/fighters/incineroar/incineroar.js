@@ -1,4 +1,4 @@
-import IncineroarSymbol from '../seriesIcons/IncineroarSymbol.svg';
+import IncineroarSymbol from '../../seriesIcons/IncineroarSymbol.svg';
 import IncineroarHeadSSBU from './IncineroarHeadSSBU.png';
 import IncineroarSSBU from './Incineroar_SSBU.png';
 

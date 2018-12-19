@@ -1,4 +1,4 @@
-import LucinaSymbol from '../seriesIcons/LucinaSymbol.svg';
+import LucinaSymbol from '../../seriesIcons/LucinaSymbol.svg';
 import LucinaHeadSSBU from './LucinaHeadSSBU.png';
 import LucinaSSBU from './Lucina_SSBU.png';
 

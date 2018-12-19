@@ -1,4 +1,4 @@
-import DarkSamusSymbol from '../seriesIcons/DarkSamusSymbol.svg';
+import DarkSamusSymbol from '../../seriesIcons/DarkSamusSymbol.svg';
 import DarkSamusHeadSSBU from './DarkSamusHeadSSBU.png';
 import DarkSamusSSBU from './Dark_Samus_SSBU.png';
 

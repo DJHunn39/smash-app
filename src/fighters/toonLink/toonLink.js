@@ -1,4 +1,4 @@
-import ToonLinkSymbol from '../seriesIcons/ToonLinkSymbol.svg';
+import ToonLinkSymbol from '../../seriesIcons/ToonLinkSymbol.svg';
 import ToonLinkHeadSSBU from './ToonLinkHeadSSBU.png';
 import ToonLinkSSBU from './Toon_Link_SSBU.png';
 

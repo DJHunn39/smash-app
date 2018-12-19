@@ -1,4 +1,4 @@
-import KirbySymbol from '../seriesIcons/KirbySymbol.svg';
+import KirbySymbol from '../../seriesIcons/KirbySymbol.svg';
 import KirbyHeadSSBU from './KirbyHeadSSBU.png';
 import KirbySSBU from './Kirby_SSBU.png';
 

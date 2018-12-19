@@ -1,4 +1,4 @@
-import PeachSymbol from '../seriesIcons/PeachSymbol.svg';
+import PeachSymbol from '../../seriesIcons/PeachSymbol.svg';
 import PeachHeadSSBU from './PeachHeadSSBU.png';
 import PeachSSBU from './Peach_SSBU.png';
 

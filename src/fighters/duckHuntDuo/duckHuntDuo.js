@@ -1,4 +1,4 @@
-import DuckHuntDuoSymbol from '../seriesIcons/DuckHuntDuoSymbol.svg';
+import DuckHuntDuoSymbol from '../../seriesIcons/DuckHuntDuoSymbol.svg';
 import DuckHuntDuoHeadSSBU from './DuckHuntHeadSSBU.png';
 import DuckHuntDuoSSBU from './Duck_Hunt_SSBU.png';
 

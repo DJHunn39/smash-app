@@ -1,4 +1,4 @@
-import WolfSymbol from '../seriesIcons/WolfSymbol.svg';
+import WolfSymbol from '../../seriesIcons/WolfSymbol.svg';
 import WolfHeadSSBU from './WolfHeadSSBU.png';
 import WolfSSBU from './Wolf_SSBU.png';
 

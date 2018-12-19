@@ -1,4 +1,4 @@
-import KingDededeSymbol from '../seriesIcons/KingDededeSymbol.svg';
+import KingDededeSymbol from '../../seriesIcons/KingDededeSymbol.svg';
 import KingDededeHeadSSBU from './KingDededeHeadSSBU.png';
 import KingDededeSSBU from './King_Dedede_SSBU.png';
 

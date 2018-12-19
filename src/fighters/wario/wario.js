@@ -1,4 +1,4 @@
-import WarioSymbol from '../seriesIcons/WarioSymbol.svg';
+import WarioSymbol from '../../seriesIcons/WarioSymbol.svg';
 import WarioHeadSSBU from './WarioHeadSSBU.png';
 import WarioSSBU from './Wario_SSBU.png';
 

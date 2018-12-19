@@ -1,4 +1,4 @@
-import RichterSymbol from '../seriesIcons/RichterSymbol.svg';
+import RichterSymbol from '../../seriesIcons/RichterSymbol.svg';
 import RichterHeadSSBU from './RichterHeadSSBU.png';
 import RichterSSBU from './Richter_SSBU.png';
 

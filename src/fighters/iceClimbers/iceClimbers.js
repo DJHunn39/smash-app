@@ -1,4 +1,4 @@
-import IceClimbersSymbol from '../seriesIcons/IceClimbersSymbol.svg';
+import IceClimbersSymbol from '../../seriesIcons/IceClimbersSymbol.svg';
 import IceClimbersHeadSSBU from './IceClimbersHeadSSBU.png';
 import IceClimbersSSBU from './Ice_Climbers_SSBU.png';
 

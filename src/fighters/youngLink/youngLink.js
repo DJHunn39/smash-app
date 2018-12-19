@@ -1,4 +1,4 @@
-import YoungLinkSymbol from '../seriesIcons/YoungLinkSymbol.svg';
+import YoungLinkSymbol from '../../seriesIcons/YoungLinkSymbol.svg';
 import YoungLinkHeadSSBU from './YoungLinkHeadSSBU.png';
 import YoungLinkSSBU from './Young_Link_SSBU.png';
 

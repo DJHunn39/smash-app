@@ -1,4 +1,4 @@
-import RobSymbol from '../seriesIcons/RobSymbol.svg';
+import RobSymbol from '../../seriesIcons/RobSymbol.svg';
 import RobHeadSSBU from './ROBHeadSSBU.png';
 import RobSSBU from './R_O_B_SSBU.png';
 

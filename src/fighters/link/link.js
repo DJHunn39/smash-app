@@ -1,4 +1,4 @@
-import LinkSymbol from '../seriesIcons/LinkSymbol.svg';
+import LinkSymbol from '../../seriesIcons/LinkSymbol.svg';
 import LinkHeadSSBU from './LinkHeadSSBU.png';
 import LinkSSBU from './Link_SSBU.png';
 

@@ -1,4 +1,4 @@
-import LucarioSymbol from '../seriesIcons/LucarioSymbol.svg';
+import LucarioSymbol from '../../seriesIcons/LucarioSymbol.svg';
 import LucarioHeadSSBU from './LucarioHeadSSBU.png';
 import LucarioSSBU from './Lucario_SSBU.png';
 
