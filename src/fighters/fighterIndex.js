@@ -153,4 +153,5 @@ const fighterData = [
   zelda,
   zeroSuitSamus,
 ];
+
 export default fighterData;

@@ -20,14 +20,14 @@ const lucina = {
         power: 0,
         nostalgia: 0,
         recovery: 0,
-        finalSmash: 0,
+        final: 0,
       },
       jack: {
         fun: 0,
         power: 0,
         nostalgia: 0,
         recovery: 0,
-        finalSmash: 0,
+        final: 0,
       }
     },
   },
