@@ -1,10 +1,12 @@
 import statNames from '../../constants/statNames';
 
 const setFighterRankings = fighterData => {
-  return statNames.reduce((acc, cur) => {
+  const fighterRankings = statNames.reduce((acc, cur) => {
     acc[cur] = setStatRankings(cur, fighterData)
     return acc;
   }, {});
+  console.log(fighterRankings);
+  return fighterRankings;
 };
 
 const setStatRankings = (stat, fighterData) => {
