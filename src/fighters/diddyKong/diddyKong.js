@@ -8,11 +8,11 @@ const diddyKong = {
   icon: DiddyKongHeadSSBU,
   stats: {
     official: {
-      weight: 60,
-      airSpeed: 76,
-      fallSpeed: 84,
-      runSpeed: 46,
-      dashSpeed: 80,
+      weight: 67,
+      airSpeed: 69,
+      fallSpeed: 83,
+      runSpeed: 52,
+      dashSpeed: 86,
     },
     unofficial: {
       danny: {

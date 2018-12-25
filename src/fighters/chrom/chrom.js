@@ -8,11 +8,11 @@ const chrom = {
   icon: ChromHeadSSBU,
   stats: {
     official: {
-      weight: 60,
-      airSpeed: 76,
-      fallSpeed: 84,
-      runSpeed: 46,
-      dashSpeed: 80,
+      weight: 70,
+      airSpeed: 97,
+      fallSpeed: 86,
+      runSpeed: 56,
+      dashSpeed: 91,
     },
     unofficial: {
       danny: {

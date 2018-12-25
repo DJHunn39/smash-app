@@ -5,7 +5,6 @@ const setFighterRankings = fighterData => {
     acc[cur] = setStatRankings(cur, fighterData)
     return acc;
   }, {});
-  console.log(fighterRankings);
   return fighterRankings;
 };
 

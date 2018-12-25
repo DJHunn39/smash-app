@@ -8,11 +8,11 @@ const bowser = {
   icon: BowserHeadSSBU,
   stats: {
     official: {
-      weight: 60,
-      airSpeed: 76,
+      weight: 100,
+      airSpeed: 86,
       fallSpeed: 84,
-      runSpeed: 46,
-      dashSpeed: 80,
+      runSpeed: 51,
+      dashSpeed: 93,
     },
     unofficial: {
       danny: {

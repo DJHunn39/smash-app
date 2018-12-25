@@ -8,11 +8,11 @@ const donkeyKong = {
   icon: DonkeyKongHeadSSBU,
   stats: {
     official: {
-      weight: 60,
-      airSpeed: 76,
-      fallSpeed: 84,
-      runSpeed: 46,
-      dashSpeed: 80,
+      weight: 94,
+      airSpeed: 90,
+      fallSpeed: 78,
+      runSpeed: 49,
+      dashSpeed: 86,
     },
     unofficial: {
       danny: {

@@ -8,11 +8,11 @@ const darkSamus = {
   icon: DarkSamusHeadSSBU,
   stats: {
     official: {
-      weight: 60,
-      airSpeed: 76,
-      fallSpeed: 84,
-      runSpeed: 46,
-      dashSpeed: 80,
+      weight: 80,
+      airSpeed: 82,
+      fallSpeed: 63,
+      runSpeed: 43,
+      dashSpeed: 77,
     },
     unofficial: {
       danny: {

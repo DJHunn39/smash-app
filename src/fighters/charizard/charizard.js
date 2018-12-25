@@ -8,11 +8,11 @@ const charizard = {
   icon: CharizardHeadSSBU,
   stats: {
     official: {
-      weight: 60,
-      airSpeed: 76,
-      fallSpeed: 84,
-      runSpeed: 46,
-      dashSpeed: 80,
+      weight: 86,
+      airSpeed: 82,
+      fallSpeed: 72,
+      runSpeed: 57,
+      dashSpeed: 95,
     },
     unofficial: {
       danny: {

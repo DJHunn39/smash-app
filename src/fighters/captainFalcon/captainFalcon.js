@@ -8,11 +8,11 @@ const captainFalcon = {
   icon: CaptainFalconHeadSSBU,
   stats: {
     official: {
-      weight: 60,
-      airSpeed: 76,
-      fallSpeed: 84,
-      runSpeed: 46,
-      dashSpeed: 80,
+      weight: 77,
+      airSpeed: 90,
+      fallSpeed: 89,
+      runSpeed: 66,
+      dashSpeed: 82,
     },
     unofficial: {
       danny: {

@@ -8,11 +8,11 @@ const corrin = {
   icon: CorrinHeadSSBU,
   stats: {
     official: {
-      weight: 60,
+      weight: 73,
       airSpeed: 76,
-      fallSpeed: 84,
-      runSpeed: 46,
-      dashSpeed: 80,
+      fallSpeed: 79,
+      runSpeed: 41,
+      dashSpeed: 78,
     },
     unofficial: {
       danny: {

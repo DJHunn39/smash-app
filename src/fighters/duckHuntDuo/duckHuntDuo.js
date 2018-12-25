@@ -8,11 +8,11 @@ const duckHuntDuo = {
   icon: DuckHuntDuoHeadSSBU,
   stats: {
     official: {
-      weight: 60,
-      airSpeed: 76,
-      fallSpeed: 84,
-      runSpeed: 46,
-      dashSpeed: 80,
+      weight: 64,
+      airSpeed: 86,
+      fallSpeed: 79,
+      runSpeed: 47,
+      dashSpeed: 72,
     },
     unofficial: {
       danny: {

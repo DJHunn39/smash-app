@@ -8,11 +8,11 @@ const cloud = {
   icon: CloudHeadSSBU,
   stats: {
     official: {
-      weight: 60,
-      airSpeed: 76,
-      fallSpeed: 84,
-      runSpeed: 46,
-      dashSpeed: 80,
+      weight: 74,
+      airSpeed: 86,
+      fallSpeed: 80,
+      runSpeed: 56,
+      dashSpeed: 89,
     },
     unofficial: {
       danny: {
