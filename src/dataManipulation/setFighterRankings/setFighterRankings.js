@@ -1,4 +1,5 @@
 import statNames from '../../constants/statNames';
+import getStatType from '../../helpers/getStatType';
 
 const setFighterRankings = fighterData => {
   const fighterRankings = statNames.reduce((acc, cur) => {
@@ -26,13 +27,6 @@ const setStatRankings = (stat, fighterData) => {
     return fighter.name;
   });
   return statRanking;
-};
-
-const getStatType = stat => {
-  if (stat.startsWith('danny') || stat.startsWith('jack')) {
-    return stat.startsWith('danny') ? 'danny' : 'jack';
-  }
-  return 'official';
 };
 
 export default setFighterRankings;

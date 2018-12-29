@@ -16,4 +16,12 @@ const statNames = [
   'jackFinal',
 ];
 
+export const unofficialStatNames = [
+  'fun',
+  'power',
+  'nostalgia',
+  'recovery',
+  'final'
+];
+
 export default statNames;
