@@ -29,11 +29,11 @@ class Attributtons extends Component {
     });
     return (
       <Fragment>
-        <span className='attribute-type'>Official Stats</span>
+        <span className='attribute-title'>Official Stats</span>
         <div className='attribute-flexbox'>
           {officialButtons}
         </div>
-        <span className='attribute-type'>Unofficial Stats</span>
+        <span className='attribute-title'>Unofficial Stats</span>
         <div className='attribute-flexbox'>
           {unofficialButtons}
         </div>

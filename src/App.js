@@ -3,7 +3,7 @@ import './App.css';
 import fighterData from './fighters/fighterIndex.js';
 import formatData from './dataManipulation/fighterDataFormatter';
 import attributtonClick from './clickHandlers/attributtonClick';
-import SmashApp from './components/SmashApp';
+import SmashApp from './components/smashApp/SmashApp';
 import Attributtons from './components/attributtons/Attributtons';
 
 class App extends Component {
