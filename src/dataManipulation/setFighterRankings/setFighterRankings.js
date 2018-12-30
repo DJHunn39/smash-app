@@ -24,7 +24,7 @@ const setStatRankings = (stat, fighterData) => {
     const comparison = bStat - aStat;
     return comparison !== 0 ? comparison : a.name.localeCompare(b.name);
   }).map((fighter, i) => {
-    return fighter.name;
+    return fighter;
   });
   return statRanking;
 };

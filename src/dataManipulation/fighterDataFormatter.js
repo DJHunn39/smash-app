@@ -10,7 +10,6 @@ const formatData = fighterData => {
     }
   );
   const dataAndRankings = { formattedData, rankings };
-  console.log(dataAndRankings);
   return dataAndRankings;
 }
 
