@@ -56,7 +56,6 @@ code {
   border: 3px solid #000;
   font-size: inherit;
   color: #fff;
-  background: none;
   cursor: pointer;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -94,4 +93,28 @@ code {
   grid-column-end: span 1;
   grid-row-start: auto;
   grid-row-end: span 1;
+}
+
+.ranking-item-series {
+  grid-column-start: 3;
+  grid-column-end: span 1;
+  grid-row-start: auto;
+  grid-row-end: span 1;
+}
+
+.ranking-item-selected-stat {
+  grid-column-start: 4;
+  grid-column-end: span 1;
+  grid-row-start: auto;
+  grid-row-end: span 1;
+  font-size: large;
+  font-weight: 700;
+}
+
+.table-header {
+  font-weight: 400;
+  color: #fff;
+  border: 1px solid #000;
+  background: #000;
+  justify-self: stretch;
 }
