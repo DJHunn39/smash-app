@@ -1,6 +1,6 @@
 body {
-  margin: 0;
-  padding: 0;
+  margin: '0';
+  padding: '0';
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
@@ -11,11 +11,6 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
-}
-
-.smash-app-max-width {
-  margin: 0 auto;
-  max-width: 1000px;
 }
 
 .attribute-flexbox {
@@ -111,4 +106,9 @@ tr:hover {
 .unofficial-stat-table {
   flex-basis: 50%;
   padding: 5px;
+}
+
+.ranking-item-selected-stat {
+  font-weight: 700;
+  font-size: large;
 }

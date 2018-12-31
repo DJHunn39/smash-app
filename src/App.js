@@ -10,7 +10,7 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      selectedAttribute: 'fun',
+      selectedAttribute: '',
     };
     this.handleAttributtonClick = attributtonClick;
   }
@@ -27,7 +27,7 @@ class App extends Component {
         <header className="App-header">
           SMASH APP
         </header>
-        <main className='smash-app-max-width'>
+        <main>
           <Attributtons
             selectedAttribute={selectedAttribute}
             onClick={(attribute) => this.handleAttributtonClick(attribute)}

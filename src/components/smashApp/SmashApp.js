@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 import camelCase from 'lodash.camelcase';
 import getStatType from '../../helpers/getStatType';
-import OfficialStatTable from './officialStatTable/OfficialStatTable';
+import StatTable from './statTable/StatTable';
 import UnofficialStatTables from './unofficialStatTables/UnofficialStatTables';
 
 
@@ -16,11 +16,15 @@ const getFighterTable = (selectedAttribute, rankings, fighterData) => {
   const selectedStat = mapAttributeToStat(selectedAttribute);
   const statType = getStatType(selectedStat);
   return statType === 'official' ?
-  <OfficialStatTable
-    ranking={rankings[selectedStat]}
-    selectedStat={selectedStat}
-    selectedAttribute={selectedAttribute}
-  /> :
+  <Fragment>
+    <h2>Official Rankings</h2>
+    <StatTable
+      statType={statType}
+      ranking={rankings[selectedStat]}
+      selectedStat={selectedStat}
+      selectedAttribute={selectedAttribute}
+    />
+  </Fragment> :
   <UnofficialStatTables
     dannyRanking={rankings[camelCase(`danny ${selectedStat}`)]}
     jackRanking={rankings[camelCase(`jack ${selectedStat}`)]}
@@ -29,15 +33,10 @@ const getFighterTable = (selectedAttribute, rankings, fighterData) => {
   />;
 }
 
-const getUnofficialFighterTable = (rankings) => {
-  return(
-    <div className='fighter-flexbox'>
-      Gotta finish this bit
-    </div>
-  )
-};
-
-const SmashApp = ({ fighterData, rankings, selectedAttribute }) => {
+const SmashApp = ({ fighterData, rankings, selectedAttribute = '' }) => {
+  if (selectedAttribute === '') {
+    return null;
+  }
   const fighterTable = getFighterTable(selectedAttribute, rankings, fighterData);
   return(
     <Fragment>

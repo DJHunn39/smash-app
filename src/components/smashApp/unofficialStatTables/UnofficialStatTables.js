@@ -1,11 +1,13 @@
 import React from 'react';
-import OfficialStatTable from '../officialStatTable/OfficialStatTable';
+import StatTable from '../statTable/StatTable';
 
-const UnofficialStatTables = ({dannyRanking, jackRanking, selectedStat, selectedAttribute}) =>
+const UnofficialStatTables = ({dannyRanking, jackRanking, selectedStat, selectedAttribute}) => {
+return (
   <section className='unofficial-stat-tables'>
     <div className='unofficial-stat-table danny-table'>
       <h2>Danny's Rankings</h2>
-      <OfficialStatTable
+      <StatTable
+        statType='danny'
         ranking={dannyRanking}
         selectedStat={selectedStat}
         selectedAttribute={selectedAttribute}
@@ -13,13 +15,16 @@ const UnofficialStatTables = ({dannyRanking, jackRanking, selectedStat, selected
     </div>
     <div className='unofficial-stat-table jack-table'>
       <h2>Jack's Rankings</h2>
-      <OfficialStatTable
+      <StatTable
+        statType='jack'
         ranking={jackRanking}
         selectedStat={selectedStat}
         selectedAttribute={selectedAttribute}
       />
     </div>
   </section>
+)
+}
 
 
 export default UnofficialStatTables;
