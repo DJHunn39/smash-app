@@ -1,7 +1,7 @@
 import React, { Component, Fragment } from 'react';
 
 const officialAttributes = ['Weight', 'Air Speed', 'Fall Speed', 'Run Speed', 'Dash Speed'];
-const unofficialAttributes = ['Fun', 'Power', 'Nostalgia', 'Recovery', 'Final Smash'];
+const unofficialAttributes = ['Fun', 'Nostalgia', 'Power', 'Speed', 'Recovery', 'Final Smash'];
 
 const attributeLinkMapper = (attribute, selectedAttribute, onClick) => {
   const buttonClass = selectedAttribute === attribute ? 'selected-attribute-button' : 'attribute-button';

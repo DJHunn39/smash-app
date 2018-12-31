@@ -8,11 +8,13 @@ const statNames = [
   'dannyPower',
   'dannyNostalgia',
   'dannyRecovery',
+  'dannySpeed',
   'dannyFinal',
   'jackFun',
   'jackPower',
   'jackNostalgia',
   'jackRecovery',
+  'jackSpeed',
   'jackFinal',
 ];
 
@@ -21,6 +23,7 @@ export const unofficialStatNames = [
   'power',
   'nostalgia',
   'recovery',
+  'speed',
   'final'
 ];
 
