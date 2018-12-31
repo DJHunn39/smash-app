@@ -1,7 +1,9 @@
-import getUnofficialStat from '../../helpers/getUnofficialStat';
+import getUnofficialStats from '../../helpers/getUnofficialStats';
 import kirbySeries from '../../series/kirbySeries/kirbySeries';
 import KingDededeHeadSSBU from './KingDededeHeadSSBU.png';
 import KingDededeSSBU from './King_Dedede_SSBU.png';
+
+const filename = 'kingDedede';
 
 const kingDedede = {
   name: 'King Dedede',
@@ -15,22 +17,7 @@ const kingDedede = {
       runSpeed: 39,
       dashSpeed: 75,
     },
-    unofficial: {
-      danny: {
-        fun: getUnofficialStat('danny', 'fun', 'bayonetta')
-        power: getUnofficialStat('danny', 'power', 'bayonetta')
-        nostalgia: getUnofficialStat('danny', 'nostalgia', 'bayonetta'),
-        racovery: getUnofficialStat('danny', 'recovery', 'bayonetta'),
-        final: getUnofficialStat('danny', 'final', 'bayonetta'),
-      },
-      jack: {
-        fun: getUnofficialStat('danny', 'fun', 'bayonetta')
-        power: getUnofficialStat('danny', 'power', 'bayonetta')
-        nostalgia: getUnofficialStat('danny', 'nostalgia', 'bayonetta'),
-        racovery: getUnofficialStat('danny', 'recovery', 'bayonetta'),
-        final: getUnofficialStat('danny', 'final', 'bayonetta'),
-      }
-    },
+    unofficial: getUnofficialStats(filename),
   },
   picture: KingDededeSSBU,
 };

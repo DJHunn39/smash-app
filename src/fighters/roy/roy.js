@@ -1,7 +1,9 @@
-import getUnofficialStat from '../../helpers/getUnofficialStat';
+import getUnofficialStats from '../../helpers/getUnofficialStats';
 import fireEmblemSeries from '../../series/fireEmblemSeries/fireEmblemSeries';
 import RoyHeadSSBU from './RoyHeadSSBU.png';
 import RoySSBU from './Roy_SSBU.png';
+
+const filename = 'roy';
 
 const roy = {
   name: 'Roy',
@@ -15,22 +17,7 @@ const roy = {
       runSpeed: 56,
       dashSpeed: 91,
     },
-    unofficial: {
-      danny: {
-        fun: getUnofficialStat('danny', 'fun', 'bayonetta')
-        power: getUnofficialStat('danny', 'power', 'bayonetta')
-        nostalgia: getUnofficialStat('danny', 'nostalgia', 'bayonetta'),
-        racovery: getUnofficialStat('danny', 'recovery', 'bayonetta'),
-        final: getUnofficialStat('danny', 'final', 'bayonetta'),
-      },
-      jack: {
-        fun: getUnofficialStat('danny', 'fun', 'bayonetta')
-        power: getUnofficialStat('danny', 'power', 'bayonetta')
-        nostalgia: getUnofficialStat('danny', 'nostalgia', 'bayonetta'),
-        racovery: getUnofficialStat('danny', 'recovery', 'bayonetta'),
-        final: getUnofficialStat('danny', 'final', 'bayonetta'),
-      }
-    },
+    unofficial: getUnofficialStats(filename),
   },
   picture: RoySSBU,
 };

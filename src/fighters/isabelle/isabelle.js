@@ -1,7 +1,9 @@
-import getUnofficialStat from '../../helpers/getUnofficialStat';
+import getUnofficialStats from '../../helpers/getUnofficialStats';
 import animalCrossingSeries from '../../series/animalCrossingSeries/animalCrossingSeries';
 import IsabelleHeadSSBU from './IsabelleHeadSSBU.png';
 import IsabelleSSBU from './Isabelle_SSBU.png';
+
+const filename = 'isabelle';
 
 const isabelle = {
   name: 'Isabelle',
@@ -15,22 +17,7 @@ const isabelle = {
       runSpeed: 38,
       dashSpeed: 75,
     },
-    unofficial: {
-      danny: {
-        fun: getUnofficialStat('danny', 'fun', 'bayonetta')
-        power: getUnofficialStat('danny', 'power', 'bayonetta')
-        nostalgia: getUnofficialStat('danny', 'nostalgia', 'bayonetta'),
-        racovery: getUnofficialStat('danny', 'recovery', 'bayonetta'),
-        final: getUnofficialStat('danny', 'final', 'bayonetta'),
-      },
-      jack: {
-        fun: getUnofficialStat('danny', 'fun', 'bayonetta')
-        power: getUnofficialStat('danny', 'power', 'bayonetta')
-        nostalgia: getUnofficialStat('danny', 'nostalgia', 'bayonetta'),
-        racovery: getUnofficialStat('danny', 'recovery', 'bayonetta'),
-        final: getUnofficialStat('danny', 'final', 'bayonetta'),
-      }
-    },
+    unofficial: getUnofficialStats(filename),
   },
   picture: IsabelleSSBU,
 };

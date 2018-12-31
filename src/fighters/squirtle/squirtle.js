@@ -1,7 +1,9 @@
-import getUnofficialStat from '../../helpers/getUnofficialStat';
+import getUnofficialStats from '../../helpers/getUnofficialStats';
 import pokemonSeries from '../../series/pokemonSeries/pokemonSeries';
 import SquirtleHeadSSBU from './SquirtleHeadSSBU.png';
 import SquirtleSSBU from './Squirtle_SSBU.png';
+
+const filename = 'squirtle';
 
 const squirtle = {
   name: 'Squirtle',
@@ -15,22 +17,7 @@ const squirtle = {
       runSpeed: 46,
       dashSpeed: 80,
     },
-    unofficial: {
-      danny: {
-        fun: getUnofficialStat('danny', 'fun', 'bayonetta')
-        power: getUnofficialStat('danny', 'power', 'bayonetta')
-        nostalgia: getUnofficialStat('danny', 'nostalgia', 'bayonetta'),
-        racovery: getUnofficialStat('danny', 'recovery', 'bayonetta'),
-        final: getUnofficialStat('danny', 'final', 'bayonetta'),
-      },
-      jack: {
-        fun: getUnofficialStat('danny', 'fun', 'bayonetta')
-        power: getUnofficialStat('danny', 'power', 'bayonetta')
-        nostalgia: getUnofficialStat('danny', 'nostalgia', 'bayonetta'),
-        racovery: getUnofficialStat('danny', 'recovery', 'bayonetta'),
-        final: getUnofficialStat('danny', 'final', 'bayonetta'),
-      }
-    },
+    unofficial: getUnofficialStats(filename),
   },
   picture: SquirtleSSBU,
 };

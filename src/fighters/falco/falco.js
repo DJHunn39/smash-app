@@ -1,7 +1,9 @@
-import getUnofficialStat from '../../helpers/getUnofficialStat';
+import getUnofficialStats from '../../helpers/getUnofficialStats';
 import starFoxSeries from '../../series/starFoxSeries/starFoxSeries';
 import FalcoHeadSSBU from './FalcoHeadSSBU.png';
 import FalcoSSBU from './Falco_SSBU.png';
+
+const filename = 'falco';
 
 const falco = {
   name: 'Falco',
@@ -15,22 +17,7 @@ const falco = {
       runSpeed: 42,
       dashSpeed: 84,
     },
-    unofficial: {
-      danny: {
-        fun: getUnofficialStat('danny', 'fun', 'bayonetta')
-        power: getUnofficialStat('danny', 'power', 'bayonetta')
-        nostalgia: getUnofficialStat('danny', 'nostalgia', 'bayonetta'),
-        racovery: getUnofficialStat('danny', 'recovery', 'bayonetta'),
-        final: getUnofficialStat('danny', 'final', 'bayonetta'),
-      },
-      jack: {
-        fun: getUnofficialStat('danny', 'fun', 'bayonetta')
-        power: getUnofficialStat('danny', 'power', 'bayonetta')
-        nostalgia: getUnofficialStat('danny', 'nostalgia', 'bayonetta'),
-        racovery: getUnofficialStat('danny', 'recovery', 'bayonetta'),
-        final: getUnofficialStat('danny', 'final', 'bayonetta'),
-      }
-    },
+    unofficial: getUnofficialStats(filename),
   },
   picture: FalcoSSBU,
 };

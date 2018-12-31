@@ -1,7 +1,9 @@
-import getUnofficialStat from '../../helpers/getUnofficialStat';
+import getUnofficialStats from '../../helpers/getUnofficialStats';
 import smashBrosSeries from '../../series/smashBrosSeries/smashBrosSeries';
 import MiiGunnerHeadSSBU from './MiiGunnerHeadSSBU.png';
 import MiiGunnerSSBU from './Mii_Gunner_SSBU.png';
+
+const filename = 'miiGunner';
 
 const miiGunner = {
   name: 'Mii Gunner',
@@ -15,22 +17,7 @@ const miiGunner = {
       runSpeed: 36,
       dashSpeed: 67,
     },
-    unofficial: {
-      danny: {
-        fun: getUnofficialStat('danny', 'fun', 'bayonetta')
-        power: getUnofficialStat('danny', 'power', 'bayonetta')
-        nostalgia: getUnofficialStat('danny', 'nostalgia', 'bayonetta'),
-        racovery: getUnofficialStat('danny', 'recovery', 'bayonetta'),
-        final: getUnofficialStat('danny', 'final', 'bayonetta'),
-      },
-      jack: {
-        fun: getUnofficialStat('danny', 'fun', 'bayonetta')
-        power: getUnofficialStat('danny', 'power', 'bayonetta')
-        nostalgia: getUnofficialStat('danny', 'nostalgia', 'bayonetta'),
-        racovery: getUnofficialStat('danny', 'recovery', 'bayonetta'),
-        final: getUnofficialStat('danny', 'final', 'bayonetta'),
-      }
-    },
+    unofficial: getUnofficialStats(filename),
   },
   picture: MiiGunnerSSBU,
 };

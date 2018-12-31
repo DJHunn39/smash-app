@@ -1,7 +1,9 @@
-import getUnofficialStat from '../../helpers/getUnofficialStat';
+import getUnofficialStats from '../../helpers/getUnofficialStats';
 import warioSeries from '../../series/warioSeries/warioSeries';
 import WarioHeadSSBU from './WarioHeadSSBU.png';
 import WarioSSBU from './Wario_SSBU.png';
+
+const filename = 'wario';
 
 const wario = {
   name: 'Wario',
@@ -15,22 +17,7 @@ const wario = {
       runSpeed: 43,
       dashSpeed: 76,
     },
-    unofficial: {
-      danny: {
-        fun: getUnofficialStat('danny', 'fun', 'wario'),
-        power: getUnofficialStat('danny', 'power', 'wario'),
-        nostalgia: getUnofficialStat('danny', 'nostalgia', 'wario'),
-        racovery: getUnofficialStat('danny', 'recovery', 'wario'),
-        final: getUnofficialStat('danny', 'final', 'wario'),
-      },
-      jack: {
-        fun: getUnofficialStat('jack', 'fun', 'wario'),
-        power: getUnofficialStat('jack', 'power', 'wario'),
-        nostalgia: getUnofficialStat('jack', 'nostalgia', 'wario'),
-        racovery: getUnofficialStat('jack', 'recovery', 'wario'),
-        final: getUnofficialStat('jack', 'final', 'wario'),
-      }
-    },
+    unofficial: getUnofficialStats(filename),
   },
   picture: WarioSSBU,
 };

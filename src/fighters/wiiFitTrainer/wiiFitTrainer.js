@@ -1,7 +1,9 @@
-import getUnofficialStat from '../../helpers/getUnofficialStat';
+import getUnofficialStats from '../../helpers/getUnofficialStats';
 import wiiFitSeries from '../../series/wiiFitSeries/wiiFitSeries';
 import WiiFitTrainerHeadSSBU from './WiiFitTrainerHeadSSBU.png';
 import WiiFitTrainerSSBU from './Wii_Fit_Trainer_SSBU.png';
+
+const filename = 'wiiFitTrainer';
 
 const wiiFitTrainer = {
   name: 'Wii Fit Trainer',
@@ -15,22 +17,7 @@ const wiiFitTrainer = {
       runSpeed: 48,
       dashSpeed: 84,
     },
-    unofficial: {
-      danny: {
-        fun: getUnofficialStat('danny', 'fun', 'bayonetta')
-        power: getUnofficialStat('danny', 'power', 'bayonetta')
-        nostalgia: getUnofficialStat('danny', 'nostalgia', 'bayonetta'),
-        racovery: getUnofficialStat('danny', 'recovery', 'bayonetta'),
-        final: getUnofficialStat('danny', 'final', 'bayonetta'),
-      },
-      jack: {
-        fun: getUnofficialStat('danny', 'fun', 'bayonetta')
-        power: getUnofficialStat('danny', 'power', 'bayonetta')
-        nostalgia: getUnofficialStat('danny', 'nostalgia', 'bayonetta'),
-        racovery: getUnofficialStat('danny', 'recovery', 'bayonetta'),
-        final: getUnofficialStat('danny', 'final', 'bayonetta'),
-      }
-    },
+    unofficial: getUnofficialStats(filename),
   },
   picture: WiiFitTrainerSSBU,
 };

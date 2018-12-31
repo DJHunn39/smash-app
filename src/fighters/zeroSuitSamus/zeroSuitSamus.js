@@ -1,7 +1,9 @@
-import getUnofficialStat from '../../helpers/getUnofficialStat';
+import getUnofficialStats from '../../helpers/getUnofficialStats';
 import metroidSeries from '../../series/metroidSeries/metroidSeries';
 import ZeroSuitSamusHeadSSBU from './ZeroSuitSamusHeadSSBU.png';
 import ZeroSuitSamusSSBU from './Zero_Suit_Samus_SSBU.png';
+
+const filename = 'zeroSuitSamus';
 
 const ZeroSuitSamus = {
   name: 'Zero Suit Samus',
@@ -15,22 +17,7 @@ const ZeroSuitSamus = {
       runSpeed: 60,
       dashSpeed: 100,
     },
-    unofficial: {
-      danny: {
-        fun: getUnofficialStat('danny', 'fun', 'bayonetta')
-        power: getUnofficialStat('danny', 'power', 'bayonetta')
-        nostalgia: getUnofficialStat('danny', 'nostalgia', 'bayonetta'),
-        racovery: getUnofficialStat('danny', 'recovery', 'bayonetta'),
-        final: getUnofficialStat('danny', 'final', 'bayonetta'),
-      },
-      jack: {
-        fun: getUnofficialStat('danny', 'fun', 'bayonetta')
-        power: getUnofficialStat('danny', 'power', 'bayonetta')
-        nostalgia: getUnofficialStat('danny', 'nostalgia', 'bayonetta'),
-        racovery: getUnofficialStat('danny', 'recovery', 'bayonetta'),
-        final: getUnofficialStat('danny', 'final', 'bayonetta'),
-      }
-    },
+    unofficial: getUnofficialStats(filename),
   },
   picture: ZeroSuitSamusSSBU,
 };

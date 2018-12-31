@@ -62,7 +62,7 @@ const dannyFun = {
   samus: 0,
   sheik: 0,
   shulk: 0,
-  simon: 0,
+  simon: 10,
   snake: 0,
   sonic: 0,
   squirtle: 0,
