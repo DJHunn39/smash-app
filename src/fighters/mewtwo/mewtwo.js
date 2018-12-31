@@ -1,3 +1,4 @@
+import getUnofficialStat from '../../helpers/getUnofficialStat';
 import pokemonSeries from '../../series/pokemonSeries/pokemonSeries';
 import MewtwoHeadSSBU from './MewtwoHeadSSBU.png';
 import MewtwoSSBU from './Mewtwo_SSBU.png';
@@ -16,18 +17,18 @@ const mewtwo = {
     },
     unofficial: {
       danny: {
-        fun: 0,
-        power: 0,
-        nostalgia: 0,
-        recovery: 0,
-        final: 0,
+        fun: getUnofficialStat('danny', 'fun', 'bayonetta')
+        power: getUnofficialStat('danny', 'power', 'bayonetta')
+        nostalgia: getUnofficialStat('danny', 'nostalgia', 'bayonetta'),
+        racovery: getUnofficialStat('danny', 'recovery', 'bayonetta'),
+        final: getUnofficialStat('danny', 'final', 'bayonetta'),
       },
       jack: {
-        fun: 0,
-        power: 0,
-        nostalgia: 0,
-        recovery: 0,
-        final: 0,
+        fun: getUnofficialStat('danny', 'fun', 'bayonetta')
+        power: getUnofficialStat('danny', 'power', 'bayonetta')
+        nostalgia: getUnofficialStat('danny', 'nostalgia', 'bayonetta'),
+        racovery: getUnofficialStat('danny', 'recovery', 'bayonetta'),
+        final: getUnofficialStat('danny', 'final', 'bayonetta'),
       }
     },
   },

@@ -46,7 +46,7 @@ const mockFighterData = [
           final: 60,
         },
         jack: {
-          fun: 0,
+          fun: getUnofficialStat('danny', 'fun', 'bayonetta')
           power: 10,
           nostalgia: 20,
           recovery: 30,
