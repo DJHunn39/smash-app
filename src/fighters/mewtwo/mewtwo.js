@@ -1,6 +1,9 @@
+import getUnofficialStats from '../../helpers/getUnofficialStats';
 import pokemonSeries from '../../series/pokemonSeries/pokemonSeries';
 import MewtwoHeadSSBU from './MewtwoHeadSSBU.png';
 import MewtwoSSBU from './Mewtwo_SSBU.png';
+
+const filename = 'mewtwo';
 
 const mewtwo = {
   name: 'Mewtwo',
@@ -14,22 +17,7 @@ const mewtwo = {
       runSpeed: 59,
       dashSpeed: 93,
     },
-    unofficial: {
-      danny: {
-        fun: 0,
-        power: 0,
-        nostalgia: 0,
-        recovery: 0,
-        final: 0,
-      },
-      jack: {
-        fun: 0,
-        power: 0,
-        nostalgia: 0,
-        recovery: 0,
-        final: 0,
-      }
-    },
+    unofficial: getUnofficialStats(filename),
   },
   picture: MewtwoSSBU,
 };

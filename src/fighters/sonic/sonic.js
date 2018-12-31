@@ -1,6 +1,9 @@
+import getUnofficialStats from '../../helpers/getUnofficialStats';
 import sonicSeries from '../../series/sonicSeries/sonicSeries';
 import SonicHeadSSBU from './SonicHeadSSBU.png';
 import SonicSSBU from './Sonic_SSBU.png';
+
+const filename = 'sonic';
 
 const sonic = {
   name: 'Sonic',
@@ -14,22 +17,7 @@ const sonic = {
       runSpeed: 100,
       dashSpeed: 95,
     },
-    unofficial: {
-      danny: {
-        fun: 0,
-        power: 0,
-        nostalgia: 0,
-        recovery: 0,
-        final: 0,
-      },
-      jack: {
-        fun: 0,
-        power: 0,
-        nostalgia: 0,
-        recovery: 0,
-        final: 0,
-      }
-    },
+    unofficial: getUnofficialStats(filename),
   },
   picture: SonicSSBU,
 };

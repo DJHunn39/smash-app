@@ -1,6 +1,9 @@
+import getUnofficialStats from '../../helpers/getUnofficialStats';
 import castlevaniaSeries from '../../series/castlevaniaSeries/castlevaniaSeries';
 import SimonHeadSSBU from './SimonHeadSSBU.png';
 import SimonSSBU from './Simon_SSBU.png';
+
+const filename = 'simon';
 
 const simon = {
   name: 'Simon',
@@ -14,22 +17,7 @@ const simon = {
       runSpeed: 39,
       dashSpeed: 71,
     },
-    unofficial: {
-      danny: {
-        fun: 0,
-        power: 0,
-        nostalgia: 0,
-        recovery: 0,
-        final: 0,
-      },
-      jack: {
-        fun: 0,
-        power: 0,
-        nostalgia: 0,
-        recovery: 0,
-        final: 0,
-      }
-    },
+    unofficial: getUnofficialStats(filename),
   },
   picture: SimonSSBU,
 };

@@ -1,6 +1,9 @@
+import getUnofficialStats from '../../helpers/getUnofficialStats';
 import splatoonSeries from '../../series/splatoonSeries/splatoonSeries';
 import InklingHeadSSBU from './InklingHeadSSBU.png';
 import InklingSSBU from './Inkling_SSBU.png';
+
+const filename = 'inkling';
 
 const inkling = {
   name: 'Inkling',
@@ -14,22 +17,7 @@ const inkling = {
       runSpeed: 50,
       dashSpeed: 88,
     },
-    unofficial: {
-      danny: {
-        fun: 0,
-        power: 0,
-        nostalgia: 0,
-        recovery: 0,
-        final: 0,
-      },
-      jack: {
-        fun: 0,
-        power: 0,
-        nostalgia: 0,
-        recovery: 0,
-        final: 0,
-      }
-    },
+    unofficial: getUnofficialStats(filename),
   },
   picture: InklingSSBU,
 };

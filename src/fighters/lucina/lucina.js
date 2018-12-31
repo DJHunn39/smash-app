@@ -1,6 +1,9 @@
+import getUnofficialStats from '../../helpers/getUnofficialStats';
 import fireEmblemSeries from '../../series/fireEmblemSeries/fireEmblemSeries';
 import LucinaHeadSSBU from './LucinaHeadSSBU.png';
 import LucinaSSBU from './Lucina_SSBU.png';
+
+const filename = 'lucina';
 
 const lucina = {
   name: 'Lucina',
@@ -14,22 +17,7 @@ const lucina = {
       runSpeed: 51,
       dashSpeed: 93,
     },
-    unofficial: {
-      danny: {
-        fun: 0,
-        power: 0,
-        nostalgia: 0,
-        recovery: 0,
-        final: 0,
-      },
-      jack: {
-        fun: 0,
-        power: 0,
-        nostalgia: 0,
-        recovery: 0,
-        final: 0,
-      }
-    },
+    unofficial: getUnofficialStats(filename),
   },
   picture: LucinaSSBU,
 };

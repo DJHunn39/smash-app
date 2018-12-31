@@ -1,6 +1,9 @@
+import getUnofficialStats from '../../helpers/getUnofficialStats';
 import zeldaSeries from '../../series/zeldaSeries/zeldaSeries';
 import ToonLinkHeadSSBU from './ToonLinkHeadSSBU.png';
 import ToonLinkSSBU from './Toon_Link_SSBU.png';
+
+const filename = 'toonLink';
 
 const toonLink = {
   name: 'Toon Link',
@@ -14,22 +17,7 @@ const toonLink = {
       runSpeed: 50,
       dashSpeed: 79,
     },
-    unofficial: {
-      danny: {
-        fun: 0,
-        power: 0,
-        nostalgia: 0,
-        recovery: 0,
-        final: 0,
-      },
-      jack: {
-        fun: 0,
-        power: 0,
-        nostalgia: 0,
-        recovery: 0,
-        final: 0,
-      }
-    },
+    unofficial: getUnofficialStats(filename),
   },
   picture: ToonLinkSSBU,
 };

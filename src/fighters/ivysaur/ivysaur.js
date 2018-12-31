@@ -1,6 +1,9 @@
+import getUnofficialStats from '../../helpers/getUnofficialStats';
 import pokemonSeries from '../../series/pokemonSeries/pokemonSeries';
 import IvysaurHeadSSBU from './IvysaurHeadSSBU.png';
 import IvysaurSSBU from './Ivysaur_SSBU.png';
+
+const filename = 'ivysaur';
 
 const ivysaur = {
   name: 'Ivysaur',
@@ -14,22 +17,7 @@ const ivysaur = {
       runSpeed: 41,
       dashSpeed: 79,
     },
-    unofficial: {
-      danny: {
-        fun: 0,
-        power: 0,
-        nostalgia: 0,
-        recovery: 0,
-        final: 0,
-      },
-      jack: {
-        fun: 0,
-        power: 0,
-        nostalgia: 0,
-        recovery: 0,
-        final: 0,
-      }
-    },
+    unofficial: getUnofficialStats(filename),
   },
   picture: IvysaurSSBU,
 };

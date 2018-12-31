@@ -1,6 +1,9 @@
+import getUnofficialStats from '../../helpers/getUnofficialStats';
 import earthboundSeries from '../../series/earthboundSeries/earthboundSeries';
 import NessHeadSSBU from './NessHeadSSBU.png';
 import NessSSBU from './Ness_SSBU.png';
+
+const filename = 'ness';
 
 const ness = {
   name: 'Ness',
@@ -14,22 +17,7 @@ const ness = {
       runSpeed: 42,
       dashSpeed: 75,
     },
-    unofficial: {
-      danny: {
-        fun: 0,
-        power: 0,
-        nostalgia: 0,
-        recovery: 0,
-        final: 0,
-      },
-      jack: {
-        fun: 0,
-        power: 0,
-        nostalgia: 0,
-        recovery: 0,
-        final: 0,
-      }
-    },
+    unofficial: getUnofficialStats(filename),
   },
   picture: NessSSBU,
 };

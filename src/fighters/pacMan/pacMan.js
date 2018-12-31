@@ -1,6 +1,9 @@
+import getUnofficialStats from '../../helpers/getUnofficialStats';
 import pacmanSeries from '../../series/pacmanSeries/pacmanSeries';
 import PacManHeadSSBU from './Pac-ManHeadSSBU.png';
 import PacManSSBU from './Pac_Man_SSBU.png';
+
+const filename = 'pacMan';
 
 const pacMan = {
   name: 'Pac-Man',
@@ -14,22 +17,7 @@ const pacMan = {
       runSpeed: 43,
       dashSpeed: 77,
     },
-    unofficial: {
-      danny: {
-        fun: 0,
-        power: 0,
-        nostalgia: 0,
-        recovery: 0,
-        final: 0,
-      },
-      jack: {
-        fun: 0,
-        power: 0,
-        nostalgia: 0,
-        recovery: 0,
-        final: 0,
-      }
-    },
+    unofficial: getUnofficialStats(filename),
   },
   picture: PacManSSBU,
 };

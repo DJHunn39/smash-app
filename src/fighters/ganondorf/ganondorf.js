@@ -1,6 +1,9 @@
+import getUnofficialStats from '../../helpers/getUnofficialStats';
 import zeldaSeries from '../../series/zeldaSeries/zeldaSeries';
 import GanondorfHeadSSBU from './GanondorfHeadSSBU.png';
 import GanondorfSSBU from './Ganondorf_SSBU.png';
+
+const filename = 'ganondorf';
 
 const ganondorf = {
   name: 'Ganondorf',
@@ -14,22 +17,7 @@ const ganondorf = {
       runSpeed: 35,
       dashSpeed: 77,
     },
-    unofficial: {
-      danny: {
-        fun: 0,
-        power: 0,
-        nostalgia: 0,
-        recovery: 0,
-        final: 0,
-      },
-      jack: {
-        fun: 0,
-        power: 0,
-        nostalgia: 0,
-        recovery: 0,
-        final: 0,
-      }
-    },
+    unofficial: getUnofficialStats(filename),
   },
   picture: GanondorfSSBU,
 };

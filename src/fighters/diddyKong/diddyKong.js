@@ -1,6 +1,9 @@
+import getUnofficialStats from '../../helpers/getUnofficialStats';
 import donkeyKongSeries from '../../series/donkeyKongSeries/donkeyKongSeries';
 import DiddyKongHeadSSBU from './DiddyKongHeadSSBU.png';
 import DiddyKongSSBU from './Diddy_Kong_SSBU.png';
+
+const filename = 'diddyKong';
 
 const diddyKong = {
   name: 'Diddy Kong',
@@ -14,22 +17,7 @@ const diddyKong = {
       runSpeed: 52,
       dashSpeed: 86,
     },
-    unofficial: {
-      danny: {
-        fun: 0,
-        power: 0,
-        nostalgia: 0,
-        recovery: 0,
-        final: 0,
-      },
-      jack: {
-        fun: 0,
-        power: 0,
-        nostalgia: 0,
-        recovery: 0,
-        final: 0,
-      }
-    },
+    unofficial: getUnofficialStats(filename),
   },
   picture: DiddyKongSSBU,
 };

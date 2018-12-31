@@ -1,6 +1,9 @@
+import getUnofficialStats from '../../helpers/getUnofficialStats';
 import metalGearSeries from '../../series/metalGearSeries/metalGearSeries';
 import SnakeHeadSSBU from './SnakeHeadSSBU.png';
 import SnakeSSBU from './Snake_SSBU.png';
+
+const filename = 'snake';
 
 const snake = {
   name: 'Snake',
@@ -14,22 +17,7 @@ const snake = {
       runSpeed: 41,
       dashSpeed: 73,
     },
-    unofficial: {
-      danny: {
-        fun: 0,
-        power: 0,
-        nostalgia: 0,
-        recovery: 0,
-        final: 0,
-      },
-      jack: {
-        fun: 0,
-        power: 0,
-        nostalgia: 0,
-        recovery: 0,
-        final: 0,
-      }
-    },
+    unofficial: getUnofficialStats(filename),
   },
   picture: SnakeSSBU,
 };

@@ -1,6 +1,9 @@
+import getUnofficialStats from '../../helpers/getUnofficialStats';
 import kidIcarusSeries from '../../series/kidIcarusSeries/kidIcarusSeries';
 import PalutenaHeadSSBU from './PalutenaHeadSSBU.png';
 import PalutenaSSBU from './Palutena_SSBU.png';
+
+const filename = 'palutena';
 
 const palutena = {
   name: 'Palutena',
@@ -14,22 +17,7 @@ const palutena = {
       runSpeed: 54,
       dashSpeed: 84,
     },
-    unofficial: {
-      danny: {
-        fun: 0,
-        power: 0,
-        nostalgia: 0,
-        recovery: 0,
-        final: 0,
-      },
-      jack: {
-        fun: 0,
-        power: 0,
-        nostalgia: 0,
-        recovery: 0,
-        final: 0,
-      }
-    },
+    unofficial: getUnofficialStats(filename),
   },
   picture: PalutenaSSBU,
 };

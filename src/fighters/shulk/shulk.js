@@ -1,6 +1,9 @@
+import getUnofficialStats from '../../helpers/getUnofficialStats';
 import xenobladeSeries from '../../series/xenobladeSeries/xenobladeSeries';
 import ShulkHeadSSBU from './ShulkHeadSSBU.png';
 import ShulkSSBU from './Shulk_SSBU.png';
+
+const filename = 'shulk';
 
 const shulk = {
   name: 'Shulk',
@@ -14,22 +17,7 @@ const shulk = {
       runSpeed: 43,
       dashSpeed: 77,
     },
-    unofficial: {
-      danny: {
-        fun: 0,
-        power: 0,
-        nostalgia: 0,
-        recovery: 0,
-        final: 0,
-      },
-      jack: {
-        fun: 0,
-        power: 0,
-        nostalgia: 0,
-        recovery: 0,
-        final: 0,
-      }
-    },
+    unofficial: getUnofficialStats(filename),
   },
   picture: ShulkSSBU,
 };

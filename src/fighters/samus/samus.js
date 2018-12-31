@@ -1,6 +1,9 @@
+import getUnofficialStats from '../../helpers/getUnofficialStats';
 import metroidSeries from '../../series/metroidSeries/metroidSeries';
 import SamusHeadSSBU from './SamusHeadSSBU.png';
 import SamusSSBU from './Samus_SSBU.png';
+
+const filename = 'samus';
 
 const samus = {
   name: 'Samus',
@@ -14,22 +17,7 @@ const samus = {
       runSpeed: 43,
       dashSpeed: 77,
     },
-    unofficial: {
-      danny: {
-        fun: 0,
-        power: 0,
-        nostalgia: 0,
-        recovery: 0,
-        final: 0,
-      },
-      jack: {
-        fun: 0,
-        power: 0,
-        nostalgia: 0,
-        recovery: 0,
-        final: 0,
-      }
-    },
+    unofficial: getUnofficialStats(filename),
   },
   picture: SamusSSBU,
 };

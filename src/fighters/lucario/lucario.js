@@ -1,6 +1,9 @@
+import getUnofficialStats from '../../helpers/getUnofficialStats';
 import pokemonSeries from '../../series/pokemonSeries/pokemonSeries';
 import LucarioHeadSSBU from './LucarioHeadSSBU.png';
 import LucarioSSBU from './Lucario_SSBU.png';
+
+const filename = 'lucario';
 
 const lucario = {
   name: 'Lucario',
@@ -14,22 +17,7 @@ const lucario = {
       runSpeed: 44,
       dashSpeed: 93,
     },
-    unofficial: {
-      danny: {
-        fun: 0,
-        power: 0,
-        nostalgia: 0,
-        recovery: 0,
-        final: 0,
-      },
-      jack: {
-        fun: 0,
-        power: 0,
-        nostalgia: 0,
-        recovery: 0,
-        final: 0,
-      }
-    },
+    unofficial: getUnofficialStats(filename),
   },
   picture: LucarioSSBU,
 };

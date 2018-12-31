@@ -1,6 +1,9 @@
+import getUnofficialStats from '../../helpers/getUnofficialStats';
 import smashBrosSeries from '../../series/smashBrosSeries/smashBrosSeries';
 import MiiSwordFighterHeadSSBU from './MiiSwordfighterHeadSSBU.png';
 import MiiSwordFighterSSBU from './Mii_Swordfighter_SSBU.png';
+
+const filename = 'miiSwordFighter';
 
 const miiSwordFighter = {
   name: 'Mii Swordfighter',
@@ -14,22 +17,7 @@ const miiSwordFighter = {
       runSpeed: 41,
       dashSpeed: 72,
     },
-    unofficial: {
-      danny: {
-        fun: 0,
-        power: 0,
-        nostalgia: 0,
-        recovery: 0,
-        final: 0,
-      },
-      jack: {
-        fun: 0,
-        power: 0,
-        nostalgia: 0,
-        recovery: 0,
-        final: 0,
-      }
-    },
+    unofficial: getUnofficialStats(filename),
   },
   picture: MiiSwordFighterSSBU,
 };

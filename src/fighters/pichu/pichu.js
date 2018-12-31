@@ -1,6 +1,9 @@
+import getUnofficialStats from '../../helpers/getUnofficialStats';
 import pokemonSeries from '../../series/pokemonSeries/pokemonSeries';
 import PichuHeadSSBU from './PichuHeadSSBU.png';
 import PichuSSBU from './Pichu_SSBU.png';
+
+const filename = 'pichu';
 
 const pichu = {
   name: 'Pichu',
@@ -14,22 +17,7 @@ const pichu = {
       runSpeed: 49,
       dashSpeed: 82,
     },
-    unofficial: {
-      danny: {
-        fun: 0,
-        power: 0,
-        nostalgia: 0,
-        recovery: 0,
-        final: 0,
-      },
-      jack: {
-        fun: 0,
-        power: 0,
-        nostalgia: 0,
-        recovery: 0,
-        final: 0,
-      }
-    },
+    unofficial: getUnofficialStats(filename),
   },
   picture: PichuSSBU,
 };

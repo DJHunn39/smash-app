@@ -1,6 +1,9 @@
+import getUnofficialStats from '../../helpers/getUnofficialStats';
 import fireEmblemSeries from '../../series/fireEmblemSeries/fireEmblemSeries';
 import ChromHeadSSBU from './ChromHeadSSBU.png';
 import ChromSSBU from './Chrom_SSBU.png';
+
+const filename = 'chrom';
 
 const chrom = {
   name: 'Chrom',
@@ -14,22 +17,7 @@ const chrom = {
       runSpeed: 56,
       dashSpeed: 91,
     },
-    unofficial: {
-      danny: {
-        fun: 0,
-        power: 0,
-        nostalgia: 0,
-        recovery: 0,
-        final: 0,
-      },
-      jack: {
-        fun: 0,
-        power: 0,
-        nostalgia: 0,
-        recovery: 0,
-        final: 0,
-      }
-    },
+    unofficial: getUnofficialStats(filename),
   },
   picture: ChromSSBU,
 };

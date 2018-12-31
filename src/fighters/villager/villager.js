@@ -1,6 +1,9 @@
+import getUnofficialStats from '../../helpers/getUnofficialStats';
 import animalCrossingSeries from '../../series/animalCrossingSeries/animalCrossingSeries';
 import VillagerHeadSSBU from './VillagerHeadSSBU.png';
 import VillagerSSBU from './Villager_SSBU.png';
+
+const filename = 'villager';
 
 const villager = {
   name: 'Villager',
@@ -14,22 +17,7 @@ const villager = {
       runSpeed: 36,
       dashSpeed: 75,
     },
-    unofficial: {
-      danny: {
-        fun: 0,
-        power: 0,
-        nostalgia: 0,
-        recovery: 0,
-        final: 0,
-      },
-      jack: {
-        fun: 0,
-        power: 0,
-        nostalgia: 0,
-        recovery: 0,
-        final: 0,
-      }
-    },
+    unofficial: getUnofficialStats(filename),
   },
   picture: VillagerSSBU,
 };

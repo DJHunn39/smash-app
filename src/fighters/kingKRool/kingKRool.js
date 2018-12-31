@@ -1,6 +1,9 @@
+import getUnofficialStats from '../../helpers/getUnofficialStats';
 import donkeyKongSeries from '../../series/donkeyKongSeries/donkeyKongSeries';
 import KingKRoolHeadSSBU from './KingKRoolHeadSSBU.png';
 import KingKRoolSSBU from './King_K_Rool_SSBU.png';
+
+const filename = 'kingKRool';
 
 const kingKRool = {
   name: 'King K.Rool',
@@ -14,22 +17,7 @@ const kingKRool = {
       runSpeed: 39,
       dashSpeed: 80,
     },
-    unofficial: {
-      danny: {
-        fun: 0,
-        power: 0,
-        nostalgia: 0,
-        recovery: 0,
-        final: 0,
-      },
-      jack: {
-        fun: 0,
-        power: 0,
-        nostalgia: 0,
-        recovery: 0,
-        final: 0,
-      }
-    },
+    unofficial: getUnofficialStats(filename),
   },
   picture: KingKRoolSSBU,
 };

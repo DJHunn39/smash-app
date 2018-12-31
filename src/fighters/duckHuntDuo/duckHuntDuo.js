@@ -1,6 +1,9 @@
+import getUnofficialStats from '../../helpers/getUnofficialStats';
 import duckHuntSeries from '../../series/duckHuntSeries/duckHuntSeries';
 import DuckHuntDuoHeadSSBU from './DuckHuntHeadSSBU.png';
 import DuckHuntDuoSSBU from './Duck_Hunt_SSBU.png';
+
+const filename = 'duckHuntDuo';
 
 const duckHuntDuo = {
   name: 'Duck Hunt Duo',
@@ -14,22 +17,7 @@ const duckHuntDuo = {
       runSpeed: 47,
       dashSpeed: 72,
     },
-    unofficial: {
-      danny: {
-        fun: 0,
-        power: 0,
-        nostalgia: 0,
-        recovery: 0,
-        final: 0,
-      },
-      jack: {
-        fun: 0,
-        power: 0,
-        nostalgia: 0,
-        recovery: 0,
-        final: 0,
-      }
-    },
+    unofficial: getUnofficialStats(filename),
   },
   picture: DuckHuntDuoSSBU,
 };

@@ -1,6 +1,9 @@
+import getUnofficialStats from '../../helpers/getUnofficialStats';
 import finalFantasySeries from '../../series/finalFantasySeries/finalFantasySeries';
 import CloudHeadSSBU from './CloudHeadSSBU.png';
 import CloudSSBU from './Cloud_SSBU.png';
+
+const filename = 'cloud';
 
 const cloud = {
   name: 'Cloud',
@@ -14,22 +17,7 @@ const cloud = {
       runSpeed: 56,
       dashSpeed: 89,
     },
-    unofficial: {
-      danny: {
-        fun: 0,
-        power: 0,
-        nostalgia: 0,
-        recovery: 0,
-        final: 0,
-      },
-      jack: {
-        fun: 0,
-        power: 0,
-        nostalgia: 0,
-        recovery: 0,
-        final: 0,
-      }
-    },
+    unofficial: getUnofficialStats(filename),
   },
   picture: CloudSSBU,
 };

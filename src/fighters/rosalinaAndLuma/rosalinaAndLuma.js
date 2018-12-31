@@ -1,6 +1,9 @@
+import getUnofficialStats from '../../helpers/getUnofficialStats';
 import marioSeries from '../../series/marioSeries/marioSeries';
 import RosalinaLumaHeadSSBU from './RosalinaLumaHeadSSBU.png';
 import RosalinaLumaSSBU from './RosalinaLuma_SSBU.png';
+
+const filename = 'rosalinaAndLuma';
 
 const rosalinaAndLuma = {
   name: 'Rosalina & Luma',
@@ -14,22 +17,7 @@ const rosalinaAndLuma = {
       runSpeed: 47,
       dashSpeed: 84,
     },
-    unofficial: {
-      danny: {
-        fun: 0,
-        power: 0,
-        nostalgia: 0,
-        recovery: 0,
-        final: 0,
-      },
-      jack: {
-        fun: 0,
-        power: 0,
-        nostalgia: 0,
-        recovery: 0,
-        final: 0,
-      }
-    },
+    unofficial: getUnofficialStats(filename),
   },
   picture: RosalinaLumaSSBU,
 };

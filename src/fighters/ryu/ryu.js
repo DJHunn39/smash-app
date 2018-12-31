@@ -1,6 +1,9 @@
+import getUnofficialStats from '../../helpers/getUnofficialStats';
 import streetFighterSeries from '../../series/streetFighterSeries/streetFighterSeries';
 import RyuHeadSSBU from './RyuHeadSSBU.png';
 import RyuSSBU from './Ryu_SSBU.png';
+
+const filename = 'ryu';
 
 const ryu = {
   name: 'Ryu',
@@ -14,22 +17,7 @@ const ryu = {
       runSpeed: 42,
       dashSpeed: 73,
     },
-    unofficial: {
-      danny: {
-        fun: 0,
-        power: 0,
-        nostalgia: 0,
-        recovery: 0,
-        final: 0,
-      },
-      jack: {
-        fun: 0,
-        power: 0,
-        nostalgia: 0,
-        recovery: 0,
-        final: 0,
-      }
-    },
+    unofficial: getUnofficialStats(filename),
   },
   picture: RyuSSBU,
 };

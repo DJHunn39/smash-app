@@ -1,6 +1,9 @@
+import getUnofficialStats from '../../helpers/getUnofficialStats';
 import kirbySeries from '../../series/kirbySeries/kirbySeries';
 import MetaKnightHeadSSBU from './MetaKnightHeadSSBU.png';
 import MetaKnightSSBU from './Meta_Knight_SSBU.png';
+
+const filename = 'metaKnight';
 
 const metaKnight = {
   name: 'Meta Knight',
@@ -14,22 +17,7 @@ const metaKnight = {
       runSpeed: 54,
       dashSpeed: 91,
     },
-    unofficial: {
-      danny: {
-        fun: 0,
-        power: 0,
-        nostalgia: 0,
-        recovery: 0,
-        final: 0,
-      },
-      jack: {
-        fun: 0,
-        power: 0,
-        nostalgia: 0,
-        recovery: 0,
-        final: 0,
-      }
-    },
+    unofficial: getUnofficialStats(filename),
   },
   picture: MetaKnightSSBU,
 };

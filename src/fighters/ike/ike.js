@@ -1,6 +1,9 @@
+import getUnofficialStats from '../../helpers/getUnofficialStats';
 import fireEmblemSeries from '../../series/fireEmblemSeries/fireEmblemSeries';
 import IkeHeadSSBU from './IkeHeadSSBU.png';
 import IkeSSBU from './Ike_SSBU.png';
+
+const filename = 'ike';
 
 const ike = {
   name: 'Ike',
@@ -14,22 +17,7 @@ const ike = {
       runSpeed: 39,
       dashSpeed: 75,
     },
-    unofficial: {
-      danny: {
-        fun: 0,
-        power: 0,
-        nostalgia: 0,
-        recovery: 0,
-        final: 0,
-      },
-      jack: {
-        fun: 0,
-        power: 0,
-        nostalgia: 0,
-        recovery: 0,
-        final: 0,
-      }
-    },
+    unofficial: getUnofficialStats(filename),
   },
   picture: IkeSSBU,
 };

@@ -1,6 +1,9 @@
+import getUnofficialStats from '../../helpers/getUnofficialStats';
 import marioSeries from '../../series/marioSeries/marioSeries';
 import BowserJrHeadSSBU from './BowserJrHeadSSBU.png';
 import BowserJrSSBU from './BowserJr_SSBU.png';
+
+const filename = 'bowserJr';
 
 const bowserJr = {
   name: 'BowserJr',
@@ -14,22 +17,7 @@ const bowserJr = {
       runSpeed: 41,
       dashSpeed: 72,
     },
-    unofficial: {
-      danny: {
-        fun: 0,
-        power: 0,
-        nostalgia: 0,
-        recovery: 0,
-        final: 0,
-      },
-      jack: {
-        fun: 0,
-        power: 0,
-        nostalgia: 0,
-        recovery: 0,
-        final: 0,
-      }
-    },
+    unofficial: getUnofficialStats(filename),
   },
   picture: BowserJrSSBU,
 };

@@ -1,6 +1,9 @@
+import getUnofficialStats from '../../helpers/getUnofficialStats';
 import zeldaSeries from '../../series/zeldaSeries/zeldaSeries';
 import LinkHeadSSBU from './LinkHeadSSBU.png';
 import LinkSSBU from './Link_SSBU.png';
+
+const filename = 'link';
 
 const link = {
   name: 'Link',
@@ -14,22 +17,7 @@ const link = {
       runSpeed: 40,
       dashSpeed: 82,
     },
-    unofficial: {
-      danny: {
-        fun: 0,
-        power: 0,
-        nostalgia: 0,
-        recovery: 0,
-        final: 0,
-      },
-      jack: {
-        fun: 0,
-        power: 0,
-        nostalgia: 0,
-        recovery: 0,
-        final: 0,
-      }
-    },
+    unofficial: getUnofficialStats(filename),
   },
   picture: LinkSSBU,
 };

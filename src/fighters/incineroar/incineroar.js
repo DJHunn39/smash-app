@@ -1,6 +1,9 @@
+import getUnofficialStats from '../../helpers/getUnofficialStats';
 import pokemonSeries from '../../series/pokemonSeries/pokemonSeries';
 import IncineroarHeadSSBU from './IncineroarHeadSSBU.png';
 import IncineroarSSBU from './Incineroar_SSBU.png';
+
+const filename = 'incineroar';
 
 const incineroar = {
   name: 'Incineroar',
@@ -14,22 +17,7 @@ const incineroar = {
       runSpeed: 31,
       dashSpeed: 73,
     },
-    unofficial: {
-      danny: {
-        fun: 0,
-        power: 0,
-        nostalgia: 0,
-        recovery: 0,
-        final: 0,
-      },
-      jack: {
-        fun: 0,
-        power: 0,
-        nostalgia: 0,
-        recovery: 0,
-        final: 0,
-      }
-    },
+    unofficial: getUnofficialStats(filename),
   },
   picture: IncineroarSSBU,
 };

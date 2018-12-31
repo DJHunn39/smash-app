@@ -1,6 +1,9 @@
+import getUnofficialStats from '../../helpers/getUnofficialStats';
 import zeldaSeries from '../../series/zeldaSeries/zeldaSeries';
 import SheikHeadSSBU from './SheikHeadSSBU.png';
 import SheikSSBU from './Sheik_SSBU.png';
+
+const filename = 'sheik';
 
 const sheik = {
   name: 'Sheik',
@@ -14,22 +17,7 @@ const sheik = {
       runSpeed: 63,
       dashSpeed: 90,
     },
-    unofficial: {
-      danny: {
-        fun: 0,
-        power: 0,
-        nostalgia: 0,
-        recovery: 0,
-        final: 0,
-      },
-      jack: {
-        fun: 0,
-        power: 0,
-        nostalgia: 0,
-        recovery: 0,
-        final: 0,
-      }
-    },
+    unofficial: getUnofficialStats(filename),
   },
   picture: SheikSSBU,
 };

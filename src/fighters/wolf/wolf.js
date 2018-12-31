@@ -1,6 +1,9 @@
+import getUnofficialStats from '../../helpers/getUnofficialStats';
 import starFoxSeries from '../../series/starFoxSeries/starFoxSeries';
 import WolfHeadSSBU from './WolfHeadSSBU.png';
 import WolfSSBU from './Wolf_SSBU.png';
+
+const filename = 'wolf';
 
 const wolf = {
   name: 'Wolf',
@@ -14,22 +17,7 @@ const wolf = {
       runSpeed: 40,
       dashSpeed: 86,
     },
-    unofficial: {
-      danny: {
-        fun: 0,
-        power: 0,
-        nostalgia: 0,
-        recovery: 0,
-        final: 0,
-      },
-      jack: {
-        fun: 0,
-        power: 0,
-        nostalgia: 0,
-        recovery: 0,
-        final: 0,
-      }
-    },
+    unofficial: getUnofficialStats(filename),
   },
   picture: WolfSSBU,
 };

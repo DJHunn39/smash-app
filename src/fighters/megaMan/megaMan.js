@@ -1,6 +1,9 @@
+import getUnofficialStats from '../../helpers/getUnofficialStats';
 import megaManSeries from '../../series/megaManSeries/megaManSeries';
 import MegaManHeadSSBU from './MegaManHeadSSBU.png';
 import MegaManSSBU from './Mega_Man_SSBU.png';
+
+const filename = 'megaMan';
 
 const megaMan = {
   name: 'Mega Man',
@@ -14,22 +17,7 @@ const megaMan = {
       runSpeed: 42,
       dashSpeed: 81,
     },
-    unofficial: {
-      danny: {
-        fun: 0,
-        power: 0,
-        nostalgia: 0,
-        recovery: 0,
-        final: 0,
-      },
-      jack: {
-        fun: 0,
-        power: 0,
-        nostalgia: 0,
-        recovery: 0,
-        final: 0,
-      }
-    },
+    unofficial: getUnofficialStats(filename),
   },
   picture: MegaManSSBU,
 };

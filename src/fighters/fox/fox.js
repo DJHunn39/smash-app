@@ -1,6 +1,9 @@
+import getUnofficialStats from '../../helpers/getUnofficialStats';
 import starFoxSeries from '../../series/starFoxSeries/starFoxSeries';
 import FoxHeadSSBU from './FoxHeadSSBU.png';
 import FoxSSBU from './Fox_SSBU.png';
+
+const filename = 'fox';
 
 const fox = {
   name: 'Fox',
@@ -14,22 +17,7 @@ const fox = {
       runSpeed: 62,
       dashSpeed: 86,
     },
-    unofficial: {
-      danny: {
-        fun: 0,
-        power: 0,
-        nostalgia: 0,
-        recovery: 0,
-        final: 0,
-      },
-      jack: {
-        fun: 0,
-        power: 0,
-        nostalgia: 0,
-        recovery: 0,
-        final: 0,
-      }
-    },
+    unofficial: getUnofficialStats(filename),
   },
   picture: FoxSSBU,
 };

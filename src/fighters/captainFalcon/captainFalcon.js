@@ -1,6 +1,9 @@
+import getUnofficialStats from '../../helpers/getUnofficialStats';
 import fZeroSeries from '../../series/fZeroSeries/fZeroSeries';
 import CaptainFalconHeadSSBU from './CaptainFalconHeadSSBU.png';
 import CaptainFalconSSBU from './Captain_Falcon_SSBU.png';
+
+const filename = 'captainFalcon';
 
 const captainFalcon = {
   name: 'Captain Falcon',
@@ -14,22 +17,7 @@ const captainFalcon = {
       runSpeed: 66,
       dashSpeed: 82,
     },
-    unofficial: {
-      danny: {
-        fun: 0,
-        power: 0,
-        nostalgia: 0,
-        recovery: 0,
-        final: 0,
-      },
-      jack: {
-        fun: 0,
-        power: 0,
-        nostalgia: 0,
-        recovery: 0,
-        final: 0,
-      }
-    },
+    unofficial: getUnofficialStats(filename),
   },
   picture: CaptainFalconSSBU,
 };

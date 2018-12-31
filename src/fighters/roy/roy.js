@@ -1,6 +1,9 @@
+import getUnofficialStats from '../../helpers/getUnofficialStats';
 import fireEmblemSeries from '../../series/fireEmblemSeries/fireEmblemSeries';
 import RoyHeadSSBU from './RoyHeadSSBU.png';
 import RoySSBU from './Roy_SSBU.png';
+
+const filename = 'roy';
 
 const roy = {
   name: 'Roy',
@@ -14,22 +17,7 @@ const roy = {
       runSpeed: 56,
       dashSpeed: 91,
     },
-    unofficial: {
-      danny: {
-        fun: 0,
-        power: 0,
-        nostalgia: 0,
-        recovery: 0,
-        final: 0,
-      },
-      jack: {
-        fun: 0,
-        power: 0,
-        nostalgia: 0,
-        recovery: 0,
-        final: 0,
-      }
-    },
+    unofficial: getUnofficialStats(filename),
   },
   picture: RoySSBU,
 };

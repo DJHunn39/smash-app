@@ -1,6 +1,9 @@
+import getUnofficialStats from '../../helpers/getUnofficialStats';
 import pikminSeries from '../../series/pikminSeries/pikminSeries';
 import OlimarHeadSSBU from './OlimarHeadSSBU.png';
 import OlimarSSBU from './Olimar_SSBU.png';
+
+const filename = 'olimar';
 
 const olimar = {
   name: 'Olimar',
@@ -14,22 +17,7 @@ const olimar = {
       runSpeed: 42,
       dashSpeed: 66,
     },
-    unofficial: {
-      danny: {
-        fun: 0,
-        power: 0,
-        nostalgia: 0,
-        recovery: 0,
-        final: 0,
-      },
-      jack: {
-        fun: 0,
-        power: 0,
-        nostalgia: 0,
-        recovery: 0,
-        final: 0,
-      }
-    },
+    unofficial: getUnofficialStats(filename),
   },
   picture: OlimarSSBU,
 };

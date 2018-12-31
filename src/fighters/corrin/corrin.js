@@ -1,6 +1,9 @@
+import getUnofficialStats from '../../helpers/getUnofficialStats';
 import fireEmblemSeries from '../../series/fireEmblemSeries/fireEmblemSeries';
 import CorrinHeadSSBU from './CorrinHeadSSBU.png';
 import CorrinSSBU from './Corrin_SSBU.png';
+
+const filename = 'corrin';
 
 const corrin = {
   name: 'Corrin',
@@ -14,22 +17,7 @@ const corrin = {
       runSpeed: 41,
       dashSpeed: 78,
     },
-    unofficial: {
-      danny: {
-        fun: 0,
-        power: 0,
-        nostalgia: 0,
-        recovery: 0,
-        final: 0,
-      },
-      jack: {
-        fun: 0,
-        power: 0,
-        nostalgia: 0,
-        recovery: 0,
-        final: 0,
-      }
-    },
+    unofficial: getUnofficialStats(filename),
   },
   picture: CorrinSSBU,
 };

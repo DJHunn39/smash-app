@@ -1,6 +1,9 @@
+import getUnofficialStats from '../../helpers/getUnofficialStats';
 import marioSeries from '../../series/marioSeries/marioSeries';
 import DrMarioHeadSSBU from './DrMarioHeadSSBU.png';
 import DrMarioSSBU from './Dr_Mario_SSBU.png';
+
+const filename = 'drMario';
 
 const drMario = {
   name: 'Dr Mario',
@@ -14,22 +17,7 @@ const drMario = {
       runSpeed: 46,
       dashSpeed: 80,
     },
-    unofficial: {
-      danny: {
-        fun: 0,
-        power: 0,
-        nostalgia: 0,
-        recovery: 0,
-        final: 0,
-      },
-      jack: {
-        fun: 0,
-        power: 0,
-        nostalgia: 0,
-        recovery: 0,
-        final: 0,
-      }
-    },
+    unofficial: getUnofficialStats(filename),
   },
   picture: DrMarioSSBU,
 };

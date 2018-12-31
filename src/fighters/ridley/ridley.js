@@ -1,6 +1,9 @@
+import getUnofficialStats from '../../helpers/getUnofficialStats';
 import metroidSeries from '../../series/metroidSeries/metroidSeries';
 import RidleyHeadSSBU from './RidleyHeadSSBU.png';
 import RidleySSBU from './Ridley_SSBU.png';
+
+const filename = 'ridley';
 
 const ridley = {
   name: 'Ridley',
@@ -14,22 +17,7 @@ const ridley = {
       runSpeed: 57,
       dashSpeed: 74,
     },
-    unofficial: {
-      danny: {
-        fun: 0,
-        power: 0,
-        nostalgia: 0,
-        recovery: 0,
-        final: 0,
-      },
-      jack: {
-        fun: 0,
-        power: 0,
-        nostalgia: 0,
-        recovery: 0,
-        final: 0,
-      }
-    },
+    unofficial: getUnofficialStats(filename),
   },
   picture: RidleySSBU,
 };

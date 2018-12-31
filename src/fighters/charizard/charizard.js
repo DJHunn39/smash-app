@@ -1,6 +1,9 @@
+import getUnofficialStats from '../../helpers/getUnofficialStats';
 import pokemonSeries from '../../series/pokemonSeries/pokemonSeries';
 import CharizardHeadSSBU from './CharizardHeadSSBU.png';
 import CharizardSSBU from './Charizard_SSBU.png';
+
+const filename = 'charizard';
 
 const charizard = {
   name: 'Charizard',
@@ -14,22 +17,7 @@ const charizard = {
       runSpeed: 57,
       dashSpeed: 95,
     },
-    unofficial: {
-      danny: {
-        fun: 0,
-        power: 0,
-        nostalgia: 0,
-        recovery: 0,
-        final: 0,
-      },
-      jack: {
-        fun: 0,
-        power: 0,
-        nostalgia: 0,
-        recovery: 0,
-        final: 0,
-      }
-    },
+    unofficial: getUnofficialStats(filename),
   },
   picture: CharizardSSBU,
 };

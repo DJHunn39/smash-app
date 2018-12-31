@@ -1,6 +1,9 @@
+import getUnofficialStats from '../../helpers/getUnofficialStats';
 import bayonettaSeries from '../../series/bayonettaSeries/bayonettaSeries';
 import BayonettaHeadSSBU from './BayonettaHeadSSBU.png';
 import BayonettaSSBU from './Bayonetta_SSBU.png';
+
+const filename = 'bayonetta';
 
 const bayonetta = {
   name: 'Bayonetta',
@@ -14,22 +17,7 @@ const bayonetta = {
       runSpeed: 46,
       dashSpeed: 80,
     },
-    unofficial: {
-      danny: {
-        fun: 0,
-        power: 0,
-        nostalgia: 0,
-        recovery: 0,
-        final: 0,
-      },
-      jack: {
-        fun: 0,
-        power: 0,
-        nostalgia: 0,
-        recovery: 0,
-        final: 0,
-      }
-    },
+    unofficial: getUnofficialStats(filename),
   },
   picture: BayonettaSSBU,
 };

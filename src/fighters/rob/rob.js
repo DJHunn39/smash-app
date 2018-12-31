@@ -1,6 +1,9 @@
+import getUnofficialStats from '../../helpers/getUnofficialStats';
 import robSeries from '../../series/robSeries/robSeries';
 import RobHeadSSBU from './ROBHeadSSBU.png';
 import RobSSBU from './R_O_B_SSBU.png';
+
+const filename = 'rob';
 
 const rob = {
   name: 'Rob',
@@ -14,22 +17,7 @@ const rob = {
       runSpeed: 45,
       dashSpeed: 83,
     },
-    unofficial: {
-      danny: {
-        fun: 0,
-        power: 0,
-        nostalgia: 0,
-        recovery: 0,
-        final: 0,
-      },
-      jack: {
-        fun: 0,
-        power: 0,
-        nostalgia: 0,
-        recovery: 0,
-        final: 0,
-      }
-    },
+    unofficial: getUnofficialStats(filename),
   },
   picture: RobSSBU,
 };

@@ -1,6 +1,9 @@
+import getUnofficialStats from '../../helpers/getUnofficialStats';
 import earthboundSeries from '../../series/earthboundSeries/earthboundSeries';
 import LucasHeadSSBU from './LucasHeadSSBU.png';
 import LucasSSBU from './Lucas_SSBU.png';
+
+const filename = 'lucas';
 
 const lucas = {
   name: 'Lucas',
@@ -14,22 +17,7 @@ const lucas = {
       runSpeed: 43,
       dashSpeed: 75,
     },
-    unofficial: {
-      danny: {
-        fun: 0,
-        power: 0,
-        nostalgia: 0,
-        recovery: 0,
-        final: 0,
-      },
-      jack: {
-        fun: 0,
-        power: 0,
-        nostalgia: 0,
-        recovery: 0,
-        final: 0,
-      }
-    },
+    unofficial: getUnofficialStats(filename),
   },
   picture: LucasSSBU,
 };

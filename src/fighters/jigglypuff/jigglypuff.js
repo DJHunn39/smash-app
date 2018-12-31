@@ -1,6 +1,9 @@
+import getUnofficialStats from '../../helpers/getUnofficialStats';
 import pokemonSeries from '../../series/pokemonSeries/pokemonSeries';
 import JigglypuffHeadSSBU from './JigglypuffHeadSSBU.png';
 import JigglypuffSSBU from './Jigglypuff_SSBU.png';
+
+const filename = 'jigglypuff';
 
 const jigglypuff = {
   name: 'Jigglypuff',
@@ -14,22 +17,7 @@ const jigglypuff = {
       runSpeed: 33,
       dashSpeed: 68,
     },
-    unofficial: {
-      danny: {
-        fun: 0,
-        power: 0,
-        nostalgia: 0,
-        recovery: 0,
-        final: 0,
-      },
-      jack: {
-        fun: 0,
-        power: 0,
-        nostalgia: 0,
-        recovery: 0,
-        final: 0,
-      }
-    },
+    unofficial: getUnofficialStats(filename),
   },
   picture: JigglypuffSSBU,
 };

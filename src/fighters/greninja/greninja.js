@@ -1,6 +1,9 @@
+import getUnofficialStats from '../../helpers/getUnofficialStats';
 import pokemonSeries from '../../series/pokemonSeries/pokemonSeries';
 import GreninjaHeadSSBU from './GreninjaHeadSSBU.png';
 import GreninjaSSBU from './Greninja_SSBU.png';
+
+const filename = 'greninja';
 
 const greninja = {
   name: 'Greninja',
@@ -14,22 +17,7 @@ const greninja = {
       runSpeed: 59,
       dashSpeed: 90,
     },
-    unofficial: {
-      danny: {
-        fun: 0,
-        power: 0,
-        nostalgia: 0,
-        recovery: 0,
-        final: 0,
-      },
-      jack: {
-        fun: 0,
-        power: 0,
-        nostalgia: 0,
-        recovery: 0,
-        final: 0,
-      }
-    },
+    unofficial: getUnofficialStats(filename),
   },
   picture: GreninjaSSBU,
 };

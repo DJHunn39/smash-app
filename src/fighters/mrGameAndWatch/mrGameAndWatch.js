@@ -1,6 +1,9 @@
+import getUnofficialStats from '../../helpers/getUnofficialStats';
 import gameWatchSeries from '../../series/gameWatchSeries/gameWatchSeries';
 import MrGameWatchHeadSSBU from './MrGameWatchHeadSSBU.png';
 import MrGameWatchSSBU from './Mr_Game_Watch_SSBU.png';
+
+const filename = 'mrGameAndWatch';
 
 const mrGameAndWatch = {
   name: 'Mr Game & Watch',
@@ -14,22 +17,7 @@ const mrGameAndWatch = {
       runSpeed: 44,
       dashSpeed: 82,
     },
-    unofficial: {
-      danny: {
-        fun: 0,
-        power: 0,
-        nostalgia: 0,
-        recovery: 0,
-        final: 0,
-      },
-      jack: {
-        fun: 0,
-        power: 0,
-        nostalgia: 0,
-        recovery: 0,
-        final: 0,
-      }
-    },
+    unofficial: getUnofficialStats(filename),
   },
   picture: MrGameWatchSSBU,
 };
