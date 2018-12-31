@@ -8,10 +8,10 @@ const kingKRool = {
   icon: KingKRoolHeadSSBU,
   stats: {
     official: {
-      weight: 60,
-      airSpeed: 76,
-      fallSpeed: 84,
-      runSpeed: 46,
+      weight: 99,
+      airSpeed: 70,
+      fallSpeed: 81,
+      runSpeed: 39,
       dashSpeed: 80,
     },
     unofficial: {

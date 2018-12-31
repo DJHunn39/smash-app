@@ -8,11 +8,11 @@ const olimar = {
   icon: OlimarHeadSSBU,
   stats: {
     official: {
-      weight: 60,
-      airSpeed: 76,
-      fallSpeed: 84,
-      runSpeed: 46,
-      dashSpeed: 80,
+      weight: 59,
+      airSpeed: 64,
+      fallSpeed: 64,
+      runSpeed: 42,
+      dashSpeed: 66,
     },
     unofficial: {
       danny: {

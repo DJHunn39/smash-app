@@ -8,11 +8,11 @@ const isabelle = {
   icon: IsabelleHeadSSBU,
   stats: {
     official: {
-      weight: 60,
+      weight: 65,
       airSpeed: 76,
-      fallSpeed: 84,
-      runSpeed: 46,
-      dashSpeed: 80,
+      fallSpeed: 62,
+      runSpeed: 38,
+      dashSpeed: 75,
     },
     unofficial: {
       danny: {

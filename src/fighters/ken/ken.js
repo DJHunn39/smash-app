@@ -8,9 +8,9 @@ const ken = {
   icon: KenHeadSSBU,
   stats: {
     official: {
-      weight: 60,
-      airSpeed: 76,
-      fallSpeed: 84,
+      weight: 76,
+      airSpeed: 83,
+      fallSpeed: 76,
       runSpeed: 46,
       dashSpeed: 80,
     },

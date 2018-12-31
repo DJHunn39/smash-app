@@ -8,11 +8,11 @@ const miiGunner = {
   icon: MiiGunnerHeadSSBU,
   stats: {
     official: {
-      weight: 60,
-      airSpeed: 76,
-      fallSpeed: 84,
-      runSpeed: 46,
-      dashSpeed: 80,
+      weight: 77,
+      airSpeed: 69,
+      fallSpeed: 69,
+      runSpeed: 36,
+      dashSpeed: 67,
     },
     unofficial: {
       danny: {

@@ -8,11 +8,11 @@ const lucario = {
   icon: LucarioHeadSSBU,
   stats: {
     official: {
-      weight: 60,
-      airSpeed: 76,
-      fallSpeed: 84,
-      runSpeed: 46,
-      dashSpeed: 80,
+      weight: 68,
+      airSpeed: 95,
+      fallSpeed: 80,
+      runSpeed: 44,
+      dashSpeed: 93,
     },
     unofficial: {
       danny: {

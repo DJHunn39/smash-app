@@ -8,11 +8,11 @@ const ridley = {
   icon: RidleyHeadSSBU,
   stats: {
     official: {
-      weight: 60,
-      airSpeed: 76,
-      fallSpeed: 84,
-      runSpeed: 46,
-      dashSpeed: 80,
+      weight: 79,
+      airSpeed: 78,
+      fallSpeed: 85,
+      runSpeed: 57,
+      dashSpeed: 74,
     },
     unofficial: {
       danny: {

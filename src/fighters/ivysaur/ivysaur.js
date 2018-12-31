@@ -8,11 +8,11 @@ const ivysaur = {
   icon: IvysaurHeadSSBU,
   stats: {
     official: {
-      weight: 60,
-      airSpeed: 76,
-      fallSpeed: 84,
-      runSpeed: 46,
-      dashSpeed: 80,
+      weight: 71,
+      airSpeed: 74,
+      fallSpeed: 66,
+      runSpeed: 41,
+      dashSpeed: 79,
     },
     unofficial: {
       danny: {

@@ -8,11 +8,11 @@ const rob = {
   icon: RobHeadSSBU,
   stats: {
     official: {
-      weight: 60,
-      airSpeed: 76,
-      fallSpeed: 84,
-      runSpeed: 46,
-      dashSpeed: 80,
+      weight: 79,
+      airSpeed: 84,
+      fallSpeed: 76,
+      runSpeed: 45,
+      dashSpeed: 83,
     },
     unofficial: {
       danny: {

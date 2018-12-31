@@ -8,11 +8,11 @@ const mrGameAndWatch = {
   icon: MrGameWatchHeadSSBU,
   stats: {
     official: {
-      weight: 60,
-      airSpeed: 76,
-      fallSpeed: 84,
-      runSpeed: 46,
-      dashSpeed: 80,
+      weight: 56,
+      airSpeed: 88,
+      fallSpeed: 59,
+      runSpeed: 44,
+      dashSpeed: 82,
     },
     unofficial: {
       danny: {

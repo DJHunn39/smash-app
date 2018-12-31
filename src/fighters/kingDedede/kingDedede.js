@@ -8,11 +8,11 @@ const kingDedede = {
   icon: KingDededeHeadSSBU,
   stats: {
     official: {
-      weight: 60,
-      airSpeed: 76,
-      fallSpeed: 84,
-      runSpeed: 46,
-      dashSpeed: 80,
+      weight: 94,
+      airSpeed: 55,
+      fallSpeed: 93,
+      runSpeed: 39,
+      dashSpeed: 75,
     },
     unofficial: {
       danny: {

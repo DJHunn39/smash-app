@@ -8,11 +8,11 @@ const wolf = {
   icon: WolfHeadSSBU,
   stats: {
     official: {
-      weight: 60,
-      airSpeed: 76,
-      fallSpeed: 84,
-      runSpeed: 46,
-      dashSpeed: 80,
+      weight: 68,
+      airSpeed: 95,
+      fallSpeed: 86,
+      runSpeed: 40,
+      dashSpeed: 86,
     },
     unofficial: {
       danny: {

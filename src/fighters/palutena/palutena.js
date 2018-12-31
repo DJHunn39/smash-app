@@ -8,11 +8,11 @@ const palutena = {
   icon: PalutenaHeadSSBU,
   stats: {
     official: {
-      weight: 60,
-      airSpeed: 76,
-      fallSpeed: 84,
-      runSpeed: 46,
-      dashSpeed: 80,
+      weight: 67,
+      airSpeed: 74,
+      fallSpeed: 74,
+      runSpeed: 54,
+      dashSpeed: 84,
     },
     unofficial: {
       danny: {

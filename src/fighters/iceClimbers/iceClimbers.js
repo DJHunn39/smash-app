@@ -8,11 +8,11 @@ const iceClimbers = {
   icon: IceClimbersHeadSSBU,
   stats: {
     official: {
-      weight: 60,
-      airSpeed: 76,
-      fallSpeed: 84,
-      runSpeed: 46,
-      dashSpeed: 80,
+      weight: 68,
+      airSpeed: 62,
+      fallSpeed: 62,
+      runSpeed: 40,
+      dashSpeed: 69,
     },
     unofficial: {
       danny: {

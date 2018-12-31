@@ -8,11 +8,11 @@ const wiiFitTrainer = {
   icon: WiiFitTrainerHeadSSBU,
   stats: {
     official: {
-      weight: 60,
+      weight: 71,
       airSpeed: 76,
-      fallSpeed: 84,
-      runSpeed: 46,
-      dashSpeed: 80,
+      fallSpeed: 62,
+      runSpeed: 48,
+      dashSpeed: 84,
     },
     unofficial: {
       danny: {

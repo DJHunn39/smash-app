@@ -8,11 +8,11 @@ const sheik = {
   icon: SheikHeadSSBU,
   stats: {
     official: {
-      weight: 60,
-      airSpeed: 76,
-      fallSpeed: 84,
-      runSpeed: 46,
-      dashSpeed: 80,
+      weight: 58,
+      airSpeed: 86,
+      fallSpeed: 83,
+      runSpeed: 63,
+      dashSpeed: 90,
     },
     unofficial: {
       danny: {

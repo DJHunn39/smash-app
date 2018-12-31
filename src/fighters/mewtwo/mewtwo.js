@@ -8,11 +8,11 @@ const mewtwo = {
   icon: MewtwoHeadSSBU,
   stats: {
     official: {
-      weight: 60,
-      airSpeed: 76,
-      fallSpeed: 84,
-      runSpeed: 46,
-      dashSpeed: 80,
+      weight: 57,
+      airSpeed: 98,
+      fallSpeed: 74,
+      runSpeed: 59,
+      dashSpeed: 93,
     },
     unofficial: {
       danny: {

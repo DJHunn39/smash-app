@@ -8,11 +8,11 @@ const littleMac = {
   icon: LittleMacHeadSSBU,
   stats: {
     official: {
-      weight: 60,
-      airSpeed: 76,
-      fallSpeed: 84,
-      runSpeed: 46,
-      dashSpeed: 80,
+      weight: 64,
+      airSpeed: 90,
+      fallSpeed: 93,
+      runSpeed: 64,
+      dashSpeed: 98,
     },
     unofficial: {
       danny: {

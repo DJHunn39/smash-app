@@ -8,11 +8,11 @@ const metaKnight = {
   icon: MetaKnightHeadSSBU,
   stats: {
     official: {
-      weight: 60,
-      airSpeed: 76,
-      fallSpeed: 84,
-      runSpeed: 46,
-      dashSpeed: 80,
+      weight: 59,
+      airSpeed: 77,
+      fallSpeed: 79,
+      runSpeed: 54,
+      dashSpeed: 91,
     },
     unofficial: {
       danny: {

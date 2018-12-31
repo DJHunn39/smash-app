@@ -8,11 +8,11 @@ const ryu = {
   icon: RyuHeadSSBU,
   stats: {
     official: {
-      weight: 60,
-      airSpeed: 76,
-      fallSpeed: 84,
-      runSpeed: 46,
-      dashSpeed: 80,
+      weight: 76,
+      airSpeed: 83,
+      fallSpeed: 76,
+      runSpeed: 42,
+      dashSpeed: 73,
     },
     unofficial: {
       danny: {

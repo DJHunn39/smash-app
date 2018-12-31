@@ -8,11 +8,11 @@ const pit = {
   icon: PitHeadSSBU,
   stats: {
     official: {
-      weight: 60,
-      airSpeed: 76,
-      fallSpeed: 84,
-      runSpeed: 46,
-      dashSpeed: 80,
+      weight: 71,
+      airSpeed: 70,
+      fallSpeed: 70,
+      runSpeed: 47,
+      dashSpeed: 86,
     },
     unofficial: {
       danny: {

@@ -8,9 +8,9 @@ const squirtle = {
   icon: SquirtleHeadSSBU,
   stats: {
     official: {
-      weight: 60,
-      airSpeed: 76,
-      fallSpeed: 84,
+      weight: 56,
+      airSpeed: 75,
+      fallSpeed: 64,
       runSpeed: 46,
       dashSpeed: 80,
     },

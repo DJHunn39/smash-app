@@ -8,11 +8,11 @@ const miiSwordFighter = {
   icon: MiiSwordFighterHeadSSBU,
   stats: {
     official: {
-      weight: 60,
-      airSpeed: 76,
-      fallSpeed: 84,
-      runSpeed: 46,
-      dashSpeed: 80,
+      weight: 74,
+      airSpeed: 87,
+      fallSpeed: 74,
+      runSpeed: 41,
+      dashSpeed: 72,
     },
     unofficial: {
       danny: {

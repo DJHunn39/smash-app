@@ -8,11 +8,11 @@ const fox = {
   icon: FoxHeadSSBU,
   stats: {
     official: {
-      weight: 60,
-      airSpeed: 76,
-      fallSpeed: 84,
-      runSpeed: 46,
-      dashSpeed: 80,
+      weight: 57,
+      airSpeed: 83,
+      fallSpeed: 100,
+      runSpeed: 62,
+      dashSpeed: 86,
     },
     unofficial: {
       danny: {

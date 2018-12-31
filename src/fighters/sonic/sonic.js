@@ -8,11 +8,11 @@ const sonic = {
   icon: SonicHeadSSBU,
   stats: {
     official: {
-      weight: 60,
-      airSpeed: 76,
-      fallSpeed: 84,
-      runSpeed: 46,
-      dashSpeed: 80,
+      weight: 64,
+      airSpeed: 90,
+      fallSpeed: 79,
+      runSpeed: 100,
+      dashSpeed: 95,
     },
     unofficial: {
       danny: {

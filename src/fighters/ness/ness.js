@@ -8,11 +8,11 @@ const ness = {
   icon: NessHeadSSBU,
   stats: {
     official: {
-      weight: 60,
-      airSpeed: 76,
-      fallSpeed: 84,
-      runSpeed: 46,
-      dashSpeed: 80,
+      weight: 70,
+      airSpeed: 75,
+      fallSpeed: 62,
+      runSpeed: 42,
+      dashSpeed: 75,
     },
     unofficial: {
       danny: {

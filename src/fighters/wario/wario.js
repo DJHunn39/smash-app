@@ -8,11 +8,11 @@ const wario = {
   icon: WarioHeadSSBU,
   stats: {
     official: {
-      weight: 60,
-      airSpeed: 76,
-      fallSpeed: 84,
-      runSpeed: 46,
-      dashSpeed: 80,
+      weight: 79,
+      airSpeed: 95,
+      fallSpeed: 77,
+      runSpeed: 43,
+      dashSpeed: 76,
     },
     unofficial: {
       danny: {

@@ -8,11 +8,11 @@ const inkling = {
   icon: InklingHeadSSBU,
   stats: {
     official: {
-      weight: 60,
-      airSpeed: 76,
-      fallSpeed: 84,
-      runSpeed: 46,
-      dashSpeed: 80,
+      weight: 70,
+      airSpeed: 90,
+      fallSpeed: 75,
+      runSpeed: 50,
+      dashSpeed: 88,
     },
     unofficial: {
       danny: {

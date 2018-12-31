@@ -8,11 +8,11 @@ const shulk = {
   icon: ShulkHeadSSBU,
   stats: {
     official: {
-      weight: 60,
-      airSpeed: 76,
-      fallSpeed: 84,
-      runSpeed: 46,
-      dashSpeed: 80,
+      weight: 72,
+      airSpeed: 83,
+      fallSpeed: 75,
+      runSpeed: 43,
+      dashSpeed: 77,
     },
     unofficial: {
       danny: {

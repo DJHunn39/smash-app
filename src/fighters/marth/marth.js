@@ -8,11 +8,11 @@ const marth = {
   icon: MarthHeadSSBU,
   stats: {
     official: {
-      weight: 60,
-      airSpeed: 76,
-      fallSpeed: 84,
-      runSpeed: 46,
-      dashSpeed: 80,
+      weight: 67,
+      airSpeed: 80,
+      fallSpeed: 75,
+      runSpeed: 51,
+      dashSpeed: 93,
     },
     unofficial: {
       danny: {

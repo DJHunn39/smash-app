@@ -8,11 +8,11 @@ const link = {
   icon: LinkHeadSSBU,
   stats: {
     official: {
-      weight: 60,
-      airSpeed: 76,
-      fallSpeed: 84,
-      runSpeed: 46,
-      dashSpeed: 80,
+      weight: 77,
+      airSpeed: 69,
+      fallSpeed: 76,
+      runSpeed: 40,
+      dashSpeed: 82,
     },
     unofficial: {
       danny: {

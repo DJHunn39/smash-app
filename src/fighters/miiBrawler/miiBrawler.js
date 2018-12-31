@@ -8,11 +8,11 @@ const miiBrawler = {
   icon: MiiBrawlerHeadSSBU,
   stats: {
     official: {
-      weight: 60,
-      airSpeed: 76,
-      fallSpeed: 84,
-      runSpeed: 46,
-      dashSpeed: 80,
+      weight: 70,
+      airSpeed: 86,
+      fallSpeed: 91,
+      runSpeed: 50,
+      dashSpeed: 77,
     },
     unofficial: {
       danny: {

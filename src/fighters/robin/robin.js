@@ -8,11 +8,11 @@ const robin = {
   icon: RobinHeadSSBU,
   stats: {
     official: {
-      weight: 60,
-      airSpeed: 76,
-      fallSpeed: 84,
-      runSpeed: 46,
-      dashSpeed: 80,
+      weight: 70,
+      airSpeed: 78,
+      fallSpeed: 71,
+      runSpeed: 33,
+      dashSpeed: 75,
     },
     unofficial: {
       danny: {

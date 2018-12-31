@@ -8,11 +8,11 @@ const greninja = {
   icon: GreninjaHeadSSBU,
   stats: {
     official: {
-      weight: 60,
-      airSpeed: 76,
-      fallSpeed: 84,
-      runSpeed: 46,
-      dashSpeed: 80,
+      weight: 65,
+      airSpeed: 92,
+      fallSpeed: 88,
+      runSpeed: 59,
+      dashSpeed: 90,
     },
     unofficial: {
       danny: {

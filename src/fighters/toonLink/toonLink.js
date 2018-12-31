@@ -8,11 +8,11 @@ const toonLink = {
   icon: ToonLinkHeadSSBU,
   stats: {
     official: {
-      weight: 60,
-      airSpeed: 76,
-      fallSpeed: 84,
-      runSpeed: 46,
-      dashSpeed: 80,
+      weight: 67,
+      airSpeed: 78,
+      fallSpeed: 66,
+      runSpeed: 50,
+      dashSpeed: 79,
     },
     unofficial: {
       danny: {

@@ -8,11 +8,11 @@ const pikachu = {
   icon: PikachuHeadSSBU,
   stats: {
     official: {
-      weight: 60,
-      airSpeed: 76,
-      fallSpeed: 84,
-      runSpeed: 46,
-      dashSpeed: 80,
+      weight: 59,
+      airSpeed: 71,
+      fallSpeed: 74,
+      runSpeed: 53,
+      dashSpeed: 82,
     },
     unofficial: {
       danny: {

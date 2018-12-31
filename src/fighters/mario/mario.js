@@ -8,9 +8,9 @@ const mario = {
   icon: MarioHeadSSBU,
   stats: {
     official: {
-      weight: 60,
-      airSpeed: 76,
-      fallSpeed: 84,
+      weight: 73,
+      airSpeed: 90,
+      fallSpeed: 71,
       runSpeed: 46,
       dashSpeed: 80,
     },

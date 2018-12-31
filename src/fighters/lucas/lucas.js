@@ -8,11 +8,11 @@ const lucas = {
   icon: LucasHeadSSBU,
   stats: {
     official: {
-      weight: 60,
-      airSpeed: 76,
-      fallSpeed: 84,
-      runSpeed: 46,
-      dashSpeed: 80,
+      weight: 70,
+      airSpeed: 86,
+      fallSpeed: 65,
+      runSpeed: 43,
+      dashSpeed: 75,
     },
     unofficial: {
       danny: {

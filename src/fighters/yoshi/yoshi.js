@@ -8,11 +8,11 @@ const yoshi = {
   icon: YoshiHeadSSBU,
   stats: {
     official: {
-      weight: 60,
-      airSpeed: 76,
-      fallSpeed: 84,
-      runSpeed: 46,
-      dashSpeed: 80,
+      weight: 77,
+      airSpeed: 100,
+      fallSpeed: 61,
+      runSpeed: 53,
+      dashSpeed: 82,
     },
     unofficial: {
       danny: {

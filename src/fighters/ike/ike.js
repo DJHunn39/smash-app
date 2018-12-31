@@ -8,11 +8,11 @@ const ike = {
   icon: IkeHeadSSBU,
   stats: {
     official: {
-      weight: 60,
-      airSpeed: 76,
-      fallSpeed: 84,
-      runSpeed: 46,
-      dashSpeed: 80,
+      weight: 79,
+      airSpeed: 84,
+      fallSpeed: 79,
+      runSpeed: 39,
+      dashSpeed: 75,
     },
     unofficial: {
       danny: {

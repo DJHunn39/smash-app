@@ -8,11 +8,11 @@ const kirby = {
   icon: KirbyHeadSSBU,
   stats: {
     official: {
-      weight: 60,
-      airSpeed: 76,
-      fallSpeed: 84,
-      runSpeed: 46,
-      dashSpeed: 80,
+      weight: 59,
+      airSpeed: 63,
+      fallSpeed: 59,
+      runSpeed: 45,
+      dashSpeed: 79,
     },
     unofficial: {
       danny: {

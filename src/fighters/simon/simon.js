@@ -8,11 +8,11 @@ const simon = {
   icon: SimonHeadSSBU,
   stats: {
     official: {
-      weight: 60,
-      airSpeed: 76,
-      fallSpeed: 84,
-      runSpeed: 46,
-      dashSpeed: 80,
+      weight: 79,
+      airSpeed: 70,
+      fallSpeed: 88,
+      runSpeed: 39,
+      dashSpeed: 71,
     },
     unofficial: {
       danny: {

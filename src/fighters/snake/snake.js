@@ -8,11 +8,11 @@ const snake = {
   icon: SnakeHeadSSBU,
   stats: {
     official: {
-      weight: 60,
-      airSpeed: 76,
-      fallSpeed: 84,
-      runSpeed: 46,
-      dashSpeed: 80,
+      weight: 79,
+      airSpeed: 73,
+      fallSpeed: 82,
+      runSpeed: 41,
+      dashSpeed: 73,
     },
     unofficial: {
       danny: {

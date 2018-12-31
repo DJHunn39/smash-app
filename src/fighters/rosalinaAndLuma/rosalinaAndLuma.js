@@ -8,11 +8,11 @@ const rosalinaAndLuma = {
   icon: RosalinaLumaHeadSSBU,
   stats: {
     official: {
-      weight: 60,
-      airSpeed: 76,
-      fallSpeed: 84,
-      runSpeed: 46,
-      dashSpeed: 80,
+      weight: 61,
+      airSpeed: 78,
+      fallSpeed: 57,
+      runSpeed: 47,
+      dashSpeed: 84,
     },
     unofficial: {
       danny: {

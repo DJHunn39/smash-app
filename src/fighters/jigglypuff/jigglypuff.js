@@ -8,11 +8,11 @@ const jigglypuff = {
   icon: JigglypuffHeadSSBU,
   stats: {
     official: {
-      weight: 60,
-      airSpeed: 76,
-      fallSpeed: 84,
-      runSpeed: 46,
-      dashSpeed: 80,
+      weight: 50,
+      airSpeed: 99,
+      fallSpeed: 47,
+      runSpeed: 33,
+      dashSpeed: 68,
     },
     unofficial: {
       danny: {

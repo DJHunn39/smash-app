@@ -8,11 +8,11 @@ const incineroar = {
   icon: IncineroarHeadSSBU,
   stats: {
     official: {
-      weight: 60,
-      airSpeed: 76,
+      weight: 86,
+      airSpeed: 65,
       fallSpeed: 84,
-      runSpeed: 46,
-      dashSpeed: 80,
+      runSpeed: 31,
+      dashSpeed: 73,
     },
     unofficial: {
       danny: {
