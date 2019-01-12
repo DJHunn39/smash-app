@@ -14,7 +14,8 @@ code {
 }
 
 .attribute-flexbox,
-.app-selector-flexbox {
+.app-selector-flexbox,
+.comparison-zone {
   padding: 15px;
   display: flex;
   flex-direction: row;
@@ -25,6 +26,10 @@ code {
 .attribute-name,
 .app-selector-name {
   flex-basis: 20%;
+}
+
+.comparison-fighter {
+  flex-basis: auto;
 }
 
 .attribute-button,
@@ -149,6 +154,14 @@ tr:hover {
   cursor: pointer;
   outline: none;
   position: relative;
+}
+
+.player-A-label {
+  color: #ed2715;
+}
+
+.player-B-label {
+  color: #173de8;
 }
 
 .fighter-a-button {

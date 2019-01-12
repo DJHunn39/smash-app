@@ -3,7 +3,7 @@ import React, { Fragment } from 'react';
 const PlayerButtons = ({ selectedPlayer, onPlayerChange }) => {
   return(
   <Fragment>
-    <p>Please select your preferred contact method:</p>
+    <p>Select 2 fighters</p>
     <div>
       <input
         type="radio"
@@ -13,7 +13,7 @@ const PlayerButtons = ({ selectedPlayer, onPlayerChange }) => {
         checked={selectedPlayer === 'A'}
         onChange={() => onPlayerChange('A')}
       />
-      <label for="playerA">Fighter 1</label>
+    <label for="playerA" className="player-A-label">Fighter 1</label>
 
       <input
         type="radio"
@@ -23,7 +23,7 @@ const PlayerButtons = ({ selectedPlayer, onPlayerChange }) => {
         checked={selectedPlayer === 'B'}
         onChange={() => onPlayerChange('B')}
       />
-      <label for="playerB">Fighter 2</label>
+    <label for="playerB" className="player-B-label">Fighter 2</label>
     </div>
   </Fragment>
   )
