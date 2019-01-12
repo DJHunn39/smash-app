@@ -20,7 +20,15 @@ return(
           const fighterStat = get(fighter,fighterStatPath, 'Ah shit');
           return(
             <tr>
-              <td><img className='ranking-item-picture' src={fighter.picture} alt={fighter.name} height={50} width={50}/></td>
+              <td>
+                <img
+                  className='ranking-item-picture'
+                  src={fighter.picture}
+                  alt={fighter.name}
+                  height={50}
+                  width={50}
+                />
+              </td>
               <td><span className='ranking-item-name'>{fighter.name}</span></td>
               <td><img className='ranking-item-series' src={fighter.series.icon} alt={fighter.series.name} height={50} width={50}/></td>
             <td><span className='ranking-item-selected-stat'>{fighterStat}</span></td>

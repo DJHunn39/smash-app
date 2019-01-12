@@ -13,7 +13,8 @@ code {
     monospace;
 }
 
-.attribute-flexbox {
+.attribute-flexbox,
+.app-selector-flexbox {
   padding: 15px;
   display: flex;
   flex-direction: row;
@@ -21,11 +22,13 @@ code {
   justify-content: center;
 }
 
-.attribute-name {
+.attribute-name,
+.app-selector-name {
   flex-basis: 20%;
 }
 
-.attribute-button {
+.attribute-button,
+.app-selector-button {
   border: 3px solid #000;
 	font-size: inherit;
 	color: #000;
@@ -42,12 +45,15 @@ code {
 }
 
 .attribute-button:hover,
-.attribute-button:active {
+.attribute-button:active,
+.app-selector-button:hover,
+.app-selector-button:active {
 	color: #fff;
 	background: #000;
 }
 
-.selected-attribute-button {
+.selected-attribute-button,
+.selected-app-button {
   border: 3px solid #000;
   font-size: inherit;
   color: #fff;
@@ -60,7 +66,8 @@ code {
   background: #000;
 }
 
-.attribute-title {
+.attribute-title,
+.app-title {
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: 700;
@@ -111,4 +118,43 @@ tr:hover {
 .ranking-item-selected-stat {
   font-weight: 700;
   font-size: large;
+}
+
+.fighter-button {
+  border: 3px solid #000;
+	font-size: inherit;
+	color: #000;
+	background: none;
+	cursor: pointer;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 700;
+	outline: none;
+	position: relative;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.fighter-button:hover,
+.fighter-button:active {
+	color: #fff;
+  border: 5px;
+	background: #000;
+}
+
+.selected-fighter-button {
+  border: 3px;
+  color: #fff;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+}
+
+.fighter-a-button {
+  background: #ed2715;
+}
+
+.fighter-b-button {
+  background: #173de8;
 }

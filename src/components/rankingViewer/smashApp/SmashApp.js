@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 import camelCase from 'lodash.camelcase';
-import getStatType from '../../helpers/getStatType';
+import getStatType from '../../../helpers/getStatType';
 import StatTable from './statTable/StatTable';
 import UnofficialStatTables from './unofficialStatTables/UnofficialStatTables';
 
@@ -34,9 +34,6 @@ const getFighterTable = (selectedAttribute, rankings, fighterData) => {
 }
 
 const SmashApp = ({ fighterData, rankings, selectedAttribute = '' }) => {
-  if (selectedAttribute === '') {
-    return null;
-  }
   const fighterTable = getFighterTable(selectedAttribute, rankings, fighterData);
   return(
     <Fragment>
