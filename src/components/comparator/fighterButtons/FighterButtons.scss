@@ -1,0 +1,41 @@
+.fighter-button {
+  border: 3px solid #000;
+	color: #000;
+	background: none;
+	cursor: pointer;
+	text-transform: uppercase;
+	outline: none;
+	position: relative;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.fighter-button:hover,
+.fighter-button:active {
+  border: 5px;
+	background: #000;
+}
+
+.selected-fighter-button {
+  border: 3px;
+  cursor: pointer;
+  /* outline: none; */
+  position: relative;
+}
+
+.fighter-a-button {
+  background: $color-1;
+}
+
+.fighter-b-button {
+  background: $color-2;
+}
+
+.fighter-c-button {
+  background: $color-3;
+}
+
+.fighter-d-button {
+  background: $color-4;
+}

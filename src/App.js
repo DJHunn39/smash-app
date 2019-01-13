@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './App.css';
+import './App.scss';
 import fighterData from './fighters/fighterIndex.js';
 import formatData from './dataManipulation/fighterDataFormatter';
 import {
@@ -22,6 +22,8 @@ class App extends Component {
       selectedPlayer: '',
       selectedFighterA: {},
       selectedFighterB: {},
+      selectedFighterC: {},
+      selectedFighterD: {},
     };
     this.handleAttributtonClick = attributtonClick;
     this.handleAppSelectorClick = appSelectorClick;
@@ -35,6 +37,8 @@ class App extends Component {
       selectedApp,
       selectedFighterA,
       selectedFighterB,
+      selectedFighterC,
+      selectedFighterD,
       selectedPlayer
      } = this.state;
     const {
@@ -67,6 +71,8 @@ class App extends Component {
               fighterData={formattedFighterData}
               selectedFighterA={selectedFighterA}
               selectedFighterB={selectedFighterB}
+              selectedFighterC={selectedFighterC}
+              selectedFighterD={selectedFighterD}
               selectedPlayer={selectedPlayer}
               onFighterClick={(fighter) => this.handleFighterClick(fighter)}
               onPlayerChange={(player) => this.handlePlayerChange(player)}

@@ -7,6 +7,8 @@ const Comparator = ({
   fighterData = [],
   selectedFighterA = '',
   selectedFighterB = '',
+  selectedFighterC = '',
+  selectedFighterD = '',
   selectedPlayer = '',
   onFighterClick = {},
   onPlayerChange = {}
@@ -21,11 +23,15 @@ const Comparator = ({
         fighterData={fighterData}
         selectedFighterA={selectedFighterA}
         selectedFighterB={selectedFighterB}
+        selectedFighterC={selectedFighterC}
+        selectedFighterD={selectedFighterD}
         onFighterClick={(fighter) => onFighterClick(fighter)}
       />
       <ComparisonZone
         selectedFighterA={selectedFighterA}
         selectedFighterB={selectedFighterB}
+        selectedFighterC={selectedFighterC}
+        selectedFighterD={selectedFighterD}
       />
     </Fragment>
   )

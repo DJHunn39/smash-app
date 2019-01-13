@@ -36,9 +36,9 @@ const getFighterTable = (selectedAttribute, rankings, fighterData) => {
 const SmashApp = ({ fighterData, rankings, selectedAttribute = '' }) => {
   const fighterTable = getFighterTable(selectedAttribute, rankings, fighterData);
   return(
-    <Fragment>
+    <div className="ranking-viewer">
       {fighterTable}
-    </Fragment>
+    </div>
   )
 };
 

@@ -1,0 +1,45 @@
+// Colors
+$color-1: #ed2715;
+$color-2: #173de8;
+$color-3: #2ecc71;
+$color-4: #efe22b;
+
+@import "components/AppSelector.scss";
+@import "components/rankingViewer/attributtons/Attributtons.scss";
+@import "components/rankingViewer/smashApp/SmashApp.scss";
+@import "components/comparator/playerButtons/PlayerButtons.scss";
+@import "components/comparator/fighterButtons/FighterButtons.scss";
+@import "components/comparator/comparisonZone/ComparisonZone.scss";
+@import "components/comparator/comparisonZone/comparisonFighter/ComparisonFighter.scss";
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
