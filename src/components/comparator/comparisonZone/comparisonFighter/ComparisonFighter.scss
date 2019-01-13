@@ -1,1 +1,10 @@
+.comparison-stats-container {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+}
 
+.comparison-stats-official {
+  grid-column: span 1;
+  grid-row: span 1;
+}

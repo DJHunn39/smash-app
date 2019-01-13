@@ -8,6 +8,10 @@ export default function fighterClick(fighter) {
     selectedFighterD,
   } = this.state;
 
+  if(selectedPlayer === ''){
+    return null;
+  }
+
   switch (selectedPlayer) {
     case 'A':
       return selectedFighterA === fighter ? this.setState({selectedFighterA: {}}): this.setState({selectedFighterA: fighter});

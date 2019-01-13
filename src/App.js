@@ -20,10 +20,10 @@ class App extends Component {
       selectedAttribute: '',
       selectedApp: '',
       selectedPlayer: '',
-      selectedFighterA: {},
-      selectedFighterB: {},
-      selectedFighterC: {},
-      selectedFighterD: {},
+      selectedFighterA: null,
+      selectedFighterB: null,
+      selectedFighterC: null,
+      selectedFighterD: null,
     };
     this.handleAttributtonClick = attributtonClick;
     this.handleAppSelectorClick = appSelectorClick;
